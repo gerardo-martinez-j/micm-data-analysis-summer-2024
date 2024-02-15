@@ -1,0 +1,684 @@
+---
+title: "Data Analysis in R"
+author: "Gerardo Martínez"
+date: "2024-03-01"
+output: bookdown::gitbook
+editor_options: 
+  chunk_output_type: console
+---
+\usepackage{amsmath}
+\usepackage{booktabs}
+
+\newcommand{\P}{\mathrm{P}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\var}{\mathrm{var}}
+\newcommand{\ceil}[1]{\left\lceil#1\right\rceil}
+\newcommand{\eps}{\varepsilon}
+
+# Some words about the workshop
+
+Welcome to this workshop! Thank you for attending! 
+
+The goal of this workshop is to learn some basic rudiments of Data Analysis in R. As this is a 4-hour workshop I will not have the time to go in depth into many topics but I selected a handful of them that I feel are basic notions researchers working with data should know. 
+
+You can open RStudio and let's get to work!
+
+# Data manipulation with the tidyverse package
+
+We will introduce the package `tidyverse`. `tidyverse` is a collection of several packages with an underlying syntax and philosophy on how to build and read R code --- you can find more information about it [here](https://www.tidyverse.org). We will be using two of its packages: `dplyr` and `ggplot2`. Let us start by loading `tidyverse`.
+
+```{r}
+library(tidyverse)
+```
+
+To navigate the different functions of this package, we will use the data frame `social_media.csv`. This data frame was downloaded from [here](https://www.kaggle.com/datasets/imyjoshua/average-time-spent-by-a-user-on-social-media) and modified for pedagogical users by the instructor. Let us load this data set.
+```{r eval = FALSE}
+# modify file_path to be the file path of where you have downloaded the data set
+social_media <- read.csv(file_path)
+```
+
+## The syntax of dplyr
+
+In base-R if we want to obtain the result of applying a function `f()` to an argument `x` we must write `f(x)`. For example, if we want to obtain a summary of `social_media`, we would write it
+```{r eval = FALSE}
+summary(social_media)
+```
+
+This notation gets particularly cumbersome once we start doing _composition_ of functions. For instance, if we want to obtain an approximation of the number $\sqrt{\log(e^3)}$ we would have to write something like
+```{r eval = FALSE}
+sqrt(log(exp(3)))
+```
+
+It gets even worse when we have multivalued functions, e.g. to write $\sqrt{\log_{7}(e^3)}$ we can write it like
+```{r eval = FALSE}
+sqrt(log(exp(3), base = 7))
+```
+
+`dplyr` introduces the pipe operator `%>%` to overcome this cumbersome notation. If we want to evaluate a function `f` with the argument `x` we will now write `x %>% f()`. Moreover, if `f` is multi-valued and we want to obtain the value of `f(x,y)` but leaving only `x`variable we can write something like `x %>% f(y)`. Going back to the example of $\sqrt{\log_{7}(e^3)}$, in `dplyr` it would look like
+
+```{r eval = FALSE}
+3 %>% exp() %>% log(base = 7) %>% sqrt()
+```
+
+If we want to obtain a summary of `social_media` we can write this with `dplyr` as such:
+```{r eval = FALSE}
+social_media %>% summary()
+```
+
+## Basic functions of dplyr
+
+### filter
+
+Let us say we want to obtain all the entries in `social_media` corresponding to male individuals whose main platform is YouTube. In base-R we have the function `subset()` or we can do it by subsetting using `[]`. In `dplyr` the corresponding function is `filter()`.
+
+```{r eval = FALSE}
+social_media %>%
+  filter(gender == "male",
+         platform == "YouTube")
+```
+
+*Exercise*. Obtain a dataframe with all the female individuals whose income is higher than 13,000.
+
+### arrange
+
+Now we want to obtain the male individuals whose main platform is YouTube but we want them to be sorted in ascending order of age. The function to do this in `dplyr` is `arrange()`.
+
+```{r eval = FALSE}
+social_media %>%
+  filter(gender == "male",
+         platform == "YouTube") %>%
+  arrange(age)
+```
+
+If instead we want them in descending order we can use the function `desc()`:
+
+```{r eval = FALSE}
+social_media %>%
+  filter(gender == "male",
+         platform == "YouTube") %>%
+  arrange(desc(age))
+```
+
+*Exercise*. Obtain a dataframe with all the non-binary individuals who live in United Kingdom and sort them by descending order of hours spent in social media.
+
+### slice
+
+If we want to select rows we can use the function `slice`. For instance, let us say we want to see the ten oldest male individuals whose main platform is YouTube. We can write that this way
+```{r eval = FALSE}
+social_media %>%
+  filter(gender == "male",
+         platform == "YouTube") %>%
+  arrange(desc(age)) %>%
+  slice(1:10)
+```
+
+Additionally, there are the functions `slice_head()` and `slice_tail()` that select the first and last rows, respectively.
+
+```{r eval = FALSE}
+social_media %>%
+  filter(gender == "male",
+         platform == "YouTube") %>%
+  arrange(desc(age)) %>%
+  slice_head(n = 10)
+```
+
+*Exercise*. Obtain a dataframe that only includes the top 5 Australian individuals with the highest income.
+
+### select
+
+We have focused on manipulating _rows_ but sometimes we want to manipulate _columns_. In base-R, to select a column we either use the bracket operator or the `$` operator. In the same manner as the `$` operator, `dplyr` includes the `select()` function. For example, let us say we want to obtain a dataframe only with male individuals whose main platform is YouTube, but we are only interested in the variables `age` and `income`. We can write that the following way:
+```{r eval = FALSE}
+social_media %>%
+  filter(gender == "male",
+         platform == "YouTube") %>%
+  select(age, income)
+```
+We can also filter out variables with the same function. 
+```{r eval = FALSE}
+social_media %>%
+  filter(gender == "male",
+         platform == "YouTube") %>%
+  select(!c(age, income))
+```
+
+*Exercise*. Extract a dataframe of female individuals whose time spent on social media is over 5 hours. Explore the function `starts_with()` to extract only the variables that start with the letter I.
+
+### mutate
+Sometimes we are interested in transforming a new variable or creating a new variable from a pre-existing one. For instance, let us say we want to build a new variable that is the income in Canadian dollars. This can be done using the function `mutate()`.
+
+```{r eval = FALSE}
+social_media %>%
+  mutate(income_cad = income*1.34605)
+```
+
+`mutate` can also help us modify entries using additional functions like `ifelse()`. For example, we can see that some entries under `interests` are written "Lifestlye" instead of "Lifestyle" -- let us see an example of how to change that using `dplyr`.
+```{r eval = FALSE}
+social_media %>%
+  mutate(interests = ifelse(interests == "Lifestlye", "Lifestyle", interests))
+```
+
+Let us overwrite `social_media` with this new dataframe. 
+
+```{r eval = FALSE}
+social_media <- social_media %>%
+  mutate(interests = ifelse(interests == "Lifestlye", "Lifestyle", interests))
+```
+
+*Exercise*. Transform all the entries of `social_media` that have location equal to "UK" from "UK" to "United Kingdom" using `mutate()`.
+
+### group_by
+
+Sometimes we want to obtain summary statistics of grouped entries. This is when `group_by()` comes in handy. Let us group individuals by the platform they use.
+
+```{r eval = FALSE}
+social_media_grouped <- social_media %>%
+  group_by(platform)
+```
+It does not look that much has changed. However, if we now apply the function `summarise()`, we can obtain summary statistics by group. Let us say we want to obtain the average time_spent per group. We can do that as such:
+
+```{r eval = FALSE}
+social_media_grouped %>%
+  summarise(mean_time_spent = mean(time_spent))
+```
+
+We can also group by several variables at the same time and then perform summary statistics in each subgroup.
+```{r eval = FALSE}
+social_media %>%
+  group_by(gender,
+           platform) %>%
+  summarise(mean_time_spent = mean(time_spent))
+```
+
+*Exercise*. Obtain the median time spent using social media for each location in the database.
+
+## Merging dataframes
+
+Let us load the file `social_media_economy`. This dataframe includes data about certain economical variables of some of the individuals.
+
+```{r eval = FALSE}
+# modify file_path to be the file path of where you have downloaded the data set
+social_media_economy <- read.csv(file_path)
+```
+
+We would like to construct a data frame that includes the variables in `social_media` but also the ones in `social_media_economy`.
+
+The function `merge()` from base-R will help us obtain the desired dataframe. The parameters of `merge()` are two dataframes `x` and `y`. If we want to merge using a specific variable we can specify it using `by =`. It is also possible to merge by several columns, if you are interested in that check the documentation of `merge()`.
+
+```{r eval = FALSE}
+merge(social_media,
+      social_media_economy,
+      by = "id")
+```
+
+We can see that `merge()` only outputs the entries that appear in both dataframes. Sometimes we are interested in keeping all the entries. To control this we can use the parameters `all.x`, `all.y` or `all`. 
+
+```{r eval = FALSE}
+merge(social_media,
+      social_media_economy,
+      by = "id",
+      all.y = TRUE)
+```
+
+Because in this case, the IDs found in `social_media_economy` are a subset of those found in `social_media`, setting `all.y = TRUE` will return the same result as the default option.
+
+```{r eval = FALSE}
+merge(social_media,
+      social_media_economy,
+      by = "id",
+      all.x = TRUE)
+```
+
+Because there are IDs that appear in `social_media` but not in `social_media_economy`, setting `all.x = TRUE` will return entries with NAs.
+
+One last thing we can observe in this example is that both dataframes have the variable `profession`. If we set `by = "id"`, we obtain a dataframe that has `profession.x` and `profession.y`. There are two possible solutions to this. One is to merge the dataframes by both variables, as such:
+
+```{r eval = FALSE}
+merge(social_media,
+      social_media_economy,
+      by = c("id", "profession"))
+```
+
+Another possibility is to not specify the parameter `by = `. This will return a dataframe according to all the common variables in both dataframes.
+
+```{r eval = FALSE}
+merge(social_media,
+      social_media_economy)
+```
+
+## Handling of missing data
+
+Let us load the file `social_media_demographics` and merge all three data frames.
+
+```{r eval = FALSE}
+social_media_final <- merge(social_media,
+      social_media_economy,
+      by = c("id", "profession")) %>%
+  merge(social_media_demographics,
+        by = "id")
+```
+
+The variable `demographics` have entries equal to `-9`. We know those are entries that are missing. Let us transform those entries so that instead of `-9` we see an NA.
+
+```{r eval = FALSE}
+# complete ... with the right command
+social_media_final <- ...
+```
+
+First thing we could do is to drop any row that includes a missing entry. This can be done with `drop_na()` from the package `tidyr` (this package is loaded with `tidyverse`).
+
+```{r eval = FALSE}
+social_media_final %>% 
+  drop_na()
+```
+
+It might be the case that doing so removes too many entries. Instead, we could try filling those entries. The function `fill()` from `tidyr` can help us doing so. By default, the entries will be filled with the same value as the next non-missing entry below. 
+
+```{r eval = FALSE}
+social_media_final %>%
+  fill(demographics)
+```
+
+## (A very short) Introduction to ggplot2
+
+`ggplot2` is a package to create plots from dataframes. While in base-R a plot is a fixed object, in `ggplot2` plots are built from adding layers. 
+
+Let us load the file `crab_data.csv`. This data set includes 3893 entries corresponding to different measures from crabs; the data set is a subset of the data set found [here](https://www.kaggle.com/datasets/sidhus/crab-age-prediction). Let us say we want to build a scatterplot to see if there is a linear association between `Length` and `Height`. The basic functionality is to call the function `ggplot` in the following way
+```{r eval = FALSE}
+ggplot(data = crab_data,
+       aes(x = Height,
+           y = Length))
+```
+
+As you can see, no points appear in the plot. For that we want to add another layer for the dots. Layers are added with the `+` operator. In this case, since we want points, we will add a layer that includes the function `geom_point`.
+```{r eval = FALSE}
+ggplot(data = crab_data,
+       aes(x = Height,
+           y = Length)) +
+  geom_point()
+```
+
+This looks boring! Let's change the aesthetics of the points. If you are familiar with base-R plots, you will recognize some of the following parameters:
+```{r eval = FALSE}
+ggplot(data = crab_data,
+       aes(x = Height,
+           y = Length)) +
+  geom_point(pch = 21,
+             color = "black",
+             fill = "chartreuse3",
+             size = 2)
+```
+
+Maybe, instead of having a fixed color for all points, we want to color them according to another variable. For this, we will change the `aes()` function in the beginning. 
+```{r eval = FALSE}
+ggplot(data = crab_data,
+       aes(x = Height,
+           y = Length,
+           fill = Sex)) +
+  geom_point(pch = 21,
+             color = "black",
+             size = 2)
+```
+
+A great resource for `ggplot2` is [*The R Graph Gallery*](https://r-graph-gallery.com/index.html).
+
+# Linear regression models
+
+If we are in a 2-d space, we can write almost all lines using the equation
+\begin{equation*}
+y = mx + n,
+\end{equation*}
+where $m$ is called the *slope* and $n$ is the *intercept*.
+
+Let us analyze if there is a linear relationship between `Height` and `the weight`Length` of the crab. More specifically, we want to find a line such that for an entry $i$ we have
+\begin{equation*}
+\text{Length}_i = m\cdot \text{Height}_i + n
+\end{equation*}
+
+Let us explore this graphically first. Let us make a scatterplot of the data and try to find the slope $m$ and the intercept $n$ by mere guessing:
+```{r eval = FALSE}
+# Change the values of m and n
+m <- 0
+n <- 0
+
+ggplot(data = crab_data, 
+       aes(x = Height, y = Length)) +
+  geom_point(pch = 21, 
+             fill = "darkgrey") + 
+  geom_abline(slope = m, intercept = n, col = "red", lwd = 1) + 
+  theme_bw()
+```
+
+We can notice is that the points don't lie on a perfect line; we will need to tolerate a little bit of error. Maybe a better model would be
+\begin{equation*}
+\text{Length}_i = m\cdot \text{Height}_i + n + \varepsilon_i,
+\end{equation*}
+where $\varepsilon_i$ is an error. 
+
+We want to find *the best line*, i.e. the one that minimizes the errors $\varepsilon_i$. Obviously, we can't go and try all possible values of $m$ and $n$ here; we need to be more systematic. On top of that, what do we mean exactly by minimizing the error?
+
+## Simple linear regression
+
+Let $(y_1, x_1) \dots (y_n, x_n)$ be $n$ observations. We will think the terms $\{y_i\}_{i = 1}^n$ come from a random variable $Y$ and that the terms $\{x_i\}_{i = 1}^n$ are *fixed quantities*^[We could develop the theory where $X$ is also random but the math gets a bit trickier so let's keep it simple]. We want to build a *linear model* of the form
+\begin{equation*}
+Y = \beta_0 + \beta_1 X + \varepsilon,
+\end{equation*}
+where $\beta_0, \beta_1$ are real numbers and $\varepsilon$ is a random variable corresponding to the error. The model previously defined is called a *simple linear regression model*. The variable $Y$ is called the **response variable** and the variable *X* is the **predictor** or **independent variable**. 
+
+Let us write $\hat{y}_i = \beta_0 + \beta_1 x_i$. We want to find the coefficients $\beta_0, \beta_1$ that solve the following optimization problem
+\begin{equation*}
+\min_{\beta_0, \beta_1} \sum_{i = 1}^n (y_i-\hat{y}_i)^2 = \min_{\beta_0, \beta_1} \sum_{i = 1}^n (y_i - \beta_0 - \beta_1x_i)^2.
+\end{equation*}
+
+This problem has a well-known solution and it is 
+\begin{equation*}
+\beta_0 = \bar{y} - \beta_1 \bar{x}\quad \text{and} \quad \beta_1 = \frac{\sum_{i = 1}^n (x_i-\bar{x})(y-\bar{y})}{\sum_{i = 1}^n (x_i-\bar{x})^2}.
+\end{equation*}
+(Those interested in how to obtain this can look at the book "Linear Models in Statistics" by Rencher and Shaalje, page 128).
+
+We don't have to implement this in R. We can find these coefficients with the function `lm()`. If we have a response variable `y` and a predictor `x` in a data set called `data`, the syntax to write this in R is `lm(y ~ x, data)`. 
+
+Let us apply this to our crab data:
+
+```{r eval = FALSE}
+lm(Length ~ Height, crab_data)
+```
+
+We can record this model into a variable so as to access the coefficients later.
+
+```{r eval = FALSE}
+simple_regression <- lm(Length ~ Height, crab_data)
+```
+
+Let us now make the plot we wanted before!
+
+```{r eval = FALSE}
+# Change the values of m and n
+m <- simple_regression$coefficients[2]
+n <- simple_regression$coefficients[1]
+
+ggplot(data = crab_data, 
+       aes(x = Height, y = Length)) +
+  geom_point() + 
+  geom_abline(slope = m, 
+              intercept = n, 
+              col = "red", 
+              lwd = 1) + 
+  theme_bw()
+```
+In `ggplot2` there is a built-in function that already calculates the regression model:
+```{r eval = FALSE}
+ggplot(data = crab_data, 
+       aes(x = Height, y = Length)) +
+  geom_point() + 
+  geom_smooth(method = lm, col = "red") + 
+  theme_bw()
+```
+
+Oh, well, this is embarrassing... It just doesn't look like what we wanted! We will address this but let us talk about other concepts first.
+
+## Multiple linear regression
+
+We want to extend our model to add multiple predictors. If we have $X_1, \dots, X_p$ predictors we are looking to find a model of the form
+\begin{equation*}
+Y = \beta_0 + \beta_1 X_1 + \beta_2 X_2 + \dots + \beta_p X_p + \varepsilon.
+\end{equation*}
+The model previously defined is a *multiple linear regression model*.
+
+To find the coefficients $\{\beta_i \}_{i = 0}^p$ we will solve the optimization problem
+\begin{equation*}
+\min_{\beta_0, \dots, \beta_p} \sum_{i = 1}^n (y_i - \beta_0 - \beta_1x_{1i} - \dots - \beta_p x_{pi})^2.
+\end{equation*}
+Here the math gets a bit trickier. On top of that, there might not even be a unique solution! To ensure there is a unique solution we will add the first assumption to our model.
+\begin{equation*}
+\text{Assumption 1: The predictors } X_1, \dots, X_p \text{ must be uncorrelated.}
+\end{equation*}
+If that assumption holds, there is a unique solution. 
+
+As it is the case with the simple linear regression model, we can solve this problem in R with the function `lm()`. We are going to build the following model
+\begin{equation*}
+\text{Length}_i = \beta_0 + \beta_1 \text{Height}_i + \beta_2 \text{Age}_i + \beta_3 \text{Weight}_i + \beta_5 \text{Diameter}_i + \beta_4 \text{Sex}_i + \varepsilon_i
+\end{equation*}
+To build that model we will use the following syntax:
+```{r eval = FALSE}
+multiple_regression <- lm(Length ~ Height + Age + Weight + Diameter + Sex, 
+                          crab_data)
+```
+
+We can see what the coefficients are by writing the following in the terminal.
+```{r eval = FALSE}
+multiple_regression$coefficients
+```
+
+Another way of looking at the the regression coefficients using the function `summary()`.
+```{r eval = FALSE}
+summary(multiple_regression)
+```
+
+This is a lot more information than what we need! We will try to understand what all this means. But first let us use our model for something: let us try to predict the value of $Y$ for new data points. 
+
+## Using a regression model for prediction
+Suppose we have new data points for which we only know the values for the predictors. We want to know for these new data points what is the associated value for the response variable.
+
+Let us load the `crab_data_predict.csv`. We have 893 data entries that have values for the predictors but the age of the crab is missing. To predict what the age of the crab would be, we will use the function `predict()`. For future reference, if you're ever trying to do this you have to be very careful to have the data columns named the same way as the data columns of the data set you used to train your model. The `predict()` function will take as input the `lm()` output and the new data set we want to predict the values for.
+
+```{r eval = FALSE}
+predict(object = multiple_regression, 
+        newdata = crab_data_predict)
+```
+
+That's all fine, but how do we know that this is actually a good model?
+
+## Goodness-of-fit and hypothesis testing in multiple linear regression
+
+Let us first start tackling the problem of finding a way to know if this model is a good model. Let's note 
+\begin{equation*}
+\hat{y}_i = \beta_0 + \beta_1 x_{1i} + \dots + \beta_p x_{pi}.
+\end{equation*}
+We define the **total sum of squares** the quantity
+\begin{equation*}
+\mathrm{SST} = \sum_{i = 1}^n (y_i - \bar{y})^2.
+\end{equation*}
+The total sum of squares can be decomposed into the sum of the **regression sum of squares** (SSR) and the **error sum of squares** (SSE) as follows:
+\begin{equation*}
+\mathrm{SST} = \sum_{i = 1}^n (y_i - \bar{y})^2 = \sum_{i=1}^n (y_i-\hat{y}_i)^2 + \sum_{i=1}^n (\bar{y} - \hat{y}_i)^2 = \mathrm{SSR} + \mathrm{SSE}.
+\end{equation*}
+In terms of this quantities we define the **coefficient of determination** or simply **R-squared** as
+\begin{equation*}
+R^2 = \frac{\mathrm{SSR}}{\mathrm{SST}} = 1 - \frac{\mathrm{SSE}}{\mathrm{SST}}.
+\end{equation*}
+This quantity is a non-negative quantity that is always between $0$ and $1$. The higher it is, the better our data set can be explained by a linear model. 
+
+The R-squared can be higher just by adding more predictors. For this reason R also provides the **adjusted R-squared** which is a way to penalize the R-squared by the number of predictors used. More on this [here](https://en.wikipedia.org/wiki/Coefficient_of_determination#Adjusted_R2).
+
+A great thing about linear models is that we can do statistical inference about it. That is, we can develop hypothesis tests to test if our model is *statistically meaningful*. To do this, we must add a couple of assumptions to our model
+\begin{equation*}
+Y = \beta_0 + \beta_1 X_1 + \beta_2 X_2 + \dots + \beta_p X_p + \varepsilon.
+\end{equation*}
+The assumptions are
+\begin{equation*}
+\text{Assumption 2: The error terms }\varepsilon_i \text { follow a normal distribution with mean 0 and variance }\sigma^2.
+\end{equation*}
+and
+\begin{equation*}
+\text{Assumption 3: The error terms }\varepsilon_i \text{ are uncorrelated}.
+\end{equation*}
+
+We will now build two tests. The first one is
+\begin{equation*}
+H_0: \beta_1 = \beta_2 = \dots = \beta_p \quad \text{vs} \quad H_1: \text{There exists a coefficient }\beta_i \text{ different than 0}.
+\end{equation*}
+This test will tell us that our model is meaningful *as a whole*. 
+
+The second test (or series of tests) will be a test on the individual coefficients. For each coefficient $\beta_i$ we will build the test
+\begin{equation*}
+H_0: \beta_i = 0 \quad \text{vs} \quad H_1: \beta_i \neq 0.
+\end{equation*}
+This tests if *each coefficient* is meaningful.
+
+As it was explained before, we will need to find an appropriate test statistic and a rejection rule for the null hypotheses of these tests. The test statistic for the first model is the $F$ statistic which is defined as
+\begin{equation*}
+F = \frac{\mathrm{SSR}/p}{\mathrm{SSE}/(n-p-1)},
+\end{equation*}
+where $p$ is the number of predictors and $n$ the number of variables. Given the assumptions of normality of the errors, the test statistic F has a well-known distribution.
+
+The test statistic for the second model is called the $T$ statistic and has a more complicated shape. But what we need to know is that we also know its distribution if we assume the normality of the errors. 
+
+We will not care about rejection regions this time: we will reject the null hypothesis if $\mathrm{pval} < \alpha$ for a predefined significance level $\alpha$.
+
+```{r eval = FALSE}
+summary(multiple_regression)
+```
+What can we say about the model we have built?
+
+# Logistic regression
+
+## The problem of binary classification
+
+Let us load the data `lbw` found in the package `COUNT`.
+```{r eval = FALSE}
+library(COUNT)
+data(lbw)
+```
+
+We would like to estimate if a baby would be underweight given the weight of the mother alone. We want to build a model
+\begin{equation*}
+\text{low}_i = f(\text{lwt}_i) + \eps_i,
+\end{equation*}
+for a certain unknown function $f()$. Let us believe that the relationship is linear and perform a simple linear regression analysis.
+
+```{r eval = FALSE}
+binary_regression <- lm(low ~ lwt,
+                        data = lbw)
+```
+
+Let us see how our model performs by plotting the true values of `low` and the predicted ones according to the model. Before we plot this, we will do a technical step to remove labels from the dataset.
+
+```{r eval = FALSE}
+lbw_test <- lbw %>% mutate(across(everything(), as.vector))
+```
+
+Now we can plot what we wanted to plot.
+
+```{r eval = FALSE}
+binary_regression_prediction <- predict(binary_regression)
+
+data.frame(true_values = lbw_test$low,
+           predicted_values = binary_regression_prediction) %>%
+  ggplot(aes(x = true_values,
+             y = predicted_values)) +
+  geom_point() +
+  theme_bw()
+  
+```
+
+We can set a threshold and define the rule: _If the predicted value of_ `low` _is higher than 0.5 then we will set it to 1, otherwise we will set it to 0_.
+
+```{r eval = FALSE}
+binary_regression_prediction <- as.numeric(binary_regression_prediction > 0.5)
+```
+
+Model is not great! Many reasons why! But let us try to specify a better model for the type of data we want to analyze.
+
+## Specification of the model
+
+Let  $(y_1, x_1) \dots (y_n, x_n)$ be $n$ observations with $\{y_i\}$ a sample of a random variable that takes values in $\{0,1\}$. Let $p(X)$ be the probability of $Y$ taking the value $1$ given $X$, i.e. $p(X) = \P(Y = 1|X)$. We will want to model this as a linear model, i.e.
+\begin{equation*}
+p(X) = \beta_0 + \beta_1 X.
+\end{equation*}
+The problem of this specification is that if $X$ is unbounded, $p(X)$ will not fall in the interval $[0,1]$ as we would expect of a probability. Thus, we choose a function that no matter what value $X$ takes, $p(x) \in (0,1)$. There are many possible choices, but a common one is the _logistic function_:
+\begin{equation*}
+f(x) = \frac{e^x}{1+e^{x}}
+\end{equation*}
+
+```{r echo = FALSE}
+x <- seq(-10,10, 0.1)
+y <- (exp(1+0.5*x))/(1+exp(1+0.5*x))
+
+data.frame(x = x, y = y) %>%
+  ggplot(aes(x,y)) +
+  geom_line(col = "red") +
+  geom_hline(yintercept = 0, col = "darkblue", linetype = "dashed") + 
+  geom_hline(yintercept = 1, col = "darkblue", linetype = "dashed") + 
+  theme_bw()
+```
+
+The model is then
+\begin{equation*}
+p(X) = f(\beta_0 + \beta_1 X) = \frac{e^{\beta_0 + \beta_1 X}}{1+e^{\beta_0 + \beta_1 X}}.
+\end{equation*}
+After some manipulation of the previous equation we obtain,
+\begin{equation*}
+\ln\left (\frac{p(X)}{1-p(X)} \right) = \beta_0 + \beta_1 X.
+\end{equation*}
+
+Thus, instead of modelling the variable $Y$, we are modelling a function of the variable $Y$ called the _link function_. With this idea we can generalize the linear regression model to other models called [_generalized linear models_](https://en.wikipedia.org/wiki/Generalized_linear_model).
+
+In R we can fit a logistic regression model use the function `glm()`:
+```{r eval = FALSE}
+simple_logistic_regression <- glm(low ~ lwt,
+                                  data = lbw,
+                                  family = binomial)
+```
+
+## Checking the accuracy of the model
+
+We will now perform a logistic regression model with multiple predictors to predict the probability of a newborn having low weight, utilizing all the predictors in the `lbw` dataset. We will separate our dataset into two subsets: the _training_ set and the _test_ set. The training set will be used to build the model and the test set will be used to check its accuracy.
+
+```{r eval = FALSE}
+set.seed(1)
+
+sample_indices <- sample(1:189, size = 189 * (3/4)) %>% sort()
+
+lbw_train <- lbw[sample_indices, ]
+lbw_test <- lbw[-sample_indices, ]
+```
+
+We can now build the model using the test data.
+```{r eval = FALSE}
+# complete ... with the command
+multiple_logistic_regression <- ...
+```
+
+When modelling a binary variable $Y \in \{0, 1 \}$ there are four scenarios that can happen depending on the true value of $Y$ and the predicted value of $\hat{Y}$.
+
+|                   |      $\hat{Y} = 1$     |     $\hat{Y} = 0$       |
+|------------------:|:----------------:|:------------------:|
+|      $Y = 1$      |   True positive (TP)  |   False negative  (FN) |
+|      $Y = 0$      |   False positive (FP) |    True negative (TN)  |
+
+The previous table is called a _confusion matrix_. Ideally, we would like to maximize both true positives and true negatives but that is almost never possible. There are several metrics that appear in the analysis of binary classifiers but we will look at three:
+
+* Sensitivity, recall or true positive rate: $\frac{\text{TP}}{\text{TP} + \text{FN}}$
+* Specificity or true negative rate: $\frac{\text{TN}}{\text{FP} + \text{TN}}$
+* Accuracy: $\frac{\text{TP} + \text{TN}}{\text{TP} + \text{TN} + \text{FP} + \text{TN}}$
+
+The predicted values of a logistic regression will be probabilities and thus, real numbers in $(0,1)$. Given a real number $c$ we can define the rule
+\begin{equation*}
+\hat{Y} = 0 \text{ if } \hat{p(X) < c} \quad \text{and} \quad \hat{Y} = 1 \text{ if } \hat{p(X) \geq c}.
+\end{equation*}
+Then, for each real $c$ we can obtain a different confusion matrix and different sensitivities, specificities, and accuracies.
+
+We will create a function that given two vectors, one of true values and another of predicted values, and a threshold, it returns the confusion matrix.
+
+```{r}
+logistic_confusion_matrix <- function(true_val, pred_val, threshold){
+  # transforms the predicted values into 0 and 1
+  pred_val <- as.numeric(binary_regression_prediction >= threshold)
+  
+  return(table(true_val, pred_val))
+}
+```
+
+*Exercise* For different values of $c$, obtain the confusion matrix and return the sensitivity, specificity, and accuracy.
+
+# Bibliography
+
+I used the following resources to prepare this workshop:
+
+* For the dplyr section I was heavily inspired by this tutorial: https://cran.r-project.org/web/packages/dplyr/vignettes/dplyr.html 
+
+* *Linear Models in Statistics* by Rencher and Schaalje. Wiley, 2008. This was used for the linear regression models section.
+
+* *An Introduction to Statistical Learning with Applications in R*. Springer, 2013. This was used for the section on logistic regression.
