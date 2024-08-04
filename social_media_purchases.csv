@@ -1,0 +1,1001 @@
+id;age;gender;time_spent;platform;interests;location;profession;income
+1;56;male;1.5;Instagram;Sports;UK;Software Engineer;60241.2666806681
+2;46;female;7;Facebook;Travel;UK;Student;31897.509976642
+3;32;male;1.5;Instagram;Sports;Australia;Marketer Manager;66556.3207590484
+4;60;female;5;Instagram;Travel;UK;Student;35217.6704146179
+5;25;male;1;Instagram;Lifestlye;Australia;Software Engineer;60591.3014423396
+6;38;male;3;Facebook;Travel;United States;Marketer Manager;55102.0115715831
+7;56;male;5.5;YouTube;Sports;United States;Student;37526.090108315
+8;36;male;2.5;Instagram;Sports;Australia;Marketer Manager;63100.019969855
+9;40;female;2;YouTube;Lifestlye;Australia;Marketer Manager;62366.2693167742
+10;28;female;7;Instagram;Sports;Australia;Marketer Manager;31860.8337620738
+11;28;female;3;YouTube;Lifestlye;UK;Student;45961.2134123166
+12;41;female;4.5;Facebook;Sports;United States;Marketer Manager;45380.5011266312
+13;53;non-binary;5;Facebook;Sports;Australia;Student;35026.5379416428
+14;57;female;5.5;Instagram;Lifestlye;UK;Software Engineer;39238.267432397
+15;41;female;2.5;YouTube;Travel;United States;Student;50342.2038647216
+16;20;male;1.5;Facebook;Sports;UK;Software Engineer;64243.2902191496
+17;39;male;5.5;Instagram;Travel;United States;Student;34555.2177984648
+18;19;female;4.5;Instagram;Sports;UK;Marketer Manager;44118.890092788
+19;41;female;6;Facebook;Sports;United States;Student;38907.1291472568
+20;61;female;4.5;Facebook;Sports;United States;Marketer Manager;41332.4210549348
+21;47;male;4.5;Instagram;Sports;UK;Software Engineer;48164.9570284003
+22;55;female;6.5;YouTube;Travel;Australia;Student;27667.4479917415
+23;19;male;1.5;YouTube;Travel;United States;Marketer Manager;47701.1266051973
+24;38;female;4;YouTube;Sports;Australia;Software Engineer;64602.415176991
+25;50;female;5;Instagram;Sports;UK;Software Engineer;46702.699134805
+26;29;female;3.5;Facebook;Travel;Australia;Student;49320.7728820431
+27;39;male;5;Instagram;Lifestlye;Australia;Software Engineer;45020.631272958
+28;61;female;4.5;Facebook;Lifestlye;Australia;Marketer Manager;39470.4173745816
+29;42;male;7;YouTube;Travel;Australia;Software Engineer;30864.2569658717
+30;44;female;1.5;YouTube;Sports;Australia;Software Engineer;52042.4081197969
+31;59;male;2;Facebook;Sports;United States;Marketer Manager;89077.633786295
+32;45;male;7;Facebook;Lifestlye;United States;Software Engineer;40799.5543077158
+33;33;female;0.5;Instagram;Lifestlye;United States;Software Engineer;72620.06130141
+34;32;female;5.5;YouTube;Travel;UK;Software Engineer;39613.2651679313
+35;64;female;3.5;Instagram;Lifestlye;Australia;Software Engineer;50583.3482886204
+36;61;male;2.5;Instagram;Travel;United States;Marketer Manager;48669.6618842445
+37;20;male;6;Instagram;Lifestlye;UK;Software Engineer;40951.9267194411
+38;54;male;5;YouTube;Lifestlye;United States;Marketer Manager;41446.3290965411
+39;24;female;6.5;Instagram;Lifestlye;United States;Software Engineer;30966.2853731946
+40;38;male;3.5;Instagram;Sports;Melbourne;Software Engineer;43689.8710367085
+41;26;female;4.5;Instagram;Sports;UK;Software Engineer;43751.1875167686
+42;56;female;4.5;Instagram;Sports;Australia;Software Engineer;41004.6943249165
+43;35;female;5;Instagram;Lifestlye;Australia;Marketer Manager;40514.8473983608
+44;21;male;3.5;Instagram;Travel;United States;Marketer Manager;44662.000061182
+45;42;male;5.5;YouTube;Travel;Australia;Marketer Manager;48187.9474147285
+46;31;female;6;Instagram;Travel;UK;Student;36919.9873639602
+47;26;male;2.5;Facebook;Travel;Melbourne;Software Engineer;61624.7253863619
+48;43;female;3.5;Instagram;Sports;Australia;Software Engineer;37741.5016487117
+49;19;female;2.5;Instagram;Sports;Australia;Marketer Manager;53984.0108500258
+50;37;female;5.5;YouTube;Lifestlye;United States;Student;36372.5885420396
+51;45;non-binary;3;YouTube;Lifestlye;UK;Software Engineer;47385.3691031704
+52;64;male;4.5;Facebook;Travel;United States;Marketer Manager;52983.0457711205
+53;24;female;1;Facebook;Sports;United States;Software Engineer;57423.5904011525
+54;61;male;6.5;YouTube;Travel;United States;Software Engineer;35841.9513020401
+55;25;female;2.5;YouTube;Lifestlye;United States;Marketer Manager;60482.1814278985
+56;64;female;4;Instagram;Lifestlye;United States;Marketer Manager;48890.9509420901
+57;52;non-binary;6;YouTube;Travel;UK;Software Engineer;32623.7226125224
+58;31;male;6.5;Facebook;Lifestlye;Sydney, Australia;Software Engineer;38955.8290336208
+59;34;male;1;Instagram;Travel;United States;Marketer Manager;65352.9404092042
+60;53;male;0.5;Facebook;Sports;United States;Software Engineer;61932.5104680898
+61;57;male;4.5;Instagram;Travel;UK;Software Engineer;38309.7547619897
+62;21;male;5.5;YouTube;Sports;UK;Marketer Manager;50183.5871724657
+63;19;female;4.5;Facebook;Sports;Australia;Software Engineer;41857.4842729078
+64;23;female;3;Instagram;Lifestlye;UK;Software Engineer;44222.1417304098
+65;59;female;2.5;Instagram;Lifestlye;Australia;Student;58916.2968137683
+66;21;male;4.5;YouTube;Lifestlye;United States;Marketer Manager;46801.1512803045
+67;46;female;5;YouTube;Travel;United States;Student;35730.828321387
+68;35;male;6;YouTube;Travel;Australia;Student;27285.2179320903
+69;43;female;2;Facebook;Lifestlye;UK;Student;58418.487414207
+70;61;female;7;Instagram;Travel;Australia;Software Engineer;37196.9814585471
+71;51;female;3;YouTube;Lifestlye;UK;Software Engineer;56680.6201759107
+72;27;male;5.5;Facebook;Travel;United States;Student;37285.3128791901
+73;53;male;4;Facebook;Sports;UK;Student;43829.0588420781
+74;31;female;3;Facebook;Sports;Australia;Student;54855.3337837527
+75;48;female;3;YouTube;Lifestlye;Sydney, Australia;Software Engineer;54286.7667360808
+76;32;male;3.5;YouTube;Travel;United States;Student;53898.5587334636
+77;25;female;0.5;Instagram;Travel;UK;Student;65271.0102485555
+78;31;male;3;Instagram;Sports;UK;Marketer Manager;57996.7702660155
+79;40;male;1;YouTube;Sports;UK;Marketer Manager;60345.9423633188
+80;57;female;0.5;Facebook;Lifestlye;United States;Software Engineer;65597.2764994002
+81;38;female;1;Facebook;Sports;United kingdom;Marketer Manager;68204.0726186295
+82;33;female;2;Facebook;Lifestlye;Australia;Marketer Manager;63949.8580431356
+83;62;male;6.5;Instagram;Sports;UK;Marketer Manager;24557.4764927331
+84;35;female;2.5;Facebook;Sports;United States;Software Engineer;56785.9520350808
+85;64;male;3;Instagram;Travel;UK;Marketer Manager;56543.8950586732
+86;41;male;1.5;Instagram;Sports;UK;Software Engineer;54495.8784325468
+87;43;male;4.5;Facebook;Sports;Australia;Student;74913.5705024708
+88;42;male;2;Facebook;Lifestlye;United kingdom;Marketer Manager;54859.128648016
+89;62;non-binary;3;YouTube;Sports;Australia;Software Engineer;58601.2650608221
+90;58;male;4.5;YouTube;Lifestlye;Australia;Marketer Manager;47942.4101605132
+91;46;male;7;Facebook;Sports;United States;Student;35345.261474978
+92;32;female;4.5;Instagram;Sports;Australia;Software Engineer;45853.5966464352
+93;62;female;3.5;Instagram;Lifestlye;Australia;Software Engineer;55068.2421707888
+94;18;female;1.5;Instagram;Travel;United States;Software Engineer;68652.5726415727
+95;42;female;4;Instagram;Lifestlye;Australia;Student;57831.2400772782
+96;24;male;7;Instagram;Lifestlye;United States;Student;54585.6128071552
+97;26;female;6;YouTube;Lifestlye;UK;Student;25754.744548338
+98;41;female;4.5;Facebook;Travel;United States;Software Engineer;45407.63002297
+99;18;male;7;YouTube;Sports;Australia;Student;32527.8060422499
+100;61;female;7;Instagram;Lifestlye;United States;Marketer Manager;30723.273264278
+101;25;female;1.5;Instagram;Lifestlye;Australia;Student;64591.4431038854
+102;41;male;7;Instagram;Travel;UK;Software Engineer;36553.3898225713
+103;28;male;6.5;Instagram;Lifestlye;United States;Marketer Manager;31660.0878491609
+104;34;female;3.5;Facebook;Sports;United kingdom;Student;49279.5233642195
+105;25;male;1.5;Instagram;Travel;Australia;Marketer Manager;63739.2110440017
+106;52;female;3.5;Facebook;Sports;Australia;Marketer Manager;47998.8812925543
+107;52;male;3;Instagram;Sports;UK;Software Engineer;53956.3369174412
+108;50;male;5;Facebook;Travel;United States;Marketer Manager;32691.4620055735
+109;22;male;2.5;YouTube;Lifestlye;United States;Marketer Manager;50650.5013930119
+110;59;female;2.5;Instagram;Sports;Australia;Software Engineer;49611.2226219794
+111;56;male;4;Facebook;Sports;UK;Software Engineer;43731.8815163638
+112;58;female;1.5;YouTube;Sports;UK;Software Engineer;58283.4773603467
+113;45;male;5;Instagram;Sports;United States;Marketer Manager;44411.5257127318
+114;24;female;1;Instagram;Travel;United States;Marketer Manager;69410.5650126132
+115;26;male;5;Instagram;Travel;United States;Marketer Manager;38863.0823545623
+116;25;female;6;Facebook;Sports;UK;Software Engineer;32015.80508811
+117;29;female;1;Facebook;Lifestlye;United States;Student;81994.5432855948
+118;51;female;5;YouTube;Sports;United States;Marketer Manager;40427.0563681816
+119;50;female;3;Facebook;Lifestlye;Australia;Student;52304.8546592372
+120;40;male;6;Facebook;Sports;United States;Software Engineer;39418.0876691913
+121;41;female;2;Instagram;Lifestlye;United States;Marketer Manager;57393.3757891581
+122;54;female;7;Instagram;Sports;UK;Student;21107.5536556999
+123;52;female;0.5;Instagram;Lifestlye;UK;Marketer Manager;66792.8286222493
+124;61;female;7;Instagram;Sports;Australia;Marketer Manager;37435.9340532578
+125;57;female;7;Instagram;Sports;United States;Marketer Manager;37458.0063425516
+126;39;non-binary;3;Instagram;Lifestlye;Sydney, Australia;Student;49555.1839094439
+127;44;male;1.5;Instagram;Travel;UK;Software Engineer;54011.1172818121
+128;52;female;4;YouTube;Lifestlye;Australia;Marketer Manager;60290.3024593264
+129;18;female;7;YouTube;Travel;UK;Software Engineer;30687.8902876029
+130;52;female;1.5;YouTube;Sports;Australia;Software Engineer;61262.7437494719
+131;54;female;7;YouTube;Lifestlye;Australia;Student;33602.8709434907
+132;64;male;4;Instagram;Lifestlye;United States;Student;60724.9649727308
+133;31;female;0.5;YouTube;Lifestlye;Australia;Software Engineer;63608.9044440436
+134;20;female;3.5;Instagram;Travel;United States;Marketer Manager;43047.78797355
+135;18;male;5.5;YouTube;Travel;United States;Student;36284.526929947
+136;22;male;3.5;Facebook;Sports;United States;Marketer Manager;51344.2471650228
+137;43;female;6.5;YouTube;Travel;United States;Marketer Manager;27426.4527100654
+138;31;female;3.5;YouTube;Travel;Sydney, Australia;Marketer Manager;53699.9133968366
+139;56;male;5;Instagram;Sports;UK;Software Engineer;43946.7201440867
+140;44;male;3;YouTube;Lifestlye;UK;Marketer Manager;72194.0806881423
+141;26;male;7;Facebook;Lifestlye;UK;Software Engineer;32631.6247119053
+142;32;female;3.5;Instagram;Sports;Australia;Software Engineer;54490.4058124692
+143;32;male;5.5;Instagram;Lifestlye;United States;Marketer Manager;45055.4762663087
+144;43;female;5;YouTube;Travel;UK;Marketer Manager;41435.7586067674
+145;59;female;2.5;Instagram;Sports;Australia;Marketer Manager;55781.8160304448
+146;30;male;3;Instagram;Sports;United States;Marketer Manager;53066.4293250904
+147;49;female;4;Instagram;Sports;UK;Software Engineer;55207.3087802752
+148;56;female;2.5;Instagram;Lifestlye;United States;Marketer Manager;61875.35946139
+149;49;male;3.5;Instagram;Sports;UK;Marketer Manager;54922.0078387852
+150;21;female;5.5;Instagram;Sports;UK;Software Engineer;38313.2960007965
+151;47;male;2;Facebook;Sports;UK;Student;60866.207170832
+152;54;female;6;YouTube;Lifestlye;United States;Student;39016.4516561035
+153;40;female;7;Facebook;Travel;Australia;Software Engineer;26291.6335285534
+154;56;female;6;Instagram;Sports;United States;Student;28358.4774233963
+155;62;male;6.5;Instagram;Travel;UK;Software Engineer;37459.1501382581
+156;32;female;1.5;YouTube;Lifestlye;United States;Marketer Manager;54103.4473440979
+157;60;male;4.5;Facebook;Lifestlye;Australia;Marketer Manager;45258.418442421
+158;46;male;3.5;YouTube;Lifestlye;United States;Student;52001.2391067417
+159;53;female;3;Facebook;Lifestlye;Australia;Marketer Manager;56319.3369515294
+160;30;female;5;Instagram;Travel;Australia;Student;43447.1311875741
+161;49;female;4.5;YouTube;Sports;United States;Student;41585.7309685144
+162;24;female;3.5;YouTube;Lifestlye;UK;Marketer Manager;55681.8292994773
+163;39;male;1;Instagram;Lifestlye;Australia;Marketer Manager;73193.1688345312
+164;45;male;6.5;YouTube;Travel;United States;Student;38655.8940446272
+165;19;non-binary;1.5;Facebook;Travel;Australia;Marketer Manager;52031.7454933801
+166;59;female;4;Facebook;Lifestlye;UK;Software Engineer;54997.8809270147
+167;62;male;2;Facebook;Sports;United States;Marketer Manager;58719.7202690687
+168;23;male;3.5;Facebook;Sports;United States;Marketer Manager;53374.5713965965
+169;45;non-binary;2;Instagram;Lifestlye;United States;Software Engineer;62110.1661793553
+170;45;male;0.5;YouTube;Travel;UK;Marketer Manager;66766.5696339665
+171;61;female;4;Facebook;Lifestlye;Australia;Marketer Manager;47623.6840117564
+172;61;male;7;Instagram;Lifestlye;United States;Student;36595.7853466545
+173;37;male;7;YouTube;Travel;Australia;Marketer Manager;35058.0096124312
+174;47;male;2;YouTube;Lifestlye;Melbourne;Marketer Manager;63951.3112302212
+175;28;female;4.5;Instagram;Lifestlye;UK;Software Engineer;57164.6334761516
+176;45;male;4;Instagram;Lifestlye;United States;Student;51322.0793184704
+177;42;male;3;Facebook;Travel;Australia;Student;54536.9057869265
+178;56;female;5.5;YouTube;Sports;United States;Student;28696.8344471219
+179;50;male;2;YouTube;Sports;United States;Marketer Manager;72458.5700162306
+180;18;female;4;Instagram;Travel;UK;Student;45586.6158910185
+181;44;male;1.5;YouTube;Sports;United States;Software Engineer;73623.673575477
+182;30;male;6.5;Facebook;Lifestlye;United States;Student;36123.2178400249
+183;58;female;2;YouTube;Sports;Australia;Software Engineer;66692.150994484
+184;20;female;2;Instagram;Lifestlye;UK;Student;58451.4483941188
+185;56;female;6;Instagram;Sports;United States;Student;39557.3537734906
+186;23;female;3;Facebook;Travel;Australia;Software Engineer;54569.7898982113
+187;25;female;0.5;Facebook;Sports;UK;Student;84366.5785065047
+188;44;female;5;YouTube;Sports;UK;Student;41898.0308768875
+189;26;male;5.5;YouTube;Sports;Australia;Student;44814.1716792213
+190;54;female;2;Instagram;Travel;Australia;Marketer Manager;57992.7092651425
+191;50;female;5.5;Facebook;Sports;Australia;Software Engineer;29561.587527796
+192;59;male;4.5;Facebook;Travel;Australia;Student;44270.5537558509
+193;61;female;3.5;Facebook;Lifestlye;Australia;Software Engineer;53448.9530276814
+194;41;female;4;YouTube;Sports;United States;Software Engineer;51082.2785817572
+195;32;female;7;Facebook;Travel;United States;Software Engineer;34582.8390873872
+196;49;non-binary;2.5;Instagram;Travel;UK;Student;47789.4923956546
+197;49;female;6.5;Instagram;Sports;United States;Student;36093.710290056
+198;41;male;1;YouTube;Lifestlye;United States;Software Engineer;69339.2960497353
+199;58;male;5.5;YouTube;Travel;United States;Marketer Manager;46132.8934073383
+200;29;female;6.5;Facebook;Sports;Australia;Software Engineer;33125.1936447794
+201;56;male;7;YouTube;Lifestlye;UK;Marketer Manager;29890.537069086
+202;19;male;3;Instagram;Travel;UK;Software Engineer;60939.1891593902
+203;20;male;4.5;Facebook;Travel;UK;Software Engineer;36910.3597711034
+204;54;male;4;Instagram;Lifestlye;UK;Software Engineer;45815.8501154344
+205;34;female;6;Facebook;Lifestlye;United States;Student;39287.3103967873
+206;19;female;5;YouTube;Sports;United States;Marketer Manager;34411.1311730939
+207;19;female;2;Facebook;Sports;Australia;Marketer Manager;60398.1393121588
+208;45;female;6.5;Facebook;Travel;UK;Software Engineer;43639.320105261
+209;40;female;6.5;Instagram;Lifestlye;United States;Student;34229.6967328183
+210;54;male;7;Instagram;Lifestlye;United States;Student;30107.7298751821
+211;49;male;2.5;Facebook;Lifestlye;Australia;Marketer Manager;58624.5585701703
+212;50;non-binary;3.5;YouTube;Travel;Australia;Student;49354.6391460635
+213;18;male;6.5;YouTube;Lifestlye;Australia;Marketer Manager;38317.0018703953
+214;36;male;0.5;Instagram;Lifestlye;United States;Marketer Manager;71772.1773222485
+215;19;male;4;YouTube;Travel;United States;Marketer Manager;48013.4583061506
+216;61;female;4;Instagram;Sports;Australia;Student;42116.5392112514
+217;43;female;5;YouTube;Sports;UK;Marketer Manager;35908.8963627046
+218;49;female;4.5;Facebook;Travel;Australia;Marketer Manager;42285.0131717234
+219;23;male;4;Instagram;Lifestlye;Australia;Software Engineer;51986.9025027492
+220;49;male;1;Instagram;Travel;Australia;Marketer Manager;54708.9741267154
+221;21;non-binary;6.5;Facebook;Sports;Australia;Marketer Manager;24818.3742063373
+222;28;male;2.5;Instagram;Sports;United States;Software Engineer;52981.1008761995
+223;34;male;4.5;YouTube;Travel;UK;Software Engineer;47221.9742399029
+224;55;female;3.5;YouTube;Travel;Australia;Student;46182.169759175
+225;41;female;3.5;Instagram;Sports;UK;Marketer Manager;67703.6258031912
+226;22;female;5;YouTube;Travel;UK;Student;44166.8498507759
+227;51;male;6.5;Instagram;Sports;UK;Student;33396.8019088069
+228;23;male;6;Facebook;Travel;Australia;Software Engineer;41094.1406826589
+229;39;female;5;Instagram;Travel;United States;Student;57705.5209533009
+230;28;female;4;Facebook;Travel;Australia;Marketer Manager;45770.3248639392
+231;33;male;3;YouTube;Sports;UK;Software Engineer;54655.5746720908
+232;50;male;3.5;Facebook;Travel;United kingdom;Marketer Manager;53987.566789888
+233;26;male;5;YouTube;Sports;United States;Marketer Manager;44281.4167243102
+234;23;male;5.5;Instagram;Sports;Australia;Software Engineer;36459.9489602526
+235;33;female;0.5;YouTube;Travel;UK;Marketer Manager;71526.011025321
+236;46;male;4.5;Instagram;Travel;United States;Software Engineer;51014.6811277931
+237;20;female;6.5;Instagram;Sports;UK;Marketer Manager;35631.3727827167
+238;37;male;6.5;Facebook;Sports;United States;Software Engineer;34970.5233123109
+239;53;female;1.5;Facebook;Lifestlye;United States;Student;61371.8745961008
+240;36;female;5;Facebook;Sports;Australia;Marketer Manager;53307.0792315139
+241;43;female;2.5;Facebook;Lifestlye;UK;Software Engineer;57631.577660679
+242;20;female;3;YouTube;Lifestlye;Australia;Marketer Manager;52708.5298565003
+243;36;female;6.5;YouTube;Lifestlye;UK;Marketer Manager;21710.4109890137
+244;37;female;5.5;YouTube;Travel;Australia;Marketer Manager;31923.5911748473
+245;49;male;5.5;Instagram;Travel;UK;Software Engineer;39361.6339969472
+246;24;female;4.5;YouTube;Sports;Australia;Student;46281.4702242155
+247;58;female;2;YouTube;Lifestlye;United States;Student;60384.3622943081
+248;50;female;5;YouTube;Travel;UK;Student;46607.5339022431
+249;57;female;3.5;Facebook;Travel;UK;Software Engineer;49779.2379533977
+250;56;female;4.5;YouTube;Travel;United States;Student;51322.9439724128
+251;35;male;3.5;Instagram;Travel;Australia;Software Engineer;46142.4197856521
+252;57;male;5;Facebook;Travel;UK;Marketer Manager;36457.7863977847
+253;18;female;2;Instagram;Lifestlye;UK;Marketer Manager;52855.0691122309
+254;28;female;6.5;YouTube;Lifestlye;Australia;Student;37961.4851209326
+255;45;female;4;Facebook;Lifestlye;United States;Software Engineer;47585.4002883039
+256;42;female;4.5;Instagram;Lifestlye;Australia;Marketer Manager;49199.0896091025
+257;40;female;4.5;YouTube;Sports;Australia;Software Engineer;43911.4678922146
+258;48;female;4.5;Instagram;Lifestlye;Australia;Software Engineer;42290.5394889359
+259;47;female;2.5;Instagram;Travel;UK;Marketer Manager;76582.01513492
+260;59;female;3.5;Instagram;Lifestlye;United States;Software Engineer;41486.9158787914
+261;52;male;7;YouTube;Sports;United States;Marketer Manager;25651.9236979294
+262;24;male;7;YouTube;Travel;Australia;Marketer Manager;24289.8267682077
+263;33;male;3;Instagram;Lifestlye;UK;Marketer Manager;58771.6113598767
+264;43;female;5.5;Facebook;Lifestlye;Australia;Software Engineer;36763.349543186
+265;19;male;0.5;Facebook;Lifestlye;UK;Marketer Manager;71197.2992639509
+266;18;male;5;YouTube;Travel;UK;Software Engineer;50082.4530084598
+267;29;male;5;YouTube;Travel;UK;Marketer Manager;41541.1259544503
+268;22;male;0.5;YouTube;Sports;UK;Marketer Manager;68669.3945317618
+269;54;female;5;YouTube;Travel;United States;Student;33744.6624030196
+270;49;non-binary;0.5;YouTube;Travel;UK;Student;63156.651112401
+271;26;male;6.5;Facebook;Lifestlye;UK;Student;34531.0742469142
+272;58;non-binary;5;YouTube;Travel;Australia;Software Engineer;43995.4345166808
+273;52;female;5.5;Instagram;Lifestlye;Australia;Software Engineer;35953.0094135056
+274;36;male;2.5;Instagram;Lifestlye;United States;Marketer Manager;69674.294996134
+275;33;female;3.5;Facebook;Travel;Australia;Marketer Manager;48458.0493045381
+276;20;male;6;Instagram;Sports;UK;Marketer Manager;37321.2177831502
+277;37;non-binary;2.5;Facebook;Sports;Australia;Marketer Manager;59498.9593357676
+278;41;male;5;Facebook;Travel;United States;Software Engineer;42369.90682613
+279;50;female;4.5;Instagram;Sports;Australia;Marketer Manager;42032.1630648644
+280;41;female;2;YouTube;Lifestlye;Australia;Marketer Manager;64226.5283198165
+281;28;male;3;Instagram;Lifestlye;United States;Student;61577.726616036
+282;25;non-binary;1;Instagram;Travel;United States;Marketer Manager;84610.4051813557
+283;53;female;7;Facebook;Sports;UK;Marketer Manager;34311.3367270153
+284;55;female;6.5;Instagram;Sports;Australia;Marketer Manager;33762.9375074869
+285;57;female;0.5;Facebook;Lifestlye;UK;Software Engineer;72332.2760885108
+286;37;female;2.5;YouTube;Travel;Australia;Student;50469.1630287007
+287;52;male;4.5;YouTube;Sports;Australia;Marketer Manager;56854.3011199724
+288;42;male;2;YouTube;Travel;UK;Marketer Manager;55982.3437610583
+289;52;female;1.5;Instagram;Sports;Australia;Student;54455.7529278095
+290;42;male;4.5;Facebook;Lifestlye;Australia;Marketer Manager;43495.4108640347
+291;46;female;7;YouTube;Lifestlye;Australia;Software Engineer;32233.542420725
+292;35;male;0.5;Facebook;Travel;United States;Marketer Manager;75368.1060384011
+293;63;female;1;Facebook;Lifestlye;UK;Software Engineer;69056.0483838566
+294;35;female;2;YouTube;Sports;United States;Software Engineer;59712.2921602289
+295;19;female;5;YouTube;Lifestlye;UK;Marketer Manager;35552.5823800592
+296;52;female;0.5;Facebook;Travel;UK;Student;89957.0055669073
+297;33;male;2.5;YouTube;Travel;Australia;Software Engineer;55433.5753388535
+298;58;male;2.5;Facebook;Travel;UK;Student;69015.130567303
+299;53;female;4.5;Facebook;Sports;United States;Marketer Manager;35948.8621289079
+300;50;male;4;YouTube;Sports;United States;Software Engineer;53655.2732592301
+301;21;female;3.5;Instagram;Sports;United States;Marketer Manager;48113.8287138304
+302;50;male;4.5;YouTube;Sports;UK;Student;53579.9544999371
+303;31;female;2.5;Instagram;Sports;United States;Marketer Manager;50553.996800133
+304;38;male;6.5;Facebook;Lifestlye;UK;Marketer Manager;34968.1161733137
+305;37;female;1;Facebook;Sports;United States;Software Engineer;59002.2452914862
+306;25;female;5;Instagram;Sports;United States;Marketer Manager;47017.5821318084
+307;24;male;3;Facebook;Lifestlye;UK;Marketer Manager;81485.7986921064
+308;20;female;3.5;Instagram;Sports;United States;Marketer Manager;60503.6050320058
+309;34;male;6.5;Instagram;Travel;Australia;Software Engineer;38238.0032879476
+310;50;non-binary;4.5;Facebook;Sports;UK;Student;54466.3312728891
+311;29;female;0.5;Instagram;Sports;United kingdom;Student;73482.1195433082
+312;39;male;2.5;YouTube;Travel;UK;Marketer Manager;55590.6254408799
+313;39;female;6.5;YouTube;Travel;Australia;Software Engineer;36635.1861914235
+314;63;male;6;Facebook;Travel;UK;Marketer Manager;32140.0289426203
+315;47;female;2.5;Facebook;Travel;United States;Student;55323.989152995
+316;55;male;4;Instagram;Sports;United States;Software Engineer;54104.8185417441
+317;55;male;2.5;Instagram;Travel;United States;Student;75038.567306258
+318;62;male;3.5;Instagram;Travel;UK;Student;53036.7866581266
+319;25;female;2;Instagram;Lifestlye;United States;Software Engineer;53809.344801564
+320;44;female;1;YouTube;Travel;UK;Software Engineer;61477.4338483294
+321;44;male;6.5;YouTube;Travel;United States;Marketer Manager;30426.9699312322
+322;51;female;0.5;Facebook;Lifestlye;Australia;Marketer Manager;69226.4793500675
+323;38;male;0.5;Instagram;Lifestlye;Australia;Student;62297.4618476672
+324;47;female;1;Instagram;Sports;Australia;Software Engineer;67310.2069504953
+325;50;female;0.5;Facebook;Lifestlye;Melbourne;Software Engineer;61667.9179403323
+326;45;female;1;Instagram;Sports;UK;Marketer Manager;73642.6522906768
+327;64;male;6.5;Instagram;Lifestlye;United States;Student;36552.9567473905
+328;50;female;4;Instagram;Lifestlye;Melbourne;Student;44494.9819387337
+329;22;female;0.5;Instagram;Sports;UK;Marketer Manager;68455.2296625061
+330;36;male;1.5;Instagram;Lifestlye;Australia;Software Engineer;59987.7340038602
+331;21;female;1;Facebook;Sports;Australia;Marketer Manager;66355.7397987983
+332;52;female;1;Instagram;Lifestlye;UK;Marketer Manager;65717.6635938015
+333;34;male;2.5;Facebook;Travel;United kingdom;Marketer Manager;51179.4291366926
+334;61;female;6;Instagram;Lifestlye;United States;Marketer Manager;33043.4306059026
+335;45;female;4.5;YouTube;Sports;United States;Software Engineer;46747.9684236978
+336;47;male;6.5;YouTube;Lifestlye;Australia;Marketer Manager;42445.2595437578
+337;46;female;5;YouTube;Sports;Australia;Software Engineer;47923.0850433546
+338;63;male;6.5;YouTube;Sports;United States;Marketer Manager;31127.1626319095
+339;23;female;3;Facebook;Travel;United States;Student;57629.6145082375
+340;52;male;5;Facebook;Travel;UK;Software Engineer;42257.1582362186
+341;58;male;5;Instagram;Sports;United States;Student;44006.568258592
+342;54;male;3;YouTube;Lifestlye;United States;Marketer Manager;54801.8074536828
+343;41;male;6;Facebook;Sports;Australia;Marketer Manager;49877.248818617
+344;46;female;1.5;Instagram;Sports;United States;Marketer Manager;55823.5559470639
+345;63;female;2;Instagram;Lifestlye;Australia;Software Engineer;59504.5992950643
+346;48;non-binary;5.5;Facebook;Lifestlye;United States;Student;30850.1135601619
+347;52;female;5.5;YouTube;Lifestlye;UK;Software Engineer;42699.1796147938
+348;50;female;1.5;Instagram;Lifestlye;United States;Software Engineer;67233.042358607
+349;38;female;6.5;YouTube;Sports;United States;Marketer Manager;41478.3112055058
+350;49;male;3.5;YouTube;Sports;United States;Student;41124.2737408144
+351;40;male;1.5;YouTube;Travel;Australia;Marketer Manager;63813.8474859702
+352;50;female;1;Instagram;Sports;UK;Software Engineer;72466.8497569183
+353;20;male;3.5;YouTube;Lifestlye;United States;Marketer Manager;48679.9206847885
+354;35;male;1.5;Instagram;Travel;Australia;Student;60689.2473395903
+355;42;female;4.5;YouTube;Lifestlye;UK;Marketer Manager;45067.3138889763
+356;59;female;6.5;Instagram;Sports;Australia;Student;36075.0937571652
+357;48;female;3.5;YouTube;Travel;Australia;Student;54075.7993787298
+358;20;male;7;Facebook;Lifestlye;UK;Marketer Manager;38089.1044185574
+359;57;female;7;YouTube;Travel;United States;Software Engineer;31022.562047775
+360;63;male;4.5;YouTube;Travel;Australia;Marketer Manager;46231.3902273623
+361;41;female;2;Instagram;Sports;Australia;Software Engineer;71439.9893861073
+362;49;female;1;Instagram;Lifestlye;United States;Software Engineer;66655.494640575
+363;64;male;3;YouTube;Travel;United States;Marketer Manager;54443.7655466492
+364;39;male;5;Facebook;Travel;UK;Software Engineer;35788.7843735828
+365;40;male;6;Facebook;Lifestlye;UK;Software Engineer;37014.2802381111
+366;19;female;4.5;Instagram;Travel;UK;Marketer Manager;44143.3692341656
+367;44;female;6;Facebook;Travel;United States;Marketer Manager;36944.7708509531
+368;59;male;6.5;YouTube;Travel;Australia;Marketer Manager;31372.9117936442
+369;19;male;6.5;Instagram;Lifestlye;Australia;Software Engineer;30815.9217377865
+370;43;female;5.5;YouTube;Lifestlye;UK;Student;36146.1318408994
+371;34;female;3.5;Instagram;Lifestlye;United States;Software Engineer;49677.4774230011
+372;57;male;6.5;Instagram;Lifestlye;Australia;Student;41090.6632401431
+373;50;male;2.5;Instagram;Sports;United kingdom;Marketer Manager;61495.4331327966
+374;26;male;5.5;Instagram;Travel;Australia;Student;37950.1244102847
+375;60;non-binary;0.5;Facebook;Lifestlye;Australia;Marketer Manager;58820.4177273063
+376;56;female;1.5;YouTube;Travel;United States;Marketer Manager;57527.0828573202
+377;46;non-binary;6;YouTube;Travel;United States;Student;34711.1973337975
+378;59;female;1;YouTube;Sports;Australia;Marketer Manager;65018.1900211415
+379;43;male;2.5;Instagram;Lifestlye;UK;Student;52936.9636214959
+380;52;male;0.5;Facebook;Lifestlye;United States;Marketer Manager;77283.4034541594
+381;42;male;6;YouTube;Travel;Australia;Software Engineer;35638.6623279082
+382;41;non-binary;7;Facebook;Lifestlye;United States;Software Engineer;25430.2776488025
+383;30;female;1.5;Instagram;Travel;United States;Marketer Manager;61043.6912135874
+384;24;male;7;YouTube;Travel;United States;Marketer Manager;26473.1120920329
+385;53;male;4.5;Facebook;Sports;Sydney, Australia;Student;46030.7785363766
+386;62;female;1;Instagram;Sports;UK;Software Engineer;65668.1680704493
+387;37;male;3;Facebook;Sports;UK;Student;55277.9380581419
+388;18;female;1.5;YouTube;Travel;UK;Marketer Manager;53640.7087043789
+389;25;female;1.5;YouTube;Lifestlye;United States;Marketer Manager;62853.5564548532
+390;63;female;4.5;Instagram;Sports;Australia;Student;46802.2504027082
+391;33;female;1;Instagram;Lifestlye;United States;Marketer Manager;57394.4577624776
+392;31;female;0.5;Instagram;Sports;UK;Software Engineer;94410.268591039
+393;29;male;3;Facebook;Sports;UK;Student;57420.8543954717
+394;40;male;5;Facebook;Travel;Australia;Software Engineer;53998.0968057722
+395;32;female;4;Facebook;Sports;United States;Software Engineer;48783.5149368786
+396;45;male;5;Instagram;Sports;UK;Software Engineer;42733.66763759
+397;51;male;5;YouTube;Travel;Australia;Student;42982.9291704122
+398;19;female;6.5;YouTube;Lifestlye;United States;Marketer Manager;34598.8311545015
+399;49;male;2;Facebook;Sports;United States;Software Engineer;49757.6361233117
+400;40;male;3;Facebook;Travel;UK;Software Engineer;45144.3647067888
+401;39;male;2;YouTube;Sports;UK;Software Engineer;58612.305166044
+402;42;female;6.5;YouTube;Travel;United States;Marketer Manager;31344.6630971675
+403;39;male;2;Facebook;Lifestlye;United States;Marketer Manager;59273.6826252871
+404;39;male;7;Facebook;Lifestlye;UK;Student;20943.9581336973
+405;59;non-binary;4.5;YouTube;Travel;United States;Marketer Manager;37756.5087273662
+406;23;female;4;Instagram;Travel;UK;Student;42492.5828053063
+407;32;female;3.5;Facebook;Travel;United States;Student;55680.2911053012
+408;60;female;5;YouTube;Lifestlye;UK;Student;37007.5499645494
+409;54;female;0.5;YouTube;Sports;Melbourne;Student;63252.4302321173
+410;50;non-binary;1;YouTube;Lifestlye;UK;Student;64899.3690933703
+411;25;female;4;YouTube;Travel;UK;Software Engineer;46386.2681908745
+412;61;female;1.5;Instagram;Travel;Australia;Marketer Manager;62482.0858933398
+413;61;male;5;YouTube;Lifestlye;United States;Software Engineer;54025.3099102285
+414;22;male;3.5;Facebook;Travel;Australia;Student;45126.9816437088
+415;56;female;5.5;Instagram;Lifestlye;UK;Marketer Manager;38222.651800451
+416;21;female;0.5;YouTube;Travel;United States;Software Engineer;64666.2027512813
+417;23;non-binary;6;Instagram;Sports;Australia;Software Engineer;44561.9771341623
+418;62;non-binary;1;Facebook;Sports;United States;Student;60652.5753855486
+419;49;non-binary;1.5;YouTube;Travel;United States;Software Engineer;61339.5654811214
+420;47;male;6.5;Facebook;Lifestlye;Australia;Software Engineer;38185.6680716135
+421;64;female;6.5;YouTube;Sports;United States;Software Engineer;28957.047320258
+422;52;male;7;YouTube;Lifestlye;Australia;Software Engineer;39775.8790787101
+423;57;male;1.5;YouTube;Travel;UK;Software Engineer;65128.8120773712
+424;33;female;3;YouTube;Lifestlye;United States;Student;48128.9669523482
+425;30;female;7;YouTube;Sports;UK;Student;33772.8890452887
+426;59;male;5;Instagram;Lifestlye;UK;Software Engineer;41433.4642838347
+427;47;female;2.5;YouTube;Lifestlye;United States;Student;57816.1438599717
+428;36;female;2;YouTube;Travel;Australia;Student;58550.1240149217
+429;34;male;1;Instagram;Travel;United States;Marketer Manager;69852.5801838917
+430;36;male;0.5;Instagram;Travel;UK;Software Engineer;60494.4980714833
+431;45;male;6;Instagram;Sports;UK;Student;34386.9165140204
+432;43;male;0.5;Instagram;Sports;Australia;Student;66004.046611223
+433;54;male;6;Instagram;Travel;United States;Software Engineer;32021.0063757433
+434;43;male;2.5;Instagram;Travel;UK;Marketer Manager;51050.224781169
+435;40;male;6;YouTube;Sports;UK;Software Engineer;36910.0987971167
+436;26;female;1;YouTube;Sports;UK;Marketer Manager;63839.1243357163
+437;29;female;1;Facebook;Sports;Australia;Software Engineer;51753.2861262478
+438;18;male;6;YouTube;Sports;UK;Software Engineer;42202.8672785969
+439;18;female;1.5;YouTube;Travel;UK;Software Engineer;62998.628679926
+440;64;male;2.5;Instagram;Sports;United States;Software Engineer;68331.0368657416
+441;51;female;3;Instagram;Travel;United States;Marketer Manager;56925.9911902555
+442;49;female;5;YouTube;Lifestlye;United kingdom;Marketer Manager;40265.20345519
+443;42;male;1.5;Facebook;Lifestlye;UK;Student;75736.9557347905
+444;57;non-binary;5.5;Instagram;Sports;United States;Software Engineer;53911.1301195775
+445;62;female;1.5;YouTube;Lifestlye;Australia;Marketer Manager;55656.4409185491
+446;18;female;7;YouTube;Lifestlye;Australia;Marketer Manager;33845.1597797771
+447;33;female;0.5;Facebook;Lifestlye;Australia;Marketer Manager;66193.7654068392
+448;56;male;4;Facebook;Sports;Australia;Software Engineer;48935.2557327701
+449;22;male;0.5;Instagram;Sports;Melbourne;Student;68387.7136428441
+450;39;female;5.5;Facebook;Lifestlye;Australia;Marketer Manager;33440.4976856547
+451;46;female;2;YouTube;Travel;Australia;Software Engineer;60427.9479012128
+452;20;male;4;YouTube;Lifestlye;Australia;Marketer Manager;56746.236815709
+453;29;male;6;Facebook;Sports;United States;Marketer Manager;36179.549979326
+454;43;male;6.5;Facebook;Sports;Australia;Student;33435.3664465077
+455;33;female;5;Facebook;Sports;Australia;Marketer Manager;49492.8600316873
+456;54;male;5;Facebook;Lifestlye;Australia;Marketer Manager;46991.9812034147
+457;39;female;4;Instagram;Travel;UK;Software Engineer;39757.5259080936
+458;46;male;6;Facebook;Sports;United States;Software Engineer;38142.7848663109
+459;31;female;3.5;Instagram;Sports;United States;Student;59017.7361733887
+460;45;female;1;YouTube;Lifestlye;United States;Software Engineer;71576.3817495957
+461;22;male;0.5;Facebook;Travel;Australia;Software Engineer;69349.7580190711
+462;64;female;2;Instagram;Lifestlye;Australia;Student;62606.1040355645
+463;47;male;5.5;Facebook;Sports;United kingdom;Marketer Manager;33765.3239390566
+464;63;male;4.5;YouTube;Travel;United States;Student;46750.6578344069
+465;22;female;2.5;YouTube;Travel;Australia;Software Engineer;51477.7553240609
+466;29;male;5.5;YouTube;Sports;United States;Student;37459.9096595153
+467;33;female;6;Facebook;Travel;UK;Marketer Manager;41678.018418898
+468;43;female;4;Facebook;Travel;UK;Student;42315.5344415443
+469;43;male;1;Instagram;Lifestlye;UK;Software Engineer;65834.5912543653
+470;38;female;2.5;YouTube;Sports;United States;Software Engineer;58391.6601973577
+471;56;male;6.5;Facebook;Sports;Australia;Student;34524.5598491982
+472;53;male;1;YouTube;Sports;Australia;Marketer Manager;73610.9441091771
+473;50;female;3;YouTube;Sports;UK;Student;48388.2633571238
+474;47;female;5;Instagram;Sports;Australia;Marketer Manager;45530.651307178
+475;54;male;5;Instagram;Travel;UK;Marketer Manager;42055.3471627467
+476;40;male;4.5;Instagram;Lifestlye;United States;Student;43945.8387808304
+477;27;female;5.5;Instagram;Sports;UK;Marketer Manager;42070.4561692619
+478;22;male;3.5;YouTube;Lifestlye;United States;Software Engineer;45647.9970465803
+479;53;female;3;Instagram;Lifestlye;UK;Student;46932.745417408
+480;51;female;6;Instagram;Travel;Australia;Marketer Manager;34527.5956225829
+481;48;male;1.5;Instagram;Sports;Australia;Software Engineer;70508.7857487772
+482;27;female;5.5;Instagram;Travel;UK;Student;40028.8238730626
+483;36;female;4;YouTube;Sports;Australia;Software Engineer;49657.1719911394
+484;49;male;5.5;Instagram;Travel;Australia;Software Engineer;38800.7668116123
+485;18;female;7;YouTube;Lifestlye;Australia;Software Engineer;33852.4636597691
+486;22;female;3.5;Facebook;Sports;United States;Marketer Manager;45991.6022849143
+487;62;female;2;YouTube;Lifestlye;Australia;Student;64789.5523328432
+488;21;female;4;YouTube;Lifestlye;United States;Student;50923.5263012068
+489;33;female;6;Instagram;Travel;UK;Marketer Manager;32967.7358865415
+490;41;male;1.5;Facebook;Sports;Australia;Student;67552.4471498772
+491;33;female;7;Facebook;Lifestlye;Australia;Software Engineer;44022.0350459683
+492;19;male;4;Facebook;Travel;Australia;Student;50788.654910273
+493;45;non-binary;3;Facebook;Sports;UK;Marketer Manager;60909.6700793844
+494;49;female;2;YouTube;Sports;United States;Software Engineer;55935.0612255258
+495;44;female;3.5;Facebook;Lifestlye;United States;Marketer Manager;56330.683077452
+496;37;male;5;YouTube;Sports;Australia;Software Engineer;47682.7400497061
+497;41;male;5.5;YouTube;Lifestlye;UK;Software Engineer;38937.5843404857
+498;29;female;4;YouTube;Sports;UK;Student;43120.3665358906
+499;52;male;7;Facebook;Travel;UK;Software Engineer;26054.2740455774
+500;50;female;2;Instagram;Lifestlye;UK;Marketer Manager;61288.9347897249
+501;50;female;5;Instagram;Lifestlye;UK;Student;42144.3663313955
+502;60;female;4.5;Facebook;Sports;United States;Marketer Manager;54145.5133342573
+503;54;female;3;Instagram;Sports;United States;Software Engineer;56175.689802481
+504;29;male;1.5;Instagram;Lifestlye;United States;Marketer Manager;59890.2756241825
+505;20;female;2;YouTube;Sports;Australia;Marketer Manager;53872.2887575144
+506;18;male;4.5;YouTube;Travel;UK;Software Engineer;42337.9916269737
+507;50;male;4.5;Facebook;Sports;Australia;Student;46964.4419644867
+508;57;female;2;Facebook;Travel;UK;Marketer Manager;56745.3267647167
+509;27;non-binary;2;Instagram;Travel;United States;Software Engineer;61571.1506011535
+510;60;male;3;YouTube;Travel;Australia;Student;51828.3097391511
+511;61;male;2.5;Facebook;Travel;United States;Student;55722.2004560276
+512;46;female;0.5;Facebook;Travel;UK;Student;63597.4516359609
+513;30;male;4;Facebook;Sports;UK;Marketer Manager;57525.2179245435
+514;29;male;3.5;Facebook;Travel;UK;Marketer Manager;52413.108657352
+515;48;female;6;Facebook;Sports;United States;Marketer Manager;38153.1682024973
+516;63;female;2.5;Facebook;Travel;UK;Student;47790.6879255797
+517;19;male;7;Instagram;Lifestlye;United States;Marketer Manager;49674.6072858845
+518;52;female;3;YouTube;Travel;Australia;Software Engineer;48381.8820556014
+519;40;male;1.5;YouTube;Lifestlye;UK;Marketer Manager;57292.3921282285
+520;34;male;4;Facebook;Travel;UK;Marketer Manager;52591.7058551082
+521;43;male;5;YouTube;Travel;UK;Student;40236.4967674588
+522;25;male;2.5;YouTube;Travel;Australia;Marketer Manager;47508.1385999841
+523;46;female;3.5;YouTube;Lifestlye;UK;Software Engineer;59599.5205494468
+524;43;male;2;Facebook;Lifestlye;United States;Student;47112.9653730374
+525;27;male;6;Facebook;Travel;United States;Software Engineer;39864.0576492979
+526;43;female;7;YouTube;Sports;UK;Student;36586.246245423
+527;51;male;4.5;YouTube;Travel;UK;Student;42095.1606666973
+528;58;male;5.5;Facebook;Lifestlye;Sydney, Australia;Marketer Manager;57664.1373997593
+529;24;female;5.5;Instagram;Travel;Australia;Software Engineer;41945.6519419428
+530;21;female;1.5;YouTube;Lifestlye;Australia;Student;66953.1157645726
+531;62;female;7;Instagram;Lifestlye;UK;Marketer Manager;55710.8693919196
+532;28;female;6.5;YouTube;Lifestlye;Australia;Student;33025.5811045374
+533;46;male;5;Instagram;Travel;Australia;Student;47079.9602897011
+534;53;female;3.5;Instagram;Lifestlye;United States;Student;54753.1117825488
+535;42;female;6.5;Instagram;Lifestlye;Australia;Student;41414.3388852962
+536;38;female;1;Facebook;Travel;United States;Student;57496.0628300213
+537;53;non-binary;4.5;Instagram;Lifestlye;United States;Student;46051.3876999659
+538;27;female;7;Instagram;Travel;Australia;Marketer Manager;30130.1881261241
+539;54;male;3;Instagram;Lifestlye;United States;Student;48572.3044371885
+540;26;male;2;YouTube;Sports;UK;Software Engineer;59419.6533975752
+541;41;female;7;Instagram;Sports;UK;Marketer Manager;24900.0173675655
+542;52;male;7;YouTube;Lifestlye;Australia;Software Engineer;32306.131756631
+543;52;male;3;Instagram;Sports;UK;Student;50375.3580622904
+544;53;male;1;Instagram;Travel;United States;Software Engineer;69285.8213709624
+545;35;female;1;Facebook;Sports;UK;Student;76622.4457058077
+546;56;male;4;YouTube;Lifestlye;Australia;Student;43420.103781566
+547;49;female;4;Instagram;Lifestlye;Australia;Marketer Manager;53288.3208547149
+548;41;male;5.5;YouTube;Travel;United States;Marketer Manager;43875.7486388414
+549;40;male;2.5;YouTube;Lifestlye;Australia;Student;55899.0288784732
+550;49;female;4.5;Facebook;Travel;UK;Marketer Manager;42981.7681297149
+551;54;male;3.5;Facebook;Sports;Australia;Software Engineer;58626.5385341874
+552;29;male;1.5;Facebook;Sports;United States;Marketer Manager;51722.7109088188
+553;30;female;3.5;Facebook;Travel;Australia;Marketer Manager;47534.0260420317
+554;40;male;4;Facebook;Travel;UK;Software Engineer;40815.7827817111
+555;42;female;5.5;Facebook;Lifestlye;United States;Marketer Manager;84883.3923305103
+556;52;female;5;Facebook;Sports;UK;Student;41546.4828367757
+557;58;male;2.5;Facebook;Travel;United States;Software Engineer;53626.6440026516
+558;47;male;0.5;Instagram;Sports;Australia;Student;83170.2223703316
+559;34;female;3.5;YouTube;Travel;United States;Software Engineer;50499.8136605619
+560;37;male;3;Facebook;Sports;United States;Student;51281.2534406674
+561;42;male;4;Facebook;Lifestlye;Australia;Student;49499.3262506807
+562;39;female;2;YouTube;Sports;UK;Marketer Manager;51157.8768962252
+563;30;male;3;Instagram;Sports;Australia;Student;55951.5132133603
+564;36;non-binary;6;YouTube;Sports;United States;Marketer Manager;36519.1839946002
+565;53;male;0.5;YouTube;Sports;Australia;Software Engineer;69592.6256126507
+566;29;female;1.5;Facebook;Sports;United States;Student;56838.1468203107
+567;58;female;6;YouTube;Lifestlye;Australia;Student;31885.0807892603
+568;36;female;2;YouTube;Travel;Australia;Software Engineer;55532.9266836191
+569;29;female;0.5;Facebook;Sports;UK;Software Engineer;63410.0521345361
+570;26;female;2.5;Facebook;Lifestlye;United States;Student;62745.2498334179
+571;24;male;5.5;Facebook;Sports;UK;Software Engineer;47645.7278090405
+572;45;male;2;Facebook;Sports;United States;Marketer Manager;58215.5402348047
+573;31;male;1;YouTube;Travel;Australia;Software Engineer;62705.3171970766
+574;48;male;7;YouTube;Sports;United States;Software Engineer;29854.8058478917
+575;36;female;7;Instagram;Lifestlye;UK;Student;31846.1823892651
+576;64;female;3.5;Instagram;Lifestlye;UK;Marketer Manager;51234.5211685053
+577;33;male;1.5;YouTube;Travel;UK;Software Engineer;63200.1719388279
+578;22;female;5;Instagram;Sports;United States;Marketer Manager;38766.6052947687
+579;52;male;1.5;YouTube;Lifestlye;UK;Marketer Manager;57515.5180558984
+580;29;male;5.5;Instagram;Sports;UK;Marketer Manager;45735.3883187304
+581;42;non-binary;0.5;Facebook;Sports;UK;Student;64506.8631944834
+582;38;female;3.5;Instagram;Sports;Australia;Software Engineer;52265.2284761273
+583;53;male;6.5;Facebook;Travel;Australia;Student;33965.1473309833
+584;40;male;3;Facebook;Sports;United States;Software Engineer;48710.7530392467
+585;33;male;6;Facebook;Lifestlye;United States;Software Engineer;39955.3095470575
+586;56;female;2;Facebook;Sports;UK;Student;59865.5243674648
+587;62;female;2.5;Instagram;Lifestlye;Sydney, Australia;Marketer Manager;63248.9167810625
+588;59;female;3.5;YouTube;Sports;UK;Marketer Manager;51337.2979231349
+589;56;male;1.5;Facebook;Lifestlye;UK;Software Engineer;60092.2712089957
+590;31;female;1;Instagram;Lifestlye;Australia;Student;65891.4745665268
+591;48;female;4;Facebook;Sports;Australia;Marketer Manager;42072.0417548233
+592;22;female;2;Instagram;Sports;Australia;Marketer Manager;54820.529733032
+593;52;male;3;Instagram;Lifestlye;United States;Software Engineer;56051.3662556972
+594;40;female;6.5;Instagram;Travel;United States;Software Engineer;32584.3954938803
+595;46;male;5;YouTube;Sports;UK;Student;42170.1952682377
+596;60;male;3.5;Instagram;Travel;United States;Software Engineer;50173.8914528903
+597;28;non-binary;5.5;Instagram;Sports;Australia;Marketer Manager;36497.4369061274
+598;35;male;5.5;YouTube;Sports;Australia;Marketer Manager;58684.8325507769
+599;64;non-binary;3;YouTube;Sports;United States;Marketer Manager;55244.174850883
+600;29;female;0.5;Instagram;Sports;UK;Marketer Manager;71058.1975382343
+601;26;male;3;YouTube;Travel;UK;Student;47056.4188232494
+602;27;female;4;Facebook;Sports;United States;Student;55412.013592293
+603;61;male;1.5;Facebook;Lifestlye;UK;Software Engineer;63675.7741184362
+604;34;female;1;YouTube;Lifestlye;UK;Software Engineer;71208.2014749694
+605;55;female;5.5;YouTube;Travel;UK;Software Engineer;34964.1476437886
+606;24;female;1.5;Instagram;Sports;Melbourne;Student;62583.9064417713
+607;63;female;0.5;YouTube;Lifestlye;Australia;Marketer Manager;66749.930205306
+608;30;male;7;Instagram;Travel;United States;Software Engineer;35342.5371594089
+609;57;female;1;Facebook;Sports;Australia;Marketer Manager;61620.7021604365
+610;59;male;1;YouTube;Lifestlye;UK;Software Engineer;64449.5116402377
+611;26;male;4;Instagram;Lifestlye;Australia;Software Engineer;39106.7042562803
+612;44;female;5;Instagram;Travel;United States;Software Engineer;38611.8927856475
+613;19;non-binary;2;Facebook;Sports;Australia;Software Engineer;59625.1694183256
+614;22;female;7;YouTube;Sports;UK;Software Engineer;27968.3925380589
+615;46;male;4.5;Facebook;Lifestlye;UK;Marketer Manager;45032.1525709426
+616;54;male;6.5;Instagram;Lifestlye;United States;Software Engineer;31910.3701303739
+617;55;female;3.5;Instagram;Lifestlye;Australia;Marketer Manager;53784.6506808074
+618;36;female;4;YouTube;Sports;Australia;Student;53842.4415437478
+619;25;male;6.5;Instagram;Travel;Australia;Software Engineer;30137.4929359624
+620;62;male;1.5;YouTube;Travel;UK;Marketer Manager;60214.8172070264
+621;18;male;3;Facebook;Sports;United States;Student;60698.8062918487
+622;39;female;5.5;YouTube;Travel;Australia;Student;28755.3837290815
+623;34;female;3;YouTube;Lifestlye;UK;Student;51900.8110412963
+624;24;male;6.5;Instagram;Travel;UK;Marketer Manager;44573.5214207167
+625;42;male;4;Instagram;Travel;UK;Software Engineer;58967.9503453213
+626;62;female;0.5;YouTube;Travel;Australia;Software Engineer;68032.9766167507
+627;21;female;6;Instagram;Lifestlye;Australia;Marketer Manager;32681.9552469318
+628;53;female;1;Instagram;Sports;Australia;Software Engineer;88567.5361547402
+629;23;female;2.5;Instagram;Lifestlye;Australia;Marketer Manager;52986.1280202649
+630;48;female;7;YouTube;Sports;Sydney, Australia;Software Engineer;41662.5820562203
+631;36;female;4;Instagram;Sports;Australia;Student;58283.0233760817
+632;61;male;4;YouTube;Sports;Australia;Software Engineer;49864.5579760437
+633;56;non-binary;6;Instagram;Travel;Australia;Marketer Manager;40099.2503728435
+634;44;female;7;Facebook;Travel;Australia;Marketer Manager;27712.4491965208
+635;27;female;3.5;Instagram;Sports;UK;Student;55007.6234075309
+636;43;male;2.5;Instagram;Sports;Australia;Marketer Manager;52510.3501454185
+637;36;male;0.5;YouTube;Travel;United States;Software Engineer;70401.1991482699
+638;56;male;5;YouTube;Lifestlye;UK;Software Engineer;47983.3081655178
+639;20;male;5.5;Instagram;Sports;Australia;Student;34807.785388084
+640;62;male;4.5;Facebook;Lifestlye;United States;Marketer Manager;50789.975204898
+641;30;female;4.5;Instagram;Travel;Australia;Student;42802.3356439379
+642;45;male;5.5;Instagram;Sports;United States;Software Engineer;41221.7669421848
+643;37;female;3.5;Facebook;Lifestlye;United States;Student;68662.2723659027
+644;45;male;5;YouTube;Lifestlye;United States;Marketer Manager;40364.018068309
+645;25;male;2;Instagram;Lifestlye;United States;Student;60340.5143499889
+646;58;female;6.5;YouTube;Travel;UK;Marketer Manager;28097.8453728808
+647;56;female;4;YouTube;Travel;UK;Marketer Manager;47319.3156390752
+648;18;male;5.5;Facebook;Lifestlye;United States;Software Engineer;43878.9541583259
+649;20;male;2;Facebook;Lifestlye;Australia;Software Engineer;48129.3767538534
+650;30;male;6.5;YouTube;Travel;United States;Software Engineer;26810.3690632087
+651;45;male;1.5;Instagram;Lifestlye;UK;Marketer Manager;55940.3122120151
+652;42;female;3.5;YouTube;Lifestlye;Australia;Student;42804.5515292729
+653;50;female;0.5;Instagram;Travel;UK;Marketer Manager;69347.9151964818
+654;55;male;3;Instagram;Lifestlye;UK;Software Engineer;48535.35825122
+655;23;male;6.5;Facebook;Lifestlye;Australia;Software Engineer;23427.2645733551
+656;61;male;5;Instagram;Lifestlye;United States;Student;39312.1561745978
+657;62;male;6;Instagram;Travel;United States;Software Engineer;35046.823742626
+658;49;female;5;YouTube;Lifestlye;United States;Software Engineer;46783.9273688906
+659;62;non-binary;0.5;Facebook;Travel;United States;Software Engineer;61731.2393200059
+660;64;female;3.5;Instagram;Travel;Melbourne;Student;56556.4462786935
+661;38;female;2.5;Instagram;Sports;Australia;Marketer Manager;58241.813578143
+662;33;female;3;Facebook;Sports;Australia;Software Engineer;55311.7607881777
+663;38;non-binary;5;YouTube;Lifestlye;UK;Student;38237.3716484275
+664;28;male;6.5;Facebook;Travel;Australia;Software Engineer;44018.3393994902
+665;54;female;3;Facebook;Sports;United States;Student;52678.6458395142
+666;53;female;4.5;Instagram;Lifestlye;United kingdom;Software Engineer;36125.5120791083
+667;52;female;4;Instagram;Sports;United States;Student;46980.7176430375
+668;36;male;0.5;YouTube;Sports;United States;Software Engineer;57577.7796463397
+669;37;male;3;Instagram;Travel;Australia;Marketer Manager;51947.4494210666
+670;35;male;1;Instagram;Travel;Australia;Software Engineer;62388.8649840519
+671;64;male;4;Facebook;Sports;United States;Student;51409.148452017
+672;58;male;7;Instagram;Sports;United States;Software Engineer;36547.4809286875
+673;31;female;6;YouTube;Travel;UK;Marketer Manager;33369.4751754942
+674;32;male;5;Facebook;Lifestlye;Australia;Software Engineer;46530.5443418751
+675;48;female;4;YouTube;Travel;UK;Student;55121.6155483438
+676;18;male;4.5;Facebook;Sports;UK;Student;41329.2799757868
+677;20;male;4;Instagram;Lifestlye;UK;Marketer Manager;44737.9781675033
+678;33;female;4.5;Facebook;Sports;United States;Student;48503.8918157684
+679;40;male;4.5;Facebook;Lifestlye;UK;Software Engineer;46165.2398497197
+680;28;female;2;Instagram;Sports;UK;Software Engineer;61743.8748022214
+681;29;female;0.5;Instagram;Lifestlye;United States;Software Engineer;74273.4214727378
+682;27;male;1.5;YouTube;Lifestlye;Australia;Student;63685.415597882
+683;49;male;4;YouTube;Sports;Australia;Software Engineer;53258.5063508769
+684;33;male;1;Instagram;Lifestlye;UK;Software Engineer;67614.527311686
+685;25;female;0.5;Instagram;Travel;United States;Software Engineer;69418.1019490443
+686;55;female;4.5;Instagram;Sports;Australia;Marketer Manager;47180.4221909221
+687;29;male;3.5;Facebook;Travel;UK;Student;57206.6165222904
+688;41;female;3.5;Facebook;Sports;United kingdom;Student;45738.7006314467
+689;45;non-binary;6.5;Facebook;Lifestlye;United States;Student;28724.0863542125
+690;25;male;6.5;Instagram;Lifestlye;UK;Marketer Manager;37209.730016986
+691;45;male;2;YouTube;Lifestlye;Australia;Student;58401.5516793344
+692;53;female;7;Instagram;Sports;United States;Marketer Manager;31870.0260584248
+693;43;male;6;Facebook;Travel;Australia;Marketer Manager;40706.386885857
+694;25;male;3.5;Facebook;Travel;Australia;Student;54516.4752392454
+695;45;male;2;Instagram;Sports;Australia;Software Engineer;57686.6474831911
+696;45;female;6.5;Instagram;Sports;United kingdom;Software Engineer;32687.2806550145
+697;54;female;6;Facebook;Travel;UK;Student;37367.9930450393
+698;58;female;4.5;Facebook;Travel;Australia;Student;50565.0889464737
+699;53;female;5.5;Facebook;Travel;Australia;Marketer Manager;41880.102433395
+700;44;female;6.5;Instagram;Travel;United States;Student;41415.037554116
+701;34;male;2;Facebook;Sports;United States;Marketer Manager;91769.1893377874
+702;26;female;5;Facebook;Sports;UK;Student;48128.3380261038
+703;50;male;7;YouTube;Lifestlye;UK;Software Engineer;35915.0115550862
+704;37;female;4.5;Instagram;Travel;United States;Software Engineer;48310.4173045004
+705;30;male;6;YouTube;Lifestlye;Australia;Student;39073.5035338923
+706;45;non-binary;4;YouTube;Sports;UK;Marketer Manager;46600.5880142874
+707;46;non-binary;3.5;Facebook;Sports;Australia;Software Engineer;50204.8124541538
+708;30;male;4.5;Instagram;Lifestlye;United States;Marketer Manager;46396.9774785423
+709;63;female;1.5;Facebook;Travel;UK;Student;61994.4444533964
+710;52;female;0.5;Instagram;Travel;UK;Student;71966.1223419311
+711;23;female;5.5;YouTube;Travel;United States;Software Engineer;39203.4143840678
+712;35;male;3.5;Instagram;Travel;UK;Student;50398.1153920609
+713;22;female;1.5;Facebook;Lifestlye;United States;Software Engineer;85979.3034508417
+714;64;female;3.5;Facebook;Lifestlye;UK;Marketer Manager;50058.3183572834
+715;42;female;5;Facebook;Sports;United States;Software Engineer;42156.1717884808
+716;19;female;1.5;Instagram;Travel;UK;Software Engineer;50181.3211305029
+717;27;female;3;YouTube;Travel;Australia;Marketer Manager;46675.8415139284
+718;47;female;3.5;YouTube;Travel;Australia;Software Engineer;50387.5654502402
+719;62;male;2;Instagram;Lifestlye;Australia;Software Engineer;57673.5811256775
+720;22;male;5;Facebook;Travel;UK;Student;36495.6533589628
+721;50;non-binary;0.5;YouTube;Lifestlye;UK;Marketer Manager;57292.3091197849
+722;18;female;4;Facebook;Travel;Australia;Software Engineer;46228.1539004329
+723;35;male;2.5;Instagram;Travel;Australia;Marketer Manager;59517.4788284714
+724;49;female;1.5;Facebook;Sports;United States;Marketer Manager;70616.1931596378
+725;64;male;6;YouTube;Travel;United States;Software Engineer;36807.7160314533
+726;28;male;2.5;YouTube;Travel;United States;Student;63715.9242031386
+727;38;male;7;Facebook;Sports;Australia;Marketer Manager;31915.1107881798
+728;43;male;2.5;Instagram;Lifestlye;Australia;Software Engineer;56827.6605212978
+729;42;female;7;Facebook;Lifestlye;Australia;Marketer Manager;55678.0546681147
+730;39;female;6;Instagram;Travel;United States;Student;32647.1137736954
+731;44;male;3;Facebook;Lifestlye;UK;Student;53241.4089355256
+732;30;male;4.5;YouTube;Travel;Australia;Student;49792.2384939613
+733;50;female;0.5;Instagram;Sports;UK;Software Engineer;63501.3710657391
+734;51;female;2;Instagram;Sports;UK;Software Engineer;57391.9696505602
+735;58;female;7;Instagram;Travel;UK;Student;25761.1462477037
+736;52;male;1.5;YouTube;Sports;United States;Software Engineer;63521.7609822468
+737;18;female;2.5;Facebook;Sports;UK;Student;58373.9989119451
+738;38;male;1;YouTube;Travel;Australia;Software Engineer;67741.7367561204
+739;23;female;0.5;Instagram;Travel;United States;Student;61150.9498424155
+740;45;female;6;Facebook;Sports;Australia;Marketer Manager;37536.1751737738
+741;34;female;2;YouTube;Lifestlye;Australia;Student;54279.7115417508
+742;22;female;7;Instagram;Lifestlye;United States;Student;31498.0767564199
+743;48;male;2;Instagram;Travel;Australia;Software Engineer;65713.1196000304
+744;22;male;5.5;YouTube;Travel;Australia;Software Engineer;37232.3735653286
+745;55;female;5;YouTube;Lifestlye;United States;Software Engineer;46083.4166046941
+746;20;female;5;YouTube;Sports;Australia;Software Engineer;38751.6570795815
+747;40;female;5.5;Instagram;Lifestlye;UK;Software Engineer;37357.3589477485
+748;54;male;2.5;YouTube;Lifestlye;Australia;Software Engineer;58443.6087529331
+749;54;female;3;Instagram;Lifestlye;UK;Marketer Manager;50104.4386477107
+750;27;male;2;YouTube;Lifestlye;Australia;Student;70646.2923249566
+751;27;female;1.5;Instagram;Travel;United States;Student;68075.8421760667
+752;36;female;1.5;Instagram;Travel;United States;Student;63551.7861893992
+753;34;male;0.5;Facebook;Sports;Australia;Marketer Manager;64331.8027971996
+754;38;female;3.5;YouTube;Sports;United States;Student;40779.606063347
+755;31;female;2.5;YouTube;Sports;Australia;Marketer Manager;65761.0488569965
+756;26;male;6.5;Instagram;Sports;United States;Marketer Manager;51201.8541063577
+757;63;female;3.5;Instagram;Lifestlye;UK;Marketer Manager;51787.4020367773
+758;18;female;4.5;Instagram;Travel;Australia;Student;68698.0431321639
+759;62;female;4.5;Facebook;Travel;UK;Marketer Manager;51372.8015603708
+760;30;male;4;Facebook;Sports;UK;Student;44490.977832307
+761;21;male;0.5;Instagram;Sports;Australia;Student;65494.0188522173
+762;18;non-binary;2.5;YouTube;Lifestlye;UK;Software Engineer;47614.394816774
+763;57;female;2.5;YouTube;Lifestlye;Australia;Software Engineer;52567.1088386406
+764;49;male;4;Facebook;Sports;UK;Marketer Manager;51112.0489144306
+765;51;male;6;Facebook;Travel;Australia;Marketer Manager;35546.4200537956
+766;45;male;1;Instagram;Travel;Australia;Student;63428.9423290846
+767;48;female;3;YouTube;Travel;United States;Marketer Manager;52937.2022424874
+768;25;male;1;Instagram;Sports;Australia;Marketer Manager;55181.665087522
+769;56;female;2;Facebook;Travel;Australia;Student;63188.1496711584
+770;43;male;5;YouTube;Lifestlye;UK;Marketer Manager;35282.5355553229
+771;51;male;3.5;YouTube;Lifestlye;Australia;Marketer Manager;49707.1491879218
+772;20;female;3;Facebook;Sports;United States;Student;51307.1826897058
+773;29;male;4;Instagram;Lifestlye;UK;Student;46907.030915719
+774;18;female;0.5;Instagram;Sports;UK;Software Engineer;74549.8297236789
+775;61;non-binary;4;YouTube;Travel;United States;Student;45089.7004104232
+776;22;female;5.5;Facebook;Travel;UK;Software Engineer;35834.5120214405
+777;47;female;2.5;YouTube;Travel;UK;Marketer Manager;48651.7300252808
+778;47;female;5.5;Facebook;Lifestlye;UK;Student;35721.5095919438
+779;34;female;4.5;Instagram;Sports;UK;Student;39419.0764631613
+780;64;male;4;Facebook;Travel;United States;Student;50039.7309812415
+781;40;male;5;Instagram;Sports;United States;Marketer Manager;38184.9787699606
+782;32;male;2;Facebook;Travel;United kingdom;Software Engineer;60520.2101751407
+783;54;male;6;YouTube;Lifestlye;UK;Marketer Manager;36267.8625607604
+784;38;male;4.5;Instagram;Lifestlye;United States;Marketer Manager;38082.189100446
+785;31;non-binary;6.5;YouTube;Sports;United States;Student;55192.8421855808
+786;19;male;4.5;YouTube;Lifestlye;United States;Software Engineer;49675.5622752884
+787;28;female;2;Instagram;Lifestlye;UK;Marketer Manager;63515.3804297728
+788;56;male;1.5;Instagram;Sports;UK;Student;71777.8663715031
+789;55;male;3.5;YouTube;Travel;Australia;Marketer Manager;50732.0984580011
+790;51;male;2;YouTube;Lifestlye;United States;Marketer Manager;51520.8659300893
+791;55;female;4;YouTube;Sports;UK;Student;44157.9148649242
+792;51;female;4;YouTube;Lifestlye;United States;Student;50042.4425242007
+793;35;female;2.5;Instagram;Lifestlye;UK;Software Engineer;65750.6816744736
+794;47;female;2.5;Instagram;Lifestlye;United States;Marketer Manager;56800.0456171986
+795;32;female;4;YouTube;Lifestlye;UK;Student;53701.9341256424
+796;44;female;3;Facebook;Sports;Australia;Student;57340.4065234613
+797;51;female;2;Facebook;Sports;Australia;Software Engineer;53159.5418894133
+798;55;male;1.5;Instagram;Sports;United States;Software Engineer;60894.4367386757
+799;50;female;5.5;YouTube;Lifestlye;United kingdom;Student;46276.3076817384
+800;41;male;5;YouTube;Lifestlye;UK;Software Engineer;46880.4805479796
+801;32;male;6.5;Instagram;Lifestlye;United States;Student;36568.980707839
+802;47;female;3.5;Facebook;Sports;UK;Marketer Manager;53135.5712268844
+803;59;male;2.5;Facebook;Lifestlye;United States;Software Engineer;53792.973498953
+804;34;female;4;Facebook;Travel;UK;Marketer Manager;41403.073433279
+805;22;female;4.5;Instagram;Lifestlye;United States;Marketer Manager;51727.1289541565
+806;46;female;5.5;Facebook;Travel;UK;Marketer Manager;32648.9025416654
+807;21;male;5;Instagram;Lifestlye;United States;Student;37805.5204014709
+808;27;male;1.5;Instagram;Sports;UK;Marketer Manager;64894.8249625992
+809;34;female;6;YouTube;Lifestlye;Australia;Marketer Manager;30689.027253052
+810;27;female;5;Facebook;Travel;UK;Marketer Manager;39740.647933636
+811;34;male;6.5;Instagram;Travel;United States;Student;28336.0024660876
+812;37;female;5.5;Facebook;Lifestlye;Australia;Marketer Manager;42853.3177886448
+813;41;female;4;Facebook;Travel;UK;Marketer Manager;50231.5650831905
+814;22;female;1.5;YouTube;Travel;Australia;Software Engineer;63859.4234663684
+815;51;female;1;Facebook;Sports;UK;Student;66712.3238607282
+816;23;male;5;YouTube;Lifestlye;Australia;Marketer Manager;45286.2287318947
+817;19;male;4;Instagram;Lifestlye;United States;Software Engineer;51196.7824598526
+818;30;male;6;Facebook;Lifestlye;UK;Student;27156.6922166289
+819;60;male;5;Instagram;Travel;UK;Student;41755.9181932007
+820;60;female;3.5;Facebook;Lifestlye;United States;Student;51312.3190627595
+821;28;male;3.5;Instagram;Lifestlye;Sydney, Australia;Student;80029.1041959204
+822;64;female;3;Facebook;Sports;United States;Student;64953.5649065618
+823;40;female;0.5;Facebook;Sports;United States;Student;64751.9990509204
+824;33;male;2;Facebook;Sports;Australia;Marketer Manager;53631.7850462442
+825;48;male;0.5;Facebook;Travel;United States;Marketer Manager;72536.2010635484
+826;28;male;2.5;Facebook;Lifestlye;UK;Marketer Manager;96726.68054693
+827;33;male;5;Facebook;Sports;UK;Marketer Manager;46438.3836267962
+828;25;male;6.5;Facebook;Sports;UK;Software Engineer;28137.983087115
+829;21;female;5;Facebook;Sports;United States;Marketer Manager;44759.7605836833
+830;57;female;1;Facebook;Lifestlye;UK;Student;70252.2459319046
+831;21;female;3.5;Instagram;Lifestlye;UK;Marketer Manager;51589.7049036823
+832;42;non-binary;4;YouTube;Lifestlye;UK;Marketer Manager;45169.4533355201
+833;20;female;1.5;Facebook;Travel;UK;Student;56319.4087969433
+834;49;male;1;YouTube;Travel;UK;Marketer Manager;61173.4860221992
+835;20;male;3;Facebook;Sports;UK;Marketer Manager;57074.2417797467
+836;44;female;7;Facebook;Lifestlye;United States;Marketer Manager;29341.6944980904
+837;46;male;5.5;Instagram;Sports;UK;Software Engineer;40888.0746997004
+838;49;female;1.5;Instagram;Lifestlye;UK;Marketer Manager;68224.7289783515
+839;36;female;4.5;YouTube;Lifestlye;Australia;Student;48141.6747023473
+840;38;male;3.5;Instagram;Lifestlye;United States;Student;57573.3639073677
+841;22;female;4.5;Instagram;Travel;United States;Marketer Manager;36742.100986698
+842;35;female;3;YouTube;Travel;United States;Marketer Manager;52096.618601431
+843;45;female;4;Instagram;Lifestlye;United States;Marketer Manager;48325.340097461
+844;59;male;6.5;Facebook;Sports;UK;Student;37142.9464580426
+845;39;female;4.5;YouTube;Lifestlye;UK;Student;39403.9668923552
+846;38;male;2.5;YouTube;Lifestlye;Australia;Software Engineer;60280.9242772364
+847;23;female;3.5;Facebook;Sports;Australia;Software Engineer;52286.9503808117
+848;18;male;4.5;Instagram;Lifestlye;United States;Software Engineer;46569.0300680236
+849;22;female;1;YouTube;Sports;Australia;Student;67042.4239580252
+850;58;female;4;YouTube;Travel;Australia;Software Engineer;47418.207800615
+851;29;female;4.5;Facebook;Travel;United States;Marketer Manager;49877.7304924956
+852;43;male;5.5;Facebook;Sports;United States;Marketer Manager;42991.1488686575
+853;63;male;4;Instagram;Travel;Australia;Student;47248.9531291615
+854;51;female;5.5;YouTube;Travel;UK;Software Engineer;44951.8850967035
+855;31;male;2;Instagram;Sports;Australia;Marketer Manager;60462.7934247309
+856;43;male;3.5;Instagram;Travel;Australia;Student;54093.7569971973
+857;62;male;4;Facebook;Lifestlye;UK;Software Engineer;45029.1117918789
+858;44;male;1;YouTube;Lifestlye;UK;Marketer Manager;72402.1591849296
+859;26;female;6;YouTube;Sports;United States;Software Engineer;36980.0552782501
+860;43;female;5.5;YouTube;Travel;United States;Student;65053.5990025341
+861;64;female;3;Facebook;Lifestlye;Australia;Software Engineer;52999.4173705365
+862;39;female;0.5;Facebook;Lifestlye;UK;Student;65851.850465097
+863;64;non-binary;5.5;Facebook;Travel;United States;Software Engineer;43672.1912264
+864;47;female;6;Facebook;Travel;Australia;Marketer Manager;29076.9167770441
+865;60;female;5;Facebook;Lifestlye;UK;Student;44891.8307389702
+866;34;female;3;YouTube;Lifestlye;Australia;Student;64915.0166812551
+867;43;male;2.5;Instagram;Sports;United States;Student;42773.3531543774
+868;53;male;5;YouTube;Sports;United States;Software Engineer;44341.8866426663
+869;18;male;4.5;Instagram;Lifestlye;UK;Software Engineer;34407.911263265
+870;25;female;1;Facebook;Sports;Australia;Marketer Manager;67799.0218844636
+871;52;male;1.5;Instagram;Lifestlye;UK;Student;59480.431333094
+872;32;female;1.5;YouTube;Lifestlye;United States;Student;58275.3158738255
+873;64;female;1;YouTube;Sports;United States;Software Engineer;64465.7684841367
+874;39;female;5;Instagram;Sports;Australia;Software Engineer;49365.2602249199
+875;31;male;4;Facebook;Travel;Australia;Marketer Manager;44823.3846139105
+876;43;male;6;Facebook;Travel;Australia;Marketer Manager;39790.5164697439
+877;45;male;6.5;YouTube;Travel;UK;Software Engineer;35955.7893421094
+878;40;female;4;Instagram;Lifestlye;Australia;Student;42102.4068542922
+879;31;male;1;Facebook;Sports;Australia;Marketer Manager;55794.8899133302
+880;41;female;5.5;Facebook;Lifestlye;United States;Software Engineer;29787.0711438043
+881;19;female;3;YouTube;Sports;United States;Software Engineer;56256.3710573394
+882;62;male;3.5;Facebook;Lifestlye;Australia;Student;50576.2896923435
+883;43;female;0.5;Instagram;Travel;Australia;Software Engineer;76502.8585180531
+884;31;female;7;YouTube;Travel;United States;Software Engineer;34368.3755413152
+885;24;male;3.5;YouTube;Travel;Australia;Marketer Manager;54998.479455413
+886;20;female;6.5;Instagram;Lifestlye;UK;Software Engineer;40921.9179266748
+887;64;male;4;YouTube;Sports;UK;Software Engineer;45496.4045101751
+888;40;male;3;Facebook;Sports;UK;Marketer Manager;56050.4896411424
+889;63;male;5.5;Facebook;Travel;Australia;Student;44093.9663512208
+890;60;male;5;Instagram;Travel;United States;Student;49346.7584400151
+891;64;female;0.5;Facebook;Travel;Australia;Marketer Manager;71063.2557316318
+892;62;male;3.5;Instagram;Travel;Australia;Marketer Manager;52855.7358651867
+893;35;male;3.5;Instagram;Sports;United States;Student;46408.8797636439
+894;55;female;6;Facebook;Lifestlye;United States;Student;58724.5317757394
+895;52;female;6;Instagram;Lifestlye;United States;Student;55402.585254119
+896;32;female;1.5;Facebook;Lifestlye;UK;Student;64921.2512685346
+897;42;female;0.5;YouTube;Lifestlye;Australia;Student;69368.2252278613
+898;54;female;4;YouTube;Travel;United States;Marketer Manager;46990.80977645
+899;45;female;7;Instagram;Travel;Australia;Software Engineer;31115.6705078299
+900;27;female;7;Facebook;Travel;UK;Student;34936.8205664076
+901;56;female;5;Facebook;Lifestlye;UK;Student;43358.1575346227
+902;34;female;5.5;YouTube;Travel;United States;Software Engineer;35599.4571283651
+903;56;female;0.5;YouTube;Travel;United States;Software Engineer;61341.2034442347
+904;39;male;0.5;Facebook;Sports;Australia;Software Engineer;60654.3713791175
+905;43;female;1;Instagram;Sports;United States;Software Engineer;59664.8404866554
+906;61;female;1;YouTube;Travel;Australia;Software Engineer;63776.9446493224
+907;42;female;2;Instagram;Sports;United States;Software Engineer;50009.3372181254
+908;34;male;5.5;Instagram;Sports;Australia;Marketer Manager;31307.2876270421
+909;30;male;5;YouTube;Travel;Australia;Software Engineer;48012.8259971804
+910;37;male;5;Instagram;Travel;Australia;Software Engineer;39616.9053789428
+911;42;female;2.5;Instagram;Travel;Australia;Marketer Manager;77090.7214815841
+912;21;male;4.5;Facebook;Travel;UK;Software Engineer;44685.6838028551
+913;27;female;1.5;Instagram;Lifestlye;Australia;Student;68355.3463361076
+914;20;male;3.5;Facebook;Lifestlye;United States;Student;54061.2714846732
+915;58;female;3.5;YouTube;Travel;UK;Software Engineer;52956.9159917682
+916;62;male;1;YouTube;Sports;UK;Marketer Manager;94915.090091025
+917;35;male;1;Facebook;Travel;Australia;Student;60642.4927944955
+918;64;male;6;YouTube;Travel;UK;Marketer Manager;40648.4459567602
+919;53;male;6;Instagram;Sports;Australia;Student;34064.5719211057
+920;64;female;6;Instagram;Lifestlye;United States;Software Engineer;37003.8209318126
+921;39;female;2.5;Instagram;Travel;Australia;Marketer Manager;67322.3265967006
+922;51;female;6.5;YouTube;Travel;UK;Marketer Manager;39097.1719785463
+923;64;female;4;Instagram;Lifestlye;United States;Marketer Manager;51840.0385685861
+924;25;female;2;YouTube;Lifestlye;Australia;Student;53458.3604409092
+925;57;non-binary;2;Instagram;Sports;United States;Student;55068.8204000264
+926;61;female;3.5;Facebook;Lifestlye;United States;Student;62170.582401308
+927;36;female;5;YouTube;Lifestlye;United kingdom;Software Engineer;37033.4961801334
+928;59;non-binary;2.5;YouTube;Lifestlye;United States;Student;57322.3968764254
+929;58;female;1;Instagram;Sports;UK;Software Engineer;68962.8552981854
+930;54;female;1;YouTube;Lifestlye;United States;Marketer Manager;69593.7898617113
+931;23;female;6;YouTube;Lifestlye;Australia;Marketer Manager;42445.5600545962
+932;43;female;7;Facebook;Sports;United States;Software Engineer;53404.7194279129
+933;51;female;6.5;Facebook;Lifestlye;Australia;Student;30145.0665144
+934;62;female;5.5;Instagram;Lifestlye;Australia;Software Engineer;38213.7138350568
+935;23;male;1.5;Facebook;Sports;United States;Marketer Manager;57239.5099573027
+936;54;male;3;Instagram;Travel;Australia;Marketer Manager;56635.3437155749
+937;50;female;1;Instagram;Sports;United States;Software Engineer;70101.7751421305
+938;39;female;5;Instagram;Lifestlye;United States;Student;53136.0677624676
+939;38;non-binary;4.5;YouTube;Lifestlye;Australia;Student;47080.5719146586
+940;23;female;1.5;Facebook;Lifestlye;Australia;Software Engineer;57376.0931140316
+941;23;female;6.5;Instagram;Sports;UK;Software Engineer;39372.3743149661
+942;21;male;3;Facebook;Lifestlye;Sydney, Australia;Student;58023.7944684766
+943;47;male;1.5;Instagram;Lifestlye;UK;Marketer Manager;60558.7565204859
+944;28;male;4;Facebook;Sports;Australia;Software Engineer;40210.7254806384
+945;47;male;6.5;Facebook;Travel;United States;Student;59750.0448423819
+946;48;female;0.5;Instagram;Travel;Australia;Student;72895.7219782081
+947;41;female;1;YouTube;Lifestlye;United States;Marketer Manager;63024.4608464703
+948;26;non-binary;6;Facebook;Sports;United States;Marketer Manager;39681.2140917901
+949;20;female;5.5;YouTube;Lifestlye;United States;Marketer Manager;38370.5476262474
+950;48;female;6.5;YouTube;Sports;UK;Marketer Manager;37661.5762256876
+951;57;male;7;Instagram;Sports;Australia;Marketer Manager;30913.5464264258
+952;54;male;2.5;Instagram;Travel;United States;Software Engineer;54526.6206803997
+953;53;female;2.5;Instagram;Travel;United States;Student;56808.102490986
+954;41;male;2;Facebook;Sports;UK;Software Engineer;57582.9734250885
+955;48;female;5.5;Instagram;Lifestlye;Australia;Software Engineer;36794.9141777286
+956;23;female;3.5;Instagram;Travel;Australia;Software Engineer;49170.315343788
+957;19;female;1.5;Facebook;Lifestlye;UK;Software Engineer;61709.2392383723
+958;37;female;5;Facebook;Travel;UK;Software Engineer;43537.4757035924
+959;45;female;3.5;Instagram;Travel;Australia;Marketer Manager;58412.1181081292
+960;28;non-binary;5;Instagram;Lifestlye;United kingdom;Marketer Manager;35710.0108452326
+961;21;female;3.5;Instagram;Travel;Australia;Student;49751.9047472353
+962;32;male;1;Instagram;Travel;Australia;Software Engineer;67657.6156389041
+963;23;male;1;YouTube;Lifestlye;United States;Student;73310.1045172143
+964;47;female;1;YouTube;Travel;United States;Marketer Manager;99839.9246335877
+965;55;male;1.5;Instagram;Travel;Australia;Marketer Manager;61681.232917623
+966;19;female;4;YouTube;Travel;Australia;Marketer Manager;46462.2154520182
+967;32;male;7;Facebook;Lifestlye;Australia;Software Engineer;33571.5408205414
+968;28;male;4.5;YouTube;Sports;Australia;Software Engineer;50195.289600982
+969;25;male;0.5;YouTube;Lifestlye;Australia;Marketer Manager;66330.7084472697
+970;43;male;3.5;Instagram;Sports;Melbourne;Student;51568.8070342328
+971;62;female;7;YouTube;Travel;United kingdom;Student;32584.6817207219
+972;61;female;4;YouTube;Sports;Australia;Marketer Manager;51646.3881710483
+973;22;female;0.5;YouTube;Lifestlye;UK;Student;72806.9020351234
+974;23;male;4.5;YouTube;Lifestlye;UK;Marketer Manager;46645.8040846982
+975;43;female;1.5;Facebook;Travel;Australia;Student;61369.1466422641
+976;21;male;4.5;Instagram;Sports;Australia;Marketer Manager;52223.3156610429
+977;36;female;1;Instagram;Travel;UK;Student;80395.9200384291
+978;37;male;5.5;Facebook;Travel;UK;Software Engineer;47639.2598939674
+979;50;male;2;YouTube;Lifestlye;Australia;Marketer Manager;58690.3867119023
+980;37;female;4;Facebook;Sports;Australia;Marketer Manager;51069.6148209684
+981;29;male;2;YouTube;Sports;UK;Student;51269.5570287738
+982;64;male;5.5;Facebook;Sports;UK;Marketer Manager;39188.040193313
+983;18;female;6;Instagram;Sports;UK;Marketer Manager;36891.0273001956
+984;43;female;1;Instagram;Travel;United States;Marketer Manager;60708.2729129173
+985;31;male;3;Instagram;Travel;UK;Software Engineer;48320.5355778885
+986;55;male;7;YouTube;Lifestlye;United States;Software Engineer;36240.7965127591
+987;54;male;1.5;YouTube;Travel;Australia;Student;66320.7936696386
+988;28;female;6;Facebook;Travel;Australia;Software Engineer;30506.3400257677
+989;53;male;3.5;Facebook;Lifestlye;UK;Student;70432.7246865622
+990;30;female;1.5;Instagram;Lifestlye;Australia;Software Engineer;56187.2734002246
+991;60;female;7;YouTube;Lifestlye;Australia;Student;26244.6338690922
+992;20;male;6;Facebook;Travel;Australia;Software Engineer;39627.0622413318
+993;50;female;6.5;YouTube;Travel;Australia;Software Engineer;30819.8799995347
+994;23;female;3.5;YouTube;Lifestlye;United States;Student;55717.3999106111
+995;27;female;3.5;Instagram;Lifestlye;United States;Marketer Manager;50942.6179953767
+996;22;female;3.5;Instagram;Lifestlye;UK;Marketer Manager;53430.7448789286
+997;40;female;3.5;YouTube;Travel;UK;Software Engineer;48131.8665105692
+998;27;female;4;YouTube;Travel;UK;Student;42243.893325282
+999;61;female;4;YouTube;Sports;Australia;Marketer Manager;52573.7612050138
+1000;19;female;0.5;YouTube;Travel;Australia;Student;68440.3574578136
