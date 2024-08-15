@@ -1,1001 +1,3501 @@
-id;age;gender;time_spent;platform;interests;location;profession;income
-1;56;male;1.5;Instagram;Sports;UK;Software Engineer;60241.2666806681
-2;46;female;7;Facebook;Travel;UK;Student;31897.509976642
-3;32;male;1.5;Instagram;Sports;Australia;Marketer Manager;66556.3207590484
-4;60;female;5;Instagram;Travel;UK;Student;35217.6704146179
-5;25;male;1;Instagram;Lifestlye;Australia;Software Engineer;60591.3014423396
-6;38;male;3;Facebook;Travel;United States;Marketer Manager;55102.0115715831
-7;56;male;5.5;YouTube;Sports;United States;Student;37526.090108315
-8;36;male;2.5;Instagram;Sports;Australia;Marketer Manager;63100.019969855
-9;40;female;2;YouTube;Lifestlye;Australia;Marketer Manager;62366.2693167742
-10;28;female;7;Instagram;Sports;Australia;Marketer Manager;31860.8337620738
-11;28;female;3;YouTube;Lifestlye;UK;Student;45961.2134123166
-12;41;female;4.5;Facebook;Sports;United States;Marketer Manager;45380.5011266312
-13;53;non-binary;5;Facebook;Sports;Australia;Student;35026.5379416428
-14;57;female;5.5;Instagram;Lifestlye;UK;Software Engineer;39238.267432397
-15;41;female;2.5;YouTube;Travel;United States;Student;50342.2038647216
-16;20;male;1.5;Facebook;Sports;UK;Software Engineer;64243.2902191496
-17;39;male;5.5;Instagram;Travel;United States;Student;34555.2177984648
-18;19;female;4.5;Instagram;Sports;UK;Marketer Manager;44118.890092788
-19;41;female;6;Facebook;Sports;United States;Student;38907.1291472568
-20;61;female;4.5;Facebook;Sports;United States;Marketer Manager;41332.4210549348
-21;47;male;4.5;Instagram;Sports;UK;Software Engineer;48164.9570284003
-22;55;female;6.5;YouTube;Travel;Australia;Student;27667.4479917415
-23;19;male;1.5;YouTube;Travel;United States;Marketer Manager;47701.1266051973
-24;38;female;4;YouTube;Sports;Australia;Software Engineer;64602.415176991
-25;50;female;5;Instagram;Sports;UK;Software Engineer;46702.699134805
-26;29;female;3.5;Facebook;Travel;Australia;Student;49320.7728820431
-27;39;male;5;Instagram;Lifestlye;Australia;Software Engineer;45020.631272958
-28;61;female;4.5;Facebook;Lifestlye;Australia;Marketer Manager;39470.4173745816
-29;42;male;7;YouTube;Travel;Australia;Software Engineer;30864.2569658717
-30;44;female;1.5;YouTube;Sports;Australia;Software Engineer;52042.4081197969
-31;59;male;2;Facebook;Sports;United States;Marketer Manager;89077.633786295
-32;45;male;7;Facebook;Lifestlye;United States;Software Engineer;40799.5543077158
-33;33;female;0.5;Instagram;Lifestlye;United States;Software Engineer;72620.06130141
-34;32;female;5.5;YouTube;Travel;UK;Software Engineer;39613.2651679313
-35;64;female;3.5;Instagram;Lifestlye;Australia;Software Engineer;50583.3482886204
-36;61;male;2.5;Instagram;Travel;United States;Marketer Manager;48669.6618842445
-37;20;male;6;Instagram;Lifestlye;UK;Software Engineer;40951.9267194411
-38;54;male;5;YouTube;Lifestlye;United States;Marketer Manager;41446.3290965411
-39;24;female;6.5;Instagram;Lifestlye;United States;Software Engineer;30966.2853731946
-40;38;male;3.5;Instagram;Sports;Melbourne;Software Engineer;43689.8710367085
-41;26;female;4.5;Instagram;Sports;UK;Software Engineer;43751.1875167686
-42;56;female;4.5;Instagram;Sports;Australia;Software Engineer;41004.6943249165
-43;35;female;5;Instagram;Lifestlye;Australia;Marketer Manager;40514.8473983608
-44;21;male;3.5;Instagram;Travel;United States;Marketer Manager;44662.000061182
-45;42;male;5.5;YouTube;Travel;Australia;Marketer Manager;48187.9474147285
-46;31;female;6;Instagram;Travel;UK;Student;36919.9873639602
-47;26;male;2.5;Facebook;Travel;Melbourne;Software Engineer;61624.7253863619
-48;43;female;3.5;Instagram;Sports;Australia;Software Engineer;37741.5016487117
-49;19;female;2.5;Instagram;Sports;Australia;Marketer Manager;53984.0108500258
-50;37;female;5.5;YouTube;Lifestlye;United States;Student;36372.5885420396
-51;45;non-binary;3;YouTube;Lifestlye;UK;Software Engineer;47385.3691031704
-52;64;male;4.5;Facebook;Travel;United States;Marketer Manager;52983.0457711205
-53;24;female;1;Facebook;Sports;United States;Software Engineer;57423.5904011525
-54;61;male;6.5;YouTube;Travel;United States;Software Engineer;35841.9513020401
-55;25;female;2.5;YouTube;Lifestlye;United States;Marketer Manager;60482.1814278985
-56;64;female;4;Instagram;Lifestlye;United States;Marketer Manager;48890.9509420901
-57;52;non-binary;6;YouTube;Travel;UK;Software Engineer;32623.7226125224
-58;31;male;6.5;Facebook;Lifestlye;Sydney, Australia;Software Engineer;38955.8290336208
-59;34;male;1;Instagram;Travel;United States;Marketer Manager;65352.9404092042
-60;53;male;0.5;Facebook;Sports;United States;Software Engineer;61932.5104680898
-61;57;male;4.5;Instagram;Travel;UK;Software Engineer;38309.7547619897
-62;21;male;5.5;YouTube;Sports;UK;Marketer Manager;50183.5871724657
-63;19;female;4.5;Facebook;Sports;Australia;Software Engineer;41857.4842729078
-64;23;female;3;Instagram;Lifestlye;UK;Software Engineer;44222.1417304098
-65;59;female;2.5;Instagram;Lifestlye;Australia;Student;58916.2968137683
-66;21;male;4.5;YouTube;Lifestlye;United States;Marketer Manager;46801.1512803045
-67;46;female;5;YouTube;Travel;United States;Student;35730.828321387
-68;35;male;6;YouTube;Travel;Australia;Student;27285.2179320903
-69;43;female;2;Facebook;Lifestlye;UK;Student;58418.487414207
-70;61;female;7;Instagram;Travel;Australia;Software Engineer;37196.9814585471
-71;51;female;3;YouTube;Lifestlye;UK;Software Engineer;56680.6201759107
-72;27;male;5.5;Facebook;Travel;United States;Student;37285.3128791901
-73;53;male;4;Facebook;Sports;UK;Student;43829.0588420781
-74;31;female;3;Facebook;Sports;Australia;Student;54855.3337837527
-75;48;female;3;YouTube;Lifestlye;Sydney, Australia;Software Engineer;54286.7667360808
-76;32;male;3.5;YouTube;Travel;United States;Student;53898.5587334636
-77;25;female;0.5;Instagram;Travel;UK;Student;65271.0102485555
-78;31;male;3;Instagram;Sports;UK;Marketer Manager;57996.7702660155
-79;40;male;1;YouTube;Sports;UK;Marketer Manager;60345.9423633188
-80;57;female;0.5;Facebook;Lifestlye;United States;Software Engineer;65597.2764994002
-81;38;female;1;Facebook;Sports;United kingdom;Marketer Manager;68204.0726186295
-82;33;female;2;Facebook;Lifestlye;Australia;Marketer Manager;63949.8580431356
-83;62;male;6.5;Instagram;Sports;UK;Marketer Manager;24557.4764927331
-84;35;female;2.5;Facebook;Sports;United States;Software Engineer;56785.9520350808
-85;64;male;3;Instagram;Travel;UK;Marketer Manager;56543.8950586732
-86;41;male;1.5;Instagram;Sports;UK;Software Engineer;54495.8784325468
-87;43;male;4.5;Facebook;Sports;Australia;Student;74913.5705024708
-88;42;male;2;Facebook;Lifestlye;United kingdom;Marketer Manager;54859.128648016
-89;62;non-binary;3;YouTube;Sports;Australia;Software Engineer;58601.2650608221
-90;58;male;4.5;YouTube;Lifestlye;Australia;Marketer Manager;47942.4101605132
-91;46;male;7;Facebook;Sports;United States;Student;35345.261474978
-92;32;female;4.5;Instagram;Sports;Australia;Software Engineer;45853.5966464352
-93;62;female;3.5;Instagram;Lifestlye;Australia;Software Engineer;55068.2421707888
-94;18;female;1.5;Instagram;Travel;United States;Software Engineer;68652.5726415727
-95;42;female;4;Instagram;Lifestlye;Australia;Student;57831.2400772782
-96;24;male;7;Instagram;Lifestlye;United States;Student;54585.6128071552
-97;26;female;6;YouTube;Lifestlye;UK;Student;25754.744548338
-98;41;female;4.5;Facebook;Travel;United States;Software Engineer;45407.63002297
-99;18;male;7;YouTube;Sports;Australia;Student;32527.8060422499
-100;61;female;7;Instagram;Lifestlye;United States;Marketer Manager;30723.273264278
-101;25;female;1.5;Instagram;Lifestlye;Australia;Student;64591.4431038854
-102;41;male;7;Instagram;Travel;UK;Software Engineer;36553.3898225713
-103;28;male;6.5;Instagram;Lifestlye;United States;Marketer Manager;31660.0878491609
-104;34;female;3.5;Facebook;Sports;United kingdom;Student;49279.5233642195
-105;25;male;1.5;Instagram;Travel;Australia;Marketer Manager;63739.2110440017
-106;52;female;3.5;Facebook;Sports;Australia;Marketer Manager;47998.8812925543
-107;52;male;3;Instagram;Sports;UK;Software Engineer;53956.3369174412
-108;50;male;5;Facebook;Travel;United States;Marketer Manager;32691.4620055735
-109;22;male;2.5;YouTube;Lifestlye;United States;Marketer Manager;50650.5013930119
-110;59;female;2.5;Instagram;Sports;Australia;Software Engineer;49611.2226219794
-111;56;male;4;Facebook;Sports;UK;Software Engineer;43731.8815163638
-112;58;female;1.5;YouTube;Sports;UK;Software Engineer;58283.4773603467
-113;45;male;5;Instagram;Sports;United States;Marketer Manager;44411.5257127318
-114;24;female;1;Instagram;Travel;United States;Marketer Manager;69410.5650126132
-115;26;male;5;Instagram;Travel;United States;Marketer Manager;38863.0823545623
-116;25;female;6;Facebook;Sports;UK;Software Engineer;32015.80508811
-117;29;female;1;Facebook;Lifestlye;United States;Student;81994.5432855948
-118;51;female;5;YouTube;Sports;United States;Marketer Manager;40427.0563681816
-119;50;female;3;Facebook;Lifestlye;Australia;Student;52304.8546592372
-120;40;male;6;Facebook;Sports;United States;Software Engineer;39418.0876691913
-121;41;female;2;Instagram;Lifestlye;United States;Marketer Manager;57393.3757891581
-122;54;female;7;Instagram;Sports;UK;Student;21107.5536556999
-123;52;female;0.5;Instagram;Lifestlye;UK;Marketer Manager;66792.8286222493
-124;61;female;7;Instagram;Sports;Australia;Marketer Manager;37435.9340532578
-125;57;female;7;Instagram;Sports;United States;Marketer Manager;37458.0063425516
-126;39;non-binary;3;Instagram;Lifestlye;Sydney, Australia;Student;49555.1839094439
-127;44;male;1.5;Instagram;Travel;UK;Software Engineer;54011.1172818121
-128;52;female;4;YouTube;Lifestlye;Australia;Marketer Manager;60290.3024593264
-129;18;female;7;YouTube;Travel;UK;Software Engineer;30687.8902876029
-130;52;female;1.5;YouTube;Sports;Australia;Software Engineer;61262.7437494719
-131;54;female;7;YouTube;Lifestlye;Australia;Student;33602.8709434907
-132;64;male;4;Instagram;Lifestlye;United States;Student;60724.9649727308
-133;31;female;0.5;YouTube;Lifestlye;Australia;Software Engineer;63608.9044440436
-134;20;female;3.5;Instagram;Travel;United States;Marketer Manager;43047.78797355
-135;18;male;5.5;YouTube;Travel;United States;Student;36284.526929947
-136;22;male;3.5;Facebook;Sports;United States;Marketer Manager;51344.2471650228
-137;43;female;6.5;YouTube;Travel;United States;Marketer Manager;27426.4527100654
-138;31;female;3.5;YouTube;Travel;Sydney, Australia;Marketer Manager;53699.9133968366
-139;56;male;5;Instagram;Sports;UK;Software Engineer;43946.7201440867
-140;44;male;3;YouTube;Lifestlye;UK;Marketer Manager;72194.0806881423
-141;26;male;7;Facebook;Lifestlye;UK;Software Engineer;32631.6247119053
-142;32;female;3.5;Instagram;Sports;Australia;Software Engineer;54490.4058124692
-143;32;male;5.5;Instagram;Lifestlye;United States;Marketer Manager;45055.4762663087
-144;43;female;5;YouTube;Travel;UK;Marketer Manager;41435.7586067674
-145;59;female;2.5;Instagram;Sports;Australia;Marketer Manager;55781.8160304448
-146;30;male;3;Instagram;Sports;United States;Marketer Manager;53066.4293250904
-147;49;female;4;Instagram;Sports;UK;Software Engineer;55207.3087802752
-148;56;female;2.5;Instagram;Lifestlye;United States;Marketer Manager;61875.35946139
-149;49;male;3.5;Instagram;Sports;UK;Marketer Manager;54922.0078387852
-150;21;female;5.5;Instagram;Sports;UK;Software Engineer;38313.2960007965
-151;47;male;2;Facebook;Sports;UK;Student;60866.207170832
-152;54;female;6;YouTube;Lifestlye;United States;Student;39016.4516561035
-153;40;female;7;Facebook;Travel;Australia;Software Engineer;26291.6335285534
-154;56;female;6;Instagram;Sports;United States;Student;28358.4774233963
-155;62;male;6.5;Instagram;Travel;UK;Software Engineer;37459.1501382581
-156;32;female;1.5;YouTube;Lifestlye;United States;Marketer Manager;54103.4473440979
-157;60;male;4.5;Facebook;Lifestlye;Australia;Marketer Manager;45258.418442421
-158;46;male;3.5;YouTube;Lifestlye;United States;Student;52001.2391067417
-159;53;female;3;Facebook;Lifestlye;Australia;Marketer Manager;56319.3369515294
-160;30;female;5;Instagram;Travel;Australia;Student;43447.1311875741
-161;49;female;4.5;YouTube;Sports;United States;Student;41585.7309685144
-162;24;female;3.5;YouTube;Lifestlye;UK;Marketer Manager;55681.8292994773
-163;39;male;1;Instagram;Lifestlye;Australia;Marketer Manager;73193.1688345312
-164;45;male;6.5;YouTube;Travel;United States;Student;38655.8940446272
-165;19;non-binary;1.5;Facebook;Travel;Australia;Marketer Manager;52031.7454933801
-166;59;female;4;Facebook;Lifestlye;UK;Software Engineer;54997.8809270147
-167;62;male;2;Facebook;Sports;United States;Marketer Manager;58719.7202690687
-168;23;male;3.5;Facebook;Sports;United States;Marketer Manager;53374.5713965965
-169;45;non-binary;2;Instagram;Lifestlye;United States;Software Engineer;62110.1661793553
-170;45;male;0.5;YouTube;Travel;UK;Marketer Manager;66766.5696339665
-171;61;female;4;Facebook;Lifestlye;Australia;Marketer Manager;47623.6840117564
-172;61;male;7;Instagram;Lifestlye;United States;Student;36595.7853466545
-173;37;male;7;YouTube;Travel;Australia;Marketer Manager;35058.0096124312
-174;47;male;2;YouTube;Lifestlye;Melbourne;Marketer Manager;63951.3112302212
-175;28;female;4.5;Instagram;Lifestlye;UK;Software Engineer;57164.6334761516
-176;45;male;4;Instagram;Lifestlye;United States;Student;51322.0793184704
-177;42;male;3;Facebook;Travel;Australia;Student;54536.9057869265
-178;56;female;5.5;YouTube;Sports;United States;Student;28696.8344471219
-179;50;male;2;YouTube;Sports;United States;Marketer Manager;72458.5700162306
-180;18;female;4;Instagram;Travel;UK;Student;45586.6158910185
-181;44;male;1.5;YouTube;Sports;United States;Software Engineer;73623.673575477
-182;30;male;6.5;Facebook;Lifestlye;United States;Student;36123.2178400249
-183;58;female;2;YouTube;Sports;Australia;Software Engineer;66692.150994484
-184;20;female;2;Instagram;Lifestlye;UK;Student;58451.4483941188
-185;56;female;6;Instagram;Sports;United States;Student;39557.3537734906
-186;23;female;3;Facebook;Travel;Australia;Software Engineer;54569.7898982113
-187;25;female;0.5;Facebook;Sports;UK;Student;84366.5785065047
-188;44;female;5;YouTube;Sports;UK;Student;41898.0308768875
-189;26;male;5.5;YouTube;Sports;Australia;Student;44814.1716792213
-190;54;female;2;Instagram;Travel;Australia;Marketer Manager;57992.7092651425
-191;50;female;5.5;Facebook;Sports;Australia;Software Engineer;29561.587527796
-192;59;male;4.5;Facebook;Travel;Australia;Student;44270.5537558509
-193;61;female;3.5;Facebook;Lifestlye;Australia;Software Engineer;53448.9530276814
-194;41;female;4;YouTube;Sports;United States;Software Engineer;51082.2785817572
-195;32;female;7;Facebook;Travel;United States;Software Engineer;34582.8390873872
-196;49;non-binary;2.5;Instagram;Travel;UK;Student;47789.4923956546
-197;49;female;6.5;Instagram;Sports;United States;Student;36093.710290056
-198;41;male;1;YouTube;Lifestlye;United States;Software Engineer;69339.2960497353
-199;58;male;5.5;YouTube;Travel;United States;Marketer Manager;46132.8934073383
-200;29;female;6.5;Facebook;Sports;Australia;Software Engineer;33125.1936447794
-201;56;male;7;YouTube;Lifestlye;UK;Marketer Manager;29890.537069086
-202;19;male;3;Instagram;Travel;UK;Software Engineer;60939.1891593902
-203;20;male;4.5;Facebook;Travel;UK;Software Engineer;36910.3597711034
-204;54;male;4;Instagram;Lifestlye;UK;Software Engineer;45815.8501154344
-205;34;female;6;Facebook;Lifestlye;United States;Student;39287.3103967873
-206;19;female;5;YouTube;Sports;United States;Marketer Manager;34411.1311730939
-207;19;female;2;Facebook;Sports;Australia;Marketer Manager;60398.1393121588
-208;45;female;6.5;Facebook;Travel;UK;Software Engineer;43639.320105261
-209;40;female;6.5;Instagram;Lifestlye;United States;Student;34229.6967328183
-210;54;male;7;Instagram;Lifestlye;United States;Student;30107.7298751821
-211;49;male;2.5;Facebook;Lifestlye;Australia;Marketer Manager;58624.5585701703
-212;50;non-binary;3.5;YouTube;Travel;Australia;Student;49354.6391460635
-213;18;male;6.5;YouTube;Lifestlye;Australia;Marketer Manager;38317.0018703953
-214;36;male;0.5;Instagram;Lifestlye;United States;Marketer Manager;71772.1773222485
-215;19;male;4;YouTube;Travel;United States;Marketer Manager;48013.4583061506
-216;61;female;4;Instagram;Sports;Australia;Student;42116.5392112514
-217;43;female;5;YouTube;Sports;UK;Marketer Manager;35908.8963627046
-218;49;female;4.5;Facebook;Travel;Australia;Marketer Manager;42285.0131717234
-219;23;male;4;Instagram;Lifestlye;Australia;Software Engineer;51986.9025027492
-220;49;male;1;Instagram;Travel;Australia;Marketer Manager;54708.9741267154
-221;21;non-binary;6.5;Facebook;Sports;Australia;Marketer Manager;24818.3742063373
-222;28;male;2.5;Instagram;Sports;United States;Software Engineer;52981.1008761995
-223;34;male;4.5;YouTube;Travel;UK;Software Engineer;47221.9742399029
-224;55;female;3.5;YouTube;Travel;Australia;Student;46182.169759175
-225;41;female;3.5;Instagram;Sports;UK;Marketer Manager;67703.6258031912
-226;22;female;5;YouTube;Travel;UK;Student;44166.8498507759
-227;51;male;6.5;Instagram;Sports;UK;Student;33396.8019088069
-228;23;male;6;Facebook;Travel;Australia;Software Engineer;41094.1406826589
-229;39;female;5;Instagram;Travel;United States;Student;57705.5209533009
-230;28;female;4;Facebook;Travel;Australia;Marketer Manager;45770.3248639392
-231;33;male;3;YouTube;Sports;UK;Software Engineer;54655.5746720908
-232;50;male;3.5;Facebook;Travel;United kingdom;Marketer Manager;53987.566789888
-233;26;male;5;YouTube;Sports;United States;Marketer Manager;44281.4167243102
-234;23;male;5.5;Instagram;Sports;Australia;Software Engineer;36459.9489602526
-235;33;female;0.5;YouTube;Travel;UK;Marketer Manager;71526.011025321
-236;46;male;4.5;Instagram;Travel;United States;Software Engineer;51014.6811277931
-237;20;female;6.5;Instagram;Sports;UK;Marketer Manager;35631.3727827167
-238;37;male;6.5;Facebook;Sports;United States;Software Engineer;34970.5233123109
-239;53;female;1.5;Facebook;Lifestlye;United States;Student;61371.8745961008
-240;36;female;5;Facebook;Sports;Australia;Marketer Manager;53307.0792315139
-241;43;female;2.5;Facebook;Lifestlye;UK;Software Engineer;57631.577660679
-242;20;female;3;YouTube;Lifestlye;Australia;Marketer Manager;52708.5298565003
-243;36;female;6.5;YouTube;Lifestlye;UK;Marketer Manager;21710.4109890137
-244;37;female;5.5;YouTube;Travel;Australia;Marketer Manager;31923.5911748473
-245;49;male;5.5;Instagram;Travel;UK;Software Engineer;39361.6339969472
-246;24;female;4.5;YouTube;Sports;Australia;Student;46281.4702242155
-247;58;female;2;YouTube;Lifestlye;United States;Student;60384.3622943081
-248;50;female;5;YouTube;Travel;UK;Student;46607.5339022431
-249;57;female;3.5;Facebook;Travel;UK;Software Engineer;49779.2379533977
-250;56;female;4.5;YouTube;Travel;United States;Student;51322.9439724128
-251;35;male;3.5;Instagram;Travel;Australia;Software Engineer;46142.4197856521
-252;57;male;5;Facebook;Travel;UK;Marketer Manager;36457.7863977847
-253;18;female;2;Instagram;Lifestlye;UK;Marketer Manager;52855.0691122309
-254;28;female;6.5;YouTube;Lifestlye;Australia;Student;37961.4851209326
-255;45;female;4;Facebook;Lifestlye;United States;Software Engineer;47585.4002883039
-256;42;female;4.5;Instagram;Lifestlye;Australia;Marketer Manager;49199.0896091025
-257;40;female;4.5;YouTube;Sports;Australia;Software Engineer;43911.4678922146
-258;48;female;4.5;Instagram;Lifestlye;Australia;Software Engineer;42290.5394889359
-259;47;female;2.5;Instagram;Travel;UK;Marketer Manager;76582.01513492
-260;59;female;3.5;Instagram;Lifestlye;United States;Software Engineer;41486.9158787914
-261;52;male;7;YouTube;Sports;United States;Marketer Manager;25651.9236979294
-262;24;male;7;YouTube;Travel;Australia;Marketer Manager;24289.8267682077
-263;33;male;3;Instagram;Lifestlye;UK;Marketer Manager;58771.6113598767
-264;43;female;5.5;Facebook;Lifestlye;Australia;Software Engineer;36763.349543186
-265;19;male;0.5;Facebook;Lifestlye;UK;Marketer Manager;71197.2992639509
-266;18;male;5;YouTube;Travel;UK;Software Engineer;50082.4530084598
-267;29;male;5;YouTube;Travel;UK;Marketer Manager;41541.1259544503
-268;22;male;0.5;YouTube;Sports;UK;Marketer Manager;68669.3945317618
-269;54;female;5;YouTube;Travel;United States;Student;33744.6624030196
-270;49;non-binary;0.5;YouTube;Travel;UK;Student;63156.651112401
-271;26;male;6.5;Facebook;Lifestlye;UK;Student;34531.0742469142
-272;58;non-binary;5;YouTube;Travel;Australia;Software Engineer;43995.4345166808
-273;52;female;5.5;Instagram;Lifestlye;Australia;Software Engineer;35953.0094135056
-274;36;male;2.5;Instagram;Lifestlye;United States;Marketer Manager;69674.294996134
-275;33;female;3.5;Facebook;Travel;Australia;Marketer Manager;48458.0493045381
-276;20;male;6;Instagram;Sports;UK;Marketer Manager;37321.2177831502
-277;37;non-binary;2.5;Facebook;Sports;Australia;Marketer Manager;59498.9593357676
-278;41;male;5;Facebook;Travel;United States;Software Engineer;42369.90682613
-279;50;female;4.5;Instagram;Sports;Australia;Marketer Manager;42032.1630648644
-280;41;female;2;YouTube;Lifestlye;Australia;Marketer Manager;64226.5283198165
-281;28;male;3;Instagram;Lifestlye;United States;Student;61577.726616036
-282;25;non-binary;1;Instagram;Travel;United States;Marketer Manager;84610.4051813557
-283;53;female;7;Facebook;Sports;UK;Marketer Manager;34311.3367270153
-284;55;female;6.5;Instagram;Sports;Australia;Marketer Manager;33762.9375074869
-285;57;female;0.5;Facebook;Lifestlye;UK;Software Engineer;72332.2760885108
-286;37;female;2.5;YouTube;Travel;Australia;Student;50469.1630287007
-287;52;male;4.5;YouTube;Sports;Australia;Marketer Manager;56854.3011199724
-288;42;male;2;YouTube;Travel;UK;Marketer Manager;55982.3437610583
-289;52;female;1.5;Instagram;Sports;Australia;Student;54455.7529278095
-290;42;male;4.5;Facebook;Lifestlye;Australia;Marketer Manager;43495.4108640347
-291;46;female;7;YouTube;Lifestlye;Australia;Software Engineer;32233.542420725
-292;35;male;0.5;Facebook;Travel;United States;Marketer Manager;75368.1060384011
-293;63;female;1;Facebook;Lifestlye;UK;Software Engineer;69056.0483838566
-294;35;female;2;YouTube;Sports;United States;Software Engineer;59712.2921602289
-295;19;female;5;YouTube;Lifestlye;UK;Marketer Manager;35552.5823800592
-296;52;female;0.5;Facebook;Travel;UK;Student;89957.0055669073
-297;33;male;2.5;YouTube;Travel;Australia;Software Engineer;55433.5753388535
-298;58;male;2.5;Facebook;Travel;UK;Student;69015.130567303
-299;53;female;4.5;Facebook;Sports;United States;Marketer Manager;35948.8621289079
-300;50;male;4;YouTube;Sports;United States;Software Engineer;53655.2732592301
-301;21;female;3.5;Instagram;Sports;United States;Marketer Manager;48113.8287138304
-302;50;male;4.5;YouTube;Sports;UK;Student;53579.9544999371
-303;31;female;2.5;Instagram;Sports;United States;Marketer Manager;50553.996800133
-304;38;male;6.5;Facebook;Lifestlye;UK;Marketer Manager;34968.1161733137
-305;37;female;1;Facebook;Sports;United States;Software Engineer;59002.2452914862
-306;25;female;5;Instagram;Sports;United States;Marketer Manager;47017.5821318084
-307;24;male;3;Facebook;Lifestlye;UK;Marketer Manager;81485.7986921064
-308;20;female;3.5;Instagram;Sports;United States;Marketer Manager;60503.6050320058
-309;34;male;6.5;Instagram;Travel;Australia;Software Engineer;38238.0032879476
-310;50;non-binary;4.5;Facebook;Sports;UK;Student;54466.3312728891
-311;29;female;0.5;Instagram;Sports;United kingdom;Student;73482.1195433082
-312;39;male;2.5;YouTube;Travel;UK;Marketer Manager;55590.6254408799
-313;39;female;6.5;YouTube;Travel;Australia;Software Engineer;36635.1861914235
-314;63;male;6;Facebook;Travel;UK;Marketer Manager;32140.0289426203
-315;47;female;2.5;Facebook;Travel;United States;Student;55323.989152995
-316;55;male;4;Instagram;Sports;United States;Software Engineer;54104.8185417441
-317;55;male;2.5;Instagram;Travel;United States;Student;75038.567306258
-318;62;male;3.5;Instagram;Travel;UK;Student;53036.7866581266
-319;25;female;2;Instagram;Lifestlye;United States;Software Engineer;53809.344801564
-320;44;female;1;YouTube;Travel;UK;Software Engineer;61477.4338483294
-321;44;male;6.5;YouTube;Travel;United States;Marketer Manager;30426.9699312322
-322;51;female;0.5;Facebook;Lifestlye;Australia;Marketer Manager;69226.4793500675
-323;38;male;0.5;Instagram;Lifestlye;Australia;Student;62297.4618476672
-324;47;female;1;Instagram;Sports;Australia;Software Engineer;67310.2069504953
-325;50;female;0.5;Facebook;Lifestlye;Melbourne;Software Engineer;61667.9179403323
-326;45;female;1;Instagram;Sports;UK;Marketer Manager;73642.6522906768
-327;64;male;6.5;Instagram;Lifestlye;United States;Student;36552.9567473905
-328;50;female;4;Instagram;Lifestlye;Melbourne;Student;44494.9819387337
-329;22;female;0.5;Instagram;Sports;UK;Marketer Manager;68455.2296625061
-330;36;male;1.5;Instagram;Lifestlye;Australia;Software Engineer;59987.7340038602
-331;21;female;1;Facebook;Sports;Australia;Marketer Manager;66355.7397987983
-332;52;female;1;Instagram;Lifestlye;UK;Marketer Manager;65717.6635938015
-333;34;male;2.5;Facebook;Travel;United kingdom;Marketer Manager;51179.4291366926
-334;61;female;6;Instagram;Lifestlye;United States;Marketer Manager;33043.4306059026
-335;45;female;4.5;YouTube;Sports;United States;Software Engineer;46747.9684236978
-336;47;male;6.5;YouTube;Lifestlye;Australia;Marketer Manager;42445.2595437578
-337;46;female;5;YouTube;Sports;Australia;Software Engineer;47923.0850433546
-338;63;male;6.5;YouTube;Sports;United States;Marketer Manager;31127.1626319095
-339;23;female;3;Facebook;Travel;United States;Student;57629.6145082375
-340;52;male;5;Facebook;Travel;UK;Software Engineer;42257.1582362186
-341;58;male;5;Instagram;Sports;United States;Student;44006.568258592
-342;54;male;3;YouTube;Lifestlye;United States;Marketer Manager;54801.8074536828
-343;41;male;6;Facebook;Sports;Australia;Marketer Manager;49877.248818617
-344;46;female;1.5;Instagram;Sports;United States;Marketer Manager;55823.5559470639
-345;63;female;2;Instagram;Lifestlye;Australia;Software Engineer;59504.5992950643
-346;48;non-binary;5.5;Facebook;Lifestlye;United States;Student;30850.1135601619
-347;52;female;5.5;YouTube;Lifestlye;UK;Software Engineer;42699.1796147938
-348;50;female;1.5;Instagram;Lifestlye;United States;Software Engineer;67233.042358607
-349;38;female;6.5;YouTube;Sports;United States;Marketer Manager;41478.3112055058
-350;49;male;3.5;YouTube;Sports;United States;Student;41124.2737408144
-351;40;male;1.5;YouTube;Travel;Australia;Marketer Manager;63813.8474859702
-352;50;female;1;Instagram;Sports;UK;Software Engineer;72466.8497569183
-353;20;male;3.5;YouTube;Lifestlye;United States;Marketer Manager;48679.9206847885
-354;35;male;1.5;Instagram;Travel;Australia;Student;60689.2473395903
-355;42;female;4.5;YouTube;Lifestlye;UK;Marketer Manager;45067.3138889763
-356;59;female;6.5;Instagram;Sports;Australia;Student;36075.0937571652
-357;48;female;3.5;YouTube;Travel;Australia;Student;54075.7993787298
-358;20;male;7;Facebook;Lifestlye;UK;Marketer Manager;38089.1044185574
-359;57;female;7;YouTube;Travel;United States;Software Engineer;31022.562047775
-360;63;male;4.5;YouTube;Travel;Australia;Marketer Manager;46231.3902273623
-361;41;female;2;Instagram;Sports;Australia;Software Engineer;71439.9893861073
-362;49;female;1;Instagram;Lifestlye;United States;Software Engineer;66655.494640575
-363;64;male;3;YouTube;Travel;United States;Marketer Manager;54443.7655466492
-364;39;male;5;Facebook;Travel;UK;Software Engineer;35788.7843735828
-365;40;male;6;Facebook;Lifestlye;UK;Software Engineer;37014.2802381111
-366;19;female;4.5;Instagram;Travel;UK;Marketer Manager;44143.3692341656
-367;44;female;6;Facebook;Travel;United States;Marketer Manager;36944.7708509531
-368;59;male;6.5;YouTube;Travel;Australia;Marketer Manager;31372.9117936442
-369;19;male;6.5;Instagram;Lifestlye;Australia;Software Engineer;30815.9217377865
-370;43;female;5.5;YouTube;Lifestlye;UK;Student;36146.1318408994
-371;34;female;3.5;Instagram;Lifestlye;United States;Software Engineer;49677.4774230011
-372;57;male;6.5;Instagram;Lifestlye;Australia;Student;41090.6632401431
-373;50;male;2.5;Instagram;Sports;United kingdom;Marketer Manager;61495.4331327966
-374;26;male;5.5;Instagram;Travel;Australia;Student;37950.1244102847
-375;60;non-binary;0.5;Facebook;Lifestlye;Australia;Marketer Manager;58820.4177273063
-376;56;female;1.5;YouTube;Travel;United States;Marketer Manager;57527.0828573202
-377;46;non-binary;6;YouTube;Travel;United States;Student;34711.1973337975
-378;59;female;1;YouTube;Sports;Australia;Marketer Manager;65018.1900211415
-379;43;male;2.5;Instagram;Lifestlye;UK;Student;52936.9636214959
-380;52;male;0.5;Facebook;Lifestlye;United States;Marketer Manager;77283.4034541594
-381;42;male;6;YouTube;Travel;Australia;Software Engineer;35638.6623279082
-382;41;non-binary;7;Facebook;Lifestlye;United States;Software Engineer;25430.2776488025
-383;30;female;1.5;Instagram;Travel;United States;Marketer Manager;61043.6912135874
-384;24;male;7;YouTube;Travel;United States;Marketer Manager;26473.1120920329
-385;53;male;4.5;Facebook;Sports;Sydney, Australia;Student;46030.7785363766
-386;62;female;1;Instagram;Sports;UK;Software Engineer;65668.1680704493
-387;37;male;3;Facebook;Sports;UK;Student;55277.9380581419
-388;18;female;1.5;YouTube;Travel;UK;Marketer Manager;53640.7087043789
-389;25;female;1.5;YouTube;Lifestlye;United States;Marketer Manager;62853.5564548532
-390;63;female;4.5;Instagram;Sports;Australia;Student;46802.2504027082
-391;33;female;1;Instagram;Lifestlye;United States;Marketer Manager;57394.4577624776
-392;31;female;0.5;Instagram;Sports;UK;Software Engineer;94410.268591039
-393;29;male;3;Facebook;Sports;UK;Student;57420.8543954717
-394;40;male;5;Facebook;Travel;Australia;Software Engineer;53998.0968057722
-395;32;female;4;Facebook;Sports;United States;Software Engineer;48783.5149368786
-396;45;male;5;Instagram;Sports;UK;Software Engineer;42733.66763759
-397;51;male;5;YouTube;Travel;Australia;Student;42982.9291704122
-398;19;female;6.5;YouTube;Lifestlye;United States;Marketer Manager;34598.8311545015
-399;49;male;2;Facebook;Sports;United States;Software Engineer;49757.6361233117
-400;40;male;3;Facebook;Travel;UK;Software Engineer;45144.3647067888
-401;39;male;2;YouTube;Sports;UK;Software Engineer;58612.305166044
-402;42;female;6.5;YouTube;Travel;United States;Marketer Manager;31344.6630971675
-403;39;male;2;Facebook;Lifestlye;United States;Marketer Manager;59273.6826252871
-404;39;male;7;Facebook;Lifestlye;UK;Student;20943.9581336973
-405;59;non-binary;4.5;YouTube;Travel;United States;Marketer Manager;37756.5087273662
-406;23;female;4;Instagram;Travel;UK;Student;42492.5828053063
-407;32;female;3.5;Facebook;Travel;United States;Student;55680.2911053012
-408;60;female;5;YouTube;Lifestlye;UK;Student;37007.5499645494
-409;54;female;0.5;YouTube;Sports;Melbourne;Student;63252.4302321173
-410;50;non-binary;1;YouTube;Lifestlye;UK;Student;64899.3690933703
-411;25;female;4;YouTube;Travel;UK;Software Engineer;46386.2681908745
-412;61;female;1.5;Instagram;Travel;Australia;Marketer Manager;62482.0858933398
-413;61;male;5;YouTube;Lifestlye;United States;Software Engineer;54025.3099102285
-414;22;male;3.5;Facebook;Travel;Australia;Student;45126.9816437088
-415;56;female;5.5;Instagram;Lifestlye;UK;Marketer Manager;38222.651800451
-416;21;female;0.5;YouTube;Travel;United States;Software Engineer;64666.2027512813
-417;23;non-binary;6;Instagram;Sports;Australia;Software Engineer;44561.9771341623
-418;62;non-binary;1;Facebook;Sports;United States;Student;60652.5753855486
-419;49;non-binary;1.5;YouTube;Travel;United States;Software Engineer;61339.5654811214
-420;47;male;6.5;Facebook;Lifestlye;Australia;Software Engineer;38185.6680716135
-421;64;female;6.5;YouTube;Sports;United States;Software Engineer;28957.047320258
-422;52;male;7;YouTube;Lifestlye;Australia;Software Engineer;39775.8790787101
-423;57;male;1.5;YouTube;Travel;UK;Software Engineer;65128.8120773712
-424;33;female;3;YouTube;Lifestlye;United States;Student;48128.9669523482
-425;30;female;7;YouTube;Sports;UK;Student;33772.8890452887
-426;59;male;5;Instagram;Lifestlye;UK;Software Engineer;41433.4642838347
-427;47;female;2.5;YouTube;Lifestlye;United States;Student;57816.1438599717
-428;36;female;2;YouTube;Travel;Australia;Student;58550.1240149217
-429;34;male;1;Instagram;Travel;United States;Marketer Manager;69852.5801838917
-430;36;male;0.5;Instagram;Travel;UK;Software Engineer;60494.4980714833
-431;45;male;6;Instagram;Sports;UK;Student;34386.9165140204
-432;43;male;0.5;Instagram;Sports;Australia;Student;66004.046611223
-433;54;male;6;Instagram;Travel;United States;Software Engineer;32021.0063757433
-434;43;male;2.5;Instagram;Travel;UK;Marketer Manager;51050.224781169
-435;40;male;6;YouTube;Sports;UK;Software Engineer;36910.0987971167
-436;26;female;1;YouTube;Sports;UK;Marketer Manager;63839.1243357163
-437;29;female;1;Facebook;Sports;Australia;Software Engineer;51753.2861262478
-438;18;male;6;YouTube;Sports;UK;Software Engineer;42202.8672785969
-439;18;female;1.5;YouTube;Travel;UK;Software Engineer;62998.628679926
-440;64;male;2.5;Instagram;Sports;United States;Software Engineer;68331.0368657416
-441;51;female;3;Instagram;Travel;United States;Marketer Manager;56925.9911902555
-442;49;female;5;YouTube;Lifestlye;United kingdom;Marketer Manager;40265.20345519
-443;42;male;1.5;Facebook;Lifestlye;UK;Student;75736.9557347905
-444;57;non-binary;5.5;Instagram;Sports;United States;Software Engineer;53911.1301195775
-445;62;female;1.5;YouTube;Lifestlye;Australia;Marketer Manager;55656.4409185491
-446;18;female;7;YouTube;Lifestlye;Australia;Marketer Manager;33845.1597797771
-447;33;female;0.5;Facebook;Lifestlye;Australia;Marketer Manager;66193.7654068392
-448;56;male;4;Facebook;Sports;Australia;Software Engineer;48935.2557327701
-449;22;male;0.5;Instagram;Sports;Melbourne;Student;68387.7136428441
-450;39;female;5.5;Facebook;Lifestlye;Australia;Marketer Manager;33440.4976856547
-451;46;female;2;YouTube;Travel;Australia;Software Engineer;60427.9479012128
-452;20;male;4;YouTube;Lifestlye;Australia;Marketer Manager;56746.236815709
-453;29;male;6;Facebook;Sports;United States;Marketer Manager;36179.549979326
-454;43;male;6.5;Facebook;Sports;Australia;Student;33435.3664465077
-455;33;female;5;Facebook;Sports;Australia;Marketer Manager;49492.8600316873
-456;54;male;5;Facebook;Lifestlye;Australia;Marketer Manager;46991.9812034147
-457;39;female;4;Instagram;Travel;UK;Software Engineer;39757.5259080936
-458;46;male;6;Facebook;Sports;United States;Software Engineer;38142.7848663109
-459;31;female;3.5;Instagram;Sports;United States;Student;59017.7361733887
-460;45;female;1;YouTube;Lifestlye;United States;Software Engineer;71576.3817495957
-461;22;male;0.5;Facebook;Travel;Australia;Software Engineer;69349.7580190711
-462;64;female;2;Instagram;Lifestlye;Australia;Student;62606.1040355645
-463;47;male;5.5;Facebook;Sports;United kingdom;Marketer Manager;33765.3239390566
-464;63;male;4.5;YouTube;Travel;United States;Student;46750.6578344069
-465;22;female;2.5;YouTube;Travel;Australia;Software Engineer;51477.7553240609
-466;29;male;5.5;YouTube;Sports;United States;Student;37459.9096595153
-467;33;female;6;Facebook;Travel;UK;Marketer Manager;41678.018418898
-468;43;female;4;Facebook;Travel;UK;Student;42315.5344415443
-469;43;male;1;Instagram;Lifestlye;UK;Software Engineer;65834.5912543653
-470;38;female;2.5;YouTube;Sports;United States;Software Engineer;58391.6601973577
-471;56;male;6.5;Facebook;Sports;Australia;Student;34524.5598491982
-472;53;male;1;YouTube;Sports;Australia;Marketer Manager;73610.9441091771
-473;50;female;3;YouTube;Sports;UK;Student;48388.2633571238
-474;47;female;5;Instagram;Sports;Australia;Marketer Manager;45530.651307178
-475;54;male;5;Instagram;Travel;UK;Marketer Manager;42055.3471627467
-476;40;male;4.5;Instagram;Lifestlye;United States;Student;43945.8387808304
-477;27;female;5.5;Instagram;Sports;UK;Marketer Manager;42070.4561692619
-478;22;male;3.5;YouTube;Lifestlye;United States;Software Engineer;45647.9970465803
-479;53;female;3;Instagram;Lifestlye;UK;Student;46932.745417408
-480;51;female;6;Instagram;Travel;Australia;Marketer Manager;34527.5956225829
-481;48;male;1.5;Instagram;Sports;Australia;Software Engineer;70508.7857487772
-482;27;female;5.5;Instagram;Travel;UK;Student;40028.8238730626
-483;36;female;4;YouTube;Sports;Australia;Software Engineer;49657.1719911394
-484;49;male;5.5;Instagram;Travel;Australia;Software Engineer;38800.7668116123
-485;18;female;7;YouTube;Lifestlye;Australia;Software Engineer;33852.4636597691
-486;22;female;3.5;Facebook;Sports;United States;Marketer Manager;45991.6022849143
-487;62;female;2;YouTube;Lifestlye;Australia;Student;64789.5523328432
-488;21;female;4;YouTube;Lifestlye;United States;Student;50923.5263012068
-489;33;female;6;Instagram;Travel;UK;Marketer Manager;32967.7358865415
-490;41;male;1.5;Facebook;Sports;Australia;Student;67552.4471498772
-491;33;female;7;Facebook;Lifestlye;Australia;Software Engineer;44022.0350459683
-492;19;male;4;Facebook;Travel;Australia;Student;50788.654910273
-493;45;non-binary;3;Facebook;Sports;UK;Marketer Manager;60909.6700793844
-494;49;female;2;YouTube;Sports;United States;Software Engineer;55935.0612255258
-495;44;female;3.5;Facebook;Lifestlye;United States;Marketer Manager;56330.683077452
-496;37;male;5;YouTube;Sports;Australia;Software Engineer;47682.7400497061
-497;41;male;5.5;YouTube;Lifestlye;UK;Software Engineer;38937.5843404857
-498;29;female;4;YouTube;Sports;UK;Student;43120.3665358906
-499;52;male;7;Facebook;Travel;UK;Software Engineer;26054.2740455774
-500;50;female;2;Instagram;Lifestlye;UK;Marketer Manager;61288.9347897249
-501;50;female;5;Instagram;Lifestlye;UK;Student;42144.3663313955
-502;60;female;4.5;Facebook;Sports;United States;Marketer Manager;54145.5133342573
-503;54;female;3;Instagram;Sports;United States;Software Engineer;56175.689802481
-504;29;male;1.5;Instagram;Lifestlye;United States;Marketer Manager;59890.2756241825
-505;20;female;2;YouTube;Sports;Australia;Marketer Manager;53872.2887575144
-506;18;male;4.5;YouTube;Travel;UK;Software Engineer;42337.9916269737
-507;50;male;4.5;Facebook;Sports;Australia;Student;46964.4419644867
-508;57;female;2;Facebook;Travel;UK;Marketer Manager;56745.3267647167
-509;27;non-binary;2;Instagram;Travel;United States;Software Engineer;61571.1506011535
-510;60;male;3;YouTube;Travel;Australia;Student;51828.3097391511
-511;61;male;2.5;Facebook;Travel;United States;Student;55722.2004560276
-512;46;female;0.5;Facebook;Travel;UK;Student;63597.4516359609
-513;30;male;4;Facebook;Sports;UK;Marketer Manager;57525.2179245435
-514;29;male;3.5;Facebook;Travel;UK;Marketer Manager;52413.108657352
-515;48;female;6;Facebook;Sports;United States;Marketer Manager;38153.1682024973
-516;63;female;2.5;Facebook;Travel;UK;Student;47790.6879255797
-517;19;male;7;Instagram;Lifestlye;United States;Marketer Manager;49674.6072858845
-518;52;female;3;YouTube;Travel;Australia;Software Engineer;48381.8820556014
-519;40;male;1.5;YouTube;Lifestlye;UK;Marketer Manager;57292.3921282285
-520;34;male;4;Facebook;Travel;UK;Marketer Manager;52591.7058551082
-521;43;male;5;YouTube;Travel;UK;Student;40236.4967674588
-522;25;male;2.5;YouTube;Travel;Australia;Marketer Manager;47508.1385999841
-523;46;female;3.5;YouTube;Lifestlye;UK;Software Engineer;59599.5205494468
-524;43;male;2;Facebook;Lifestlye;United States;Student;47112.9653730374
-525;27;male;6;Facebook;Travel;United States;Software Engineer;39864.0576492979
-526;43;female;7;YouTube;Sports;UK;Student;36586.246245423
-527;51;male;4.5;YouTube;Travel;UK;Student;42095.1606666973
-528;58;male;5.5;Facebook;Lifestlye;Sydney, Australia;Marketer Manager;57664.1373997593
-529;24;female;5.5;Instagram;Travel;Australia;Software Engineer;41945.6519419428
-530;21;female;1.5;YouTube;Lifestlye;Australia;Student;66953.1157645726
-531;62;female;7;Instagram;Lifestlye;UK;Marketer Manager;55710.8693919196
-532;28;female;6.5;YouTube;Lifestlye;Australia;Student;33025.5811045374
-533;46;male;5;Instagram;Travel;Australia;Student;47079.9602897011
-534;53;female;3.5;Instagram;Lifestlye;United States;Student;54753.1117825488
-535;42;female;6.5;Instagram;Lifestlye;Australia;Student;41414.3388852962
-536;38;female;1;Facebook;Travel;United States;Student;57496.0628300213
-537;53;non-binary;4.5;Instagram;Lifestlye;United States;Student;46051.3876999659
-538;27;female;7;Instagram;Travel;Australia;Marketer Manager;30130.1881261241
-539;54;male;3;Instagram;Lifestlye;United States;Student;48572.3044371885
-540;26;male;2;YouTube;Sports;UK;Software Engineer;59419.6533975752
-541;41;female;7;Instagram;Sports;UK;Marketer Manager;24900.0173675655
-542;52;male;7;YouTube;Lifestlye;Australia;Software Engineer;32306.131756631
-543;52;male;3;Instagram;Sports;UK;Student;50375.3580622904
-544;53;male;1;Instagram;Travel;United States;Software Engineer;69285.8213709624
-545;35;female;1;Facebook;Sports;UK;Student;76622.4457058077
-546;56;male;4;YouTube;Lifestlye;Australia;Student;43420.103781566
-547;49;female;4;Instagram;Lifestlye;Australia;Marketer Manager;53288.3208547149
-548;41;male;5.5;YouTube;Travel;United States;Marketer Manager;43875.7486388414
-549;40;male;2.5;YouTube;Lifestlye;Australia;Student;55899.0288784732
-550;49;female;4.5;Facebook;Travel;UK;Marketer Manager;42981.7681297149
-551;54;male;3.5;Facebook;Sports;Australia;Software Engineer;58626.5385341874
-552;29;male;1.5;Facebook;Sports;United States;Marketer Manager;51722.7109088188
-553;30;female;3.5;Facebook;Travel;Australia;Marketer Manager;47534.0260420317
-554;40;male;4;Facebook;Travel;UK;Software Engineer;40815.7827817111
-555;42;female;5.5;Facebook;Lifestlye;United States;Marketer Manager;84883.3923305103
-556;52;female;5;Facebook;Sports;UK;Student;41546.4828367757
-557;58;male;2.5;Facebook;Travel;United States;Software Engineer;53626.6440026516
-558;47;male;0.5;Instagram;Sports;Australia;Student;83170.2223703316
-559;34;female;3.5;YouTube;Travel;United States;Software Engineer;50499.8136605619
-560;37;male;3;Facebook;Sports;United States;Student;51281.2534406674
-561;42;male;4;Facebook;Lifestlye;Australia;Student;49499.3262506807
-562;39;female;2;YouTube;Sports;UK;Marketer Manager;51157.8768962252
-563;30;male;3;Instagram;Sports;Australia;Student;55951.5132133603
-564;36;non-binary;6;YouTube;Sports;United States;Marketer Manager;36519.1839946002
-565;53;male;0.5;YouTube;Sports;Australia;Software Engineer;69592.6256126507
-566;29;female;1.5;Facebook;Sports;United States;Student;56838.1468203107
-567;58;female;6;YouTube;Lifestlye;Australia;Student;31885.0807892603
-568;36;female;2;YouTube;Travel;Australia;Software Engineer;55532.9266836191
-569;29;female;0.5;Facebook;Sports;UK;Software Engineer;63410.0521345361
-570;26;female;2.5;Facebook;Lifestlye;United States;Student;62745.2498334179
-571;24;male;5.5;Facebook;Sports;UK;Software Engineer;47645.7278090405
-572;45;male;2;Facebook;Sports;United States;Marketer Manager;58215.5402348047
-573;31;male;1;YouTube;Travel;Australia;Software Engineer;62705.3171970766
-574;48;male;7;YouTube;Sports;United States;Software Engineer;29854.8058478917
-575;36;female;7;Instagram;Lifestlye;UK;Student;31846.1823892651
-576;64;female;3.5;Instagram;Lifestlye;UK;Marketer Manager;51234.5211685053
-577;33;male;1.5;YouTube;Travel;UK;Software Engineer;63200.1719388279
-578;22;female;5;Instagram;Sports;United States;Marketer Manager;38766.6052947687
-579;52;male;1.5;YouTube;Lifestlye;UK;Marketer Manager;57515.5180558984
-580;29;male;5.5;Instagram;Sports;UK;Marketer Manager;45735.3883187304
-581;42;non-binary;0.5;Facebook;Sports;UK;Student;64506.8631944834
-582;38;female;3.5;Instagram;Sports;Australia;Software Engineer;52265.2284761273
-583;53;male;6.5;Facebook;Travel;Australia;Student;33965.1473309833
-584;40;male;3;Facebook;Sports;United States;Software Engineer;48710.7530392467
-585;33;male;6;Facebook;Lifestlye;United States;Software Engineer;39955.3095470575
-586;56;female;2;Facebook;Sports;UK;Student;59865.5243674648
-587;62;female;2.5;Instagram;Lifestlye;Sydney, Australia;Marketer Manager;63248.9167810625
-588;59;female;3.5;YouTube;Sports;UK;Marketer Manager;51337.2979231349
-589;56;male;1.5;Facebook;Lifestlye;UK;Software Engineer;60092.2712089957
-590;31;female;1;Instagram;Lifestlye;Australia;Student;65891.4745665268
-591;48;female;4;Facebook;Sports;Australia;Marketer Manager;42072.0417548233
-592;22;female;2;Instagram;Sports;Australia;Marketer Manager;54820.529733032
-593;52;male;3;Instagram;Lifestlye;United States;Software Engineer;56051.3662556972
-594;40;female;6.5;Instagram;Travel;United States;Software Engineer;32584.3954938803
-595;46;male;5;YouTube;Sports;UK;Student;42170.1952682377
-596;60;male;3.5;Instagram;Travel;United States;Software Engineer;50173.8914528903
-597;28;non-binary;5.5;Instagram;Sports;Australia;Marketer Manager;36497.4369061274
-598;35;male;5.5;YouTube;Sports;Australia;Marketer Manager;58684.8325507769
-599;64;non-binary;3;YouTube;Sports;United States;Marketer Manager;55244.174850883
-600;29;female;0.5;Instagram;Sports;UK;Marketer Manager;71058.1975382343
-601;26;male;3;YouTube;Travel;UK;Student;47056.4188232494
-602;27;female;4;Facebook;Sports;United States;Student;55412.013592293
-603;61;male;1.5;Facebook;Lifestlye;UK;Software Engineer;63675.7741184362
-604;34;female;1;YouTube;Lifestlye;UK;Software Engineer;71208.2014749694
-605;55;female;5.5;YouTube;Travel;UK;Software Engineer;34964.1476437886
-606;24;female;1.5;Instagram;Sports;Melbourne;Student;62583.9064417713
-607;63;female;0.5;YouTube;Lifestlye;Australia;Marketer Manager;66749.930205306
-608;30;male;7;Instagram;Travel;United States;Software Engineer;35342.5371594089
-609;57;female;1;Facebook;Sports;Australia;Marketer Manager;61620.7021604365
-610;59;male;1;YouTube;Lifestlye;UK;Software Engineer;64449.5116402377
-611;26;male;4;Instagram;Lifestlye;Australia;Software Engineer;39106.7042562803
-612;44;female;5;Instagram;Travel;United States;Software Engineer;38611.8927856475
-613;19;non-binary;2;Facebook;Sports;Australia;Software Engineer;59625.1694183256
-614;22;female;7;YouTube;Sports;UK;Software Engineer;27968.3925380589
-615;46;male;4.5;Facebook;Lifestlye;UK;Marketer Manager;45032.1525709426
-616;54;male;6.5;Instagram;Lifestlye;United States;Software Engineer;31910.3701303739
-617;55;female;3.5;Instagram;Lifestlye;Australia;Marketer Manager;53784.6506808074
-618;36;female;4;YouTube;Sports;Australia;Student;53842.4415437478
-619;25;male;6.5;Instagram;Travel;Australia;Software Engineer;30137.4929359624
-620;62;male;1.5;YouTube;Travel;UK;Marketer Manager;60214.8172070264
-621;18;male;3;Facebook;Sports;United States;Student;60698.8062918487
-622;39;female;5.5;YouTube;Travel;Australia;Student;28755.3837290815
-623;34;female;3;YouTube;Lifestlye;UK;Student;51900.8110412963
-624;24;male;6.5;Instagram;Travel;UK;Marketer Manager;44573.5214207167
-625;42;male;4;Instagram;Travel;UK;Software Engineer;58967.9503453213
-626;62;female;0.5;YouTube;Travel;Australia;Software Engineer;68032.9766167507
-627;21;female;6;Instagram;Lifestlye;Australia;Marketer Manager;32681.9552469318
-628;53;female;1;Instagram;Sports;Australia;Software Engineer;88567.5361547402
-629;23;female;2.5;Instagram;Lifestlye;Australia;Marketer Manager;52986.1280202649
-630;48;female;7;YouTube;Sports;Sydney, Australia;Software Engineer;41662.5820562203
-631;36;female;4;Instagram;Sports;Australia;Student;58283.0233760817
-632;61;male;4;YouTube;Sports;Australia;Software Engineer;49864.5579760437
-633;56;non-binary;6;Instagram;Travel;Australia;Marketer Manager;40099.2503728435
-634;44;female;7;Facebook;Travel;Australia;Marketer Manager;27712.4491965208
-635;27;female;3.5;Instagram;Sports;UK;Student;55007.6234075309
-636;43;male;2.5;Instagram;Sports;Australia;Marketer Manager;52510.3501454185
-637;36;male;0.5;YouTube;Travel;United States;Software Engineer;70401.1991482699
-638;56;male;5;YouTube;Lifestlye;UK;Software Engineer;47983.3081655178
-639;20;male;5.5;Instagram;Sports;Australia;Student;34807.785388084
-640;62;male;4.5;Facebook;Lifestlye;United States;Marketer Manager;50789.975204898
-641;30;female;4.5;Instagram;Travel;Australia;Student;42802.3356439379
-642;45;male;5.5;Instagram;Sports;United States;Software Engineer;41221.7669421848
-643;37;female;3.5;Facebook;Lifestlye;United States;Student;68662.2723659027
-644;45;male;5;YouTube;Lifestlye;United States;Marketer Manager;40364.018068309
-645;25;male;2;Instagram;Lifestlye;United States;Student;60340.5143499889
-646;58;female;6.5;YouTube;Travel;UK;Marketer Manager;28097.8453728808
-647;56;female;4;YouTube;Travel;UK;Marketer Manager;47319.3156390752
-648;18;male;5.5;Facebook;Lifestlye;United States;Software Engineer;43878.9541583259
-649;20;male;2;Facebook;Lifestlye;Australia;Software Engineer;48129.3767538534
-650;30;male;6.5;YouTube;Travel;United States;Software Engineer;26810.3690632087
-651;45;male;1.5;Instagram;Lifestlye;UK;Marketer Manager;55940.3122120151
-652;42;female;3.5;YouTube;Lifestlye;Australia;Student;42804.5515292729
-653;50;female;0.5;Instagram;Travel;UK;Marketer Manager;69347.9151964818
-654;55;male;3;Instagram;Lifestlye;UK;Software Engineer;48535.35825122
-655;23;male;6.5;Facebook;Lifestlye;Australia;Software Engineer;23427.2645733551
-656;61;male;5;Instagram;Lifestlye;United States;Student;39312.1561745978
-657;62;male;6;Instagram;Travel;United States;Software Engineer;35046.823742626
-658;49;female;5;YouTube;Lifestlye;United States;Software Engineer;46783.9273688906
-659;62;non-binary;0.5;Facebook;Travel;United States;Software Engineer;61731.2393200059
-660;64;female;3.5;Instagram;Travel;Melbourne;Student;56556.4462786935
-661;38;female;2.5;Instagram;Sports;Australia;Marketer Manager;58241.813578143
-662;33;female;3;Facebook;Sports;Australia;Software Engineer;55311.7607881777
-663;38;non-binary;5;YouTube;Lifestlye;UK;Student;38237.3716484275
-664;28;male;6.5;Facebook;Travel;Australia;Software Engineer;44018.3393994902
-665;54;female;3;Facebook;Sports;United States;Student;52678.6458395142
-666;53;female;4.5;Instagram;Lifestlye;United kingdom;Software Engineer;36125.5120791083
-667;52;female;4;Instagram;Sports;United States;Student;46980.7176430375
-668;36;male;0.5;YouTube;Sports;United States;Software Engineer;57577.7796463397
-669;37;male;3;Instagram;Travel;Australia;Marketer Manager;51947.4494210666
-670;35;male;1;Instagram;Travel;Australia;Software Engineer;62388.8649840519
-671;64;male;4;Facebook;Sports;United States;Student;51409.148452017
-672;58;male;7;Instagram;Sports;United States;Software Engineer;36547.4809286875
-673;31;female;6;YouTube;Travel;UK;Marketer Manager;33369.4751754942
-674;32;male;5;Facebook;Lifestlye;Australia;Software Engineer;46530.5443418751
-675;48;female;4;YouTube;Travel;UK;Student;55121.6155483438
-676;18;male;4.5;Facebook;Sports;UK;Student;41329.2799757868
-677;20;male;4;Instagram;Lifestlye;UK;Marketer Manager;44737.9781675033
-678;33;female;4.5;Facebook;Sports;United States;Student;48503.8918157684
-679;40;male;4.5;Facebook;Lifestlye;UK;Software Engineer;46165.2398497197
-680;28;female;2;Instagram;Sports;UK;Software Engineer;61743.8748022214
-681;29;female;0.5;Instagram;Lifestlye;United States;Software Engineer;74273.4214727378
-682;27;male;1.5;YouTube;Lifestlye;Australia;Student;63685.415597882
-683;49;male;4;YouTube;Sports;Australia;Software Engineer;53258.5063508769
-684;33;male;1;Instagram;Lifestlye;UK;Software Engineer;67614.527311686
-685;25;female;0.5;Instagram;Travel;United States;Software Engineer;69418.1019490443
-686;55;female;4.5;Instagram;Sports;Australia;Marketer Manager;47180.4221909221
-687;29;male;3.5;Facebook;Travel;UK;Student;57206.6165222904
-688;41;female;3.5;Facebook;Sports;United kingdom;Student;45738.7006314467
-689;45;non-binary;6.5;Facebook;Lifestlye;United States;Student;28724.0863542125
-690;25;male;6.5;Instagram;Lifestlye;UK;Marketer Manager;37209.730016986
-691;45;male;2;YouTube;Lifestlye;Australia;Student;58401.5516793344
-692;53;female;7;Instagram;Sports;United States;Marketer Manager;31870.0260584248
-693;43;male;6;Facebook;Travel;Australia;Marketer Manager;40706.386885857
-694;25;male;3.5;Facebook;Travel;Australia;Student;54516.4752392454
-695;45;male;2;Instagram;Sports;Australia;Software Engineer;57686.6474831911
-696;45;female;6.5;Instagram;Sports;United kingdom;Software Engineer;32687.2806550145
-697;54;female;6;Facebook;Travel;UK;Student;37367.9930450393
-698;58;female;4.5;Facebook;Travel;Australia;Student;50565.0889464737
-699;53;female;5.5;Facebook;Travel;Australia;Marketer Manager;41880.102433395
-700;44;female;6.5;Instagram;Travel;United States;Student;41415.037554116
-701;34;male;2;Facebook;Sports;United States;Marketer Manager;91769.1893377874
-702;26;female;5;Facebook;Sports;UK;Student;48128.3380261038
-703;50;male;7;YouTube;Lifestlye;UK;Software Engineer;35915.0115550862
-704;37;female;4.5;Instagram;Travel;United States;Software Engineer;48310.4173045004
-705;30;male;6;YouTube;Lifestlye;Australia;Student;39073.5035338923
-706;45;non-binary;4;YouTube;Sports;UK;Marketer Manager;46600.5880142874
-707;46;non-binary;3.5;Facebook;Sports;Australia;Software Engineer;50204.8124541538
-708;30;male;4.5;Instagram;Lifestlye;United States;Marketer Manager;46396.9774785423
-709;63;female;1.5;Facebook;Travel;UK;Student;61994.4444533964
-710;52;female;0.5;Instagram;Travel;UK;Student;71966.1223419311
-711;23;female;5.5;YouTube;Travel;United States;Software Engineer;39203.4143840678
-712;35;male;3.5;Instagram;Travel;UK;Student;50398.1153920609
-713;22;female;1.5;Facebook;Lifestlye;United States;Software Engineer;85979.3034508417
-714;64;female;3.5;Facebook;Lifestlye;UK;Marketer Manager;50058.3183572834
-715;42;female;5;Facebook;Sports;United States;Software Engineer;42156.1717884808
-716;19;female;1.5;Instagram;Travel;UK;Software Engineer;50181.3211305029
-717;27;female;3;YouTube;Travel;Australia;Marketer Manager;46675.8415139284
-718;47;female;3.5;YouTube;Travel;Australia;Software Engineer;50387.5654502402
-719;62;male;2;Instagram;Lifestlye;Australia;Software Engineer;57673.5811256775
-720;22;male;5;Facebook;Travel;UK;Student;36495.6533589628
-721;50;non-binary;0.5;YouTube;Lifestlye;UK;Marketer Manager;57292.3091197849
-722;18;female;4;Facebook;Travel;Australia;Software Engineer;46228.1539004329
-723;35;male;2.5;Instagram;Travel;Australia;Marketer Manager;59517.4788284714
-724;49;female;1.5;Facebook;Sports;United States;Marketer Manager;70616.1931596378
-725;64;male;6;YouTube;Travel;United States;Software Engineer;36807.7160314533
-726;28;male;2.5;YouTube;Travel;United States;Student;63715.9242031386
-727;38;male;7;Facebook;Sports;Australia;Marketer Manager;31915.1107881798
-728;43;male;2.5;Instagram;Lifestlye;Australia;Software Engineer;56827.6605212978
-729;42;female;7;Facebook;Lifestlye;Australia;Marketer Manager;55678.0546681147
-730;39;female;6;Instagram;Travel;United States;Student;32647.1137736954
-731;44;male;3;Facebook;Lifestlye;UK;Student;53241.4089355256
-732;30;male;4.5;YouTube;Travel;Australia;Student;49792.2384939613
-733;50;female;0.5;Instagram;Sports;UK;Software Engineer;63501.3710657391
-734;51;female;2;Instagram;Sports;UK;Software Engineer;57391.9696505602
-735;58;female;7;Instagram;Travel;UK;Student;25761.1462477037
-736;52;male;1.5;YouTube;Sports;United States;Software Engineer;63521.7609822468
-737;18;female;2.5;Facebook;Sports;UK;Student;58373.9989119451
-738;38;male;1;YouTube;Travel;Australia;Software Engineer;67741.7367561204
-739;23;female;0.5;Instagram;Travel;United States;Student;61150.9498424155
-740;45;female;6;Facebook;Sports;Australia;Marketer Manager;37536.1751737738
-741;34;female;2;YouTube;Lifestlye;Australia;Student;54279.7115417508
-742;22;female;7;Instagram;Lifestlye;United States;Student;31498.0767564199
-743;48;male;2;Instagram;Travel;Australia;Software Engineer;65713.1196000304
-744;22;male;5.5;YouTube;Travel;Australia;Software Engineer;37232.3735653286
-745;55;female;5;YouTube;Lifestlye;United States;Software Engineer;46083.4166046941
-746;20;female;5;YouTube;Sports;Australia;Software Engineer;38751.6570795815
-747;40;female;5.5;Instagram;Lifestlye;UK;Software Engineer;37357.3589477485
-748;54;male;2.5;YouTube;Lifestlye;Australia;Software Engineer;58443.6087529331
-749;54;female;3;Instagram;Lifestlye;UK;Marketer Manager;50104.4386477107
-750;27;male;2;YouTube;Lifestlye;Australia;Student;70646.2923249566
-751;27;female;1.5;Instagram;Travel;United States;Student;68075.8421760667
-752;36;female;1.5;Instagram;Travel;United States;Student;63551.7861893992
-753;34;male;0.5;Facebook;Sports;Australia;Marketer Manager;64331.8027971996
-754;38;female;3.5;YouTube;Sports;United States;Student;40779.606063347
-755;31;female;2.5;YouTube;Sports;Australia;Marketer Manager;65761.0488569965
-756;26;male;6.5;Instagram;Sports;United States;Marketer Manager;51201.8541063577
-757;63;female;3.5;Instagram;Lifestlye;UK;Marketer Manager;51787.4020367773
-758;18;female;4.5;Instagram;Travel;Australia;Student;68698.0431321639
-759;62;female;4.5;Facebook;Travel;UK;Marketer Manager;51372.8015603708
-760;30;male;4;Facebook;Sports;UK;Student;44490.977832307
-761;21;male;0.5;Instagram;Sports;Australia;Student;65494.0188522173
-762;18;non-binary;2.5;YouTube;Lifestlye;UK;Software Engineer;47614.394816774
-763;57;female;2.5;YouTube;Lifestlye;Australia;Software Engineer;52567.1088386406
-764;49;male;4;Facebook;Sports;UK;Marketer Manager;51112.0489144306
-765;51;male;6;Facebook;Travel;Australia;Marketer Manager;35546.4200537956
-766;45;male;1;Instagram;Travel;Australia;Student;63428.9423290846
-767;48;female;3;YouTube;Travel;United States;Marketer Manager;52937.2022424874
-768;25;male;1;Instagram;Sports;Australia;Marketer Manager;55181.665087522
-769;56;female;2;Facebook;Travel;Australia;Student;63188.1496711584
-770;43;male;5;YouTube;Lifestlye;UK;Marketer Manager;35282.5355553229
-771;51;male;3.5;YouTube;Lifestlye;Australia;Marketer Manager;49707.1491879218
-772;20;female;3;Facebook;Sports;United States;Student;51307.1826897058
-773;29;male;4;Instagram;Lifestlye;UK;Student;46907.030915719
-774;18;female;0.5;Instagram;Sports;UK;Software Engineer;74549.8297236789
-775;61;non-binary;4;YouTube;Travel;United States;Student;45089.7004104232
-776;22;female;5.5;Facebook;Travel;UK;Software Engineer;35834.5120214405
-777;47;female;2.5;YouTube;Travel;UK;Marketer Manager;48651.7300252808
-778;47;female;5.5;Facebook;Lifestlye;UK;Student;35721.5095919438
-779;34;female;4.5;Instagram;Sports;UK;Student;39419.0764631613
-780;64;male;4;Facebook;Travel;United States;Student;50039.7309812415
-781;40;male;5;Instagram;Sports;United States;Marketer Manager;38184.9787699606
-782;32;male;2;Facebook;Travel;United kingdom;Software Engineer;60520.2101751407
-783;54;male;6;YouTube;Lifestlye;UK;Marketer Manager;36267.8625607604
-784;38;male;4.5;Instagram;Lifestlye;United States;Marketer Manager;38082.189100446
-785;31;non-binary;6.5;YouTube;Sports;United States;Student;55192.8421855808
-786;19;male;4.5;YouTube;Lifestlye;United States;Software Engineer;49675.5622752884
-787;28;female;2;Instagram;Lifestlye;UK;Marketer Manager;63515.3804297728
-788;56;male;1.5;Instagram;Sports;UK;Student;71777.8663715031
-789;55;male;3.5;YouTube;Travel;Australia;Marketer Manager;50732.0984580011
-790;51;male;2;YouTube;Lifestlye;United States;Marketer Manager;51520.8659300893
-791;55;female;4;YouTube;Sports;UK;Student;44157.9148649242
-792;51;female;4;YouTube;Lifestlye;United States;Student;50042.4425242007
-793;35;female;2.5;Instagram;Lifestlye;UK;Software Engineer;65750.6816744736
-794;47;female;2.5;Instagram;Lifestlye;United States;Marketer Manager;56800.0456171986
-795;32;female;4;YouTube;Lifestlye;UK;Student;53701.9341256424
-796;44;female;3;Facebook;Sports;Australia;Student;57340.4065234613
-797;51;female;2;Facebook;Sports;Australia;Software Engineer;53159.5418894133
-798;55;male;1.5;Instagram;Sports;United States;Software Engineer;60894.4367386757
-799;50;female;5.5;YouTube;Lifestlye;United kingdom;Student;46276.3076817384
-800;41;male;5;YouTube;Lifestlye;UK;Software Engineer;46880.4805479796
-801;32;male;6.5;Instagram;Lifestlye;United States;Student;36568.980707839
-802;47;female;3.5;Facebook;Sports;UK;Marketer Manager;53135.5712268844
-803;59;male;2.5;Facebook;Lifestlye;United States;Software Engineer;53792.973498953
-804;34;female;4;Facebook;Travel;UK;Marketer Manager;41403.073433279
-805;22;female;4.5;Instagram;Lifestlye;United States;Marketer Manager;51727.1289541565
-806;46;female;5.5;Facebook;Travel;UK;Marketer Manager;32648.9025416654
-807;21;male;5;Instagram;Lifestlye;United States;Student;37805.5204014709
-808;27;male;1.5;Instagram;Sports;UK;Marketer Manager;64894.8249625992
-809;34;female;6;YouTube;Lifestlye;Australia;Marketer Manager;30689.027253052
-810;27;female;5;Facebook;Travel;UK;Marketer Manager;39740.647933636
-811;34;male;6.5;Instagram;Travel;United States;Student;28336.0024660876
-812;37;female;5.5;Facebook;Lifestlye;Australia;Marketer Manager;42853.3177886448
-813;41;female;4;Facebook;Travel;UK;Marketer Manager;50231.5650831905
-814;22;female;1.5;YouTube;Travel;Australia;Software Engineer;63859.4234663684
-815;51;female;1;Facebook;Sports;UK;Student;66712.3238607282
-816;23;male;5;YouTube;Lifestlye;Australia;Marketer Manager;45286.2287318947
-817;19;male;4;Instagram;Lifestlye;United States;Software Engineer;51196.7824598526
-818;30;male;6;Facebook;Lifestlye;UK;Student;27156.6922166289
-819;60;male;5;Instagram;Travel;UK;Student;41755.9181932007
-820;60;female;3.5;Facebook;Lifestlye;United States;Student;51312.3190627595
-821;28;male;3.5;Instagram;Lifestlye;Sydney, Australia;Student;80029.1041959204
-822;64;female;3;Facebook;Sports;United States;Student;64953.5649065618
-823;40;female;0.5;Facebook;Sports;United States;Student;64751.9990509204
-824;33;male;2;Facebook;Sports;Australia;Marketer Manager;53631.7850462442
-825;48;male;0.5;Facebook;Travel;United States;Marketer Manager;72536.2010635484
-826;28;male;2.5;Facebook;Lifestlye;UK;Marketer Manager;96726.68054693
-827;33;male;5;Facebook;Sports;UK;Marketer Manager;46438.3836267962
-828;25;male;6.5;Facebook;Sports;UK;Software Engineer;28137.983087115
-829;21;female;5;Facebook;Sports;United States;Marketer Manager;44759.7605836833
-830;57;female;1;Facebook;Lifestlye;UK;Student;70252.2459319046
-831;21;female;3.5;Instagram;Lifestlye;UK;Marketer Manager;51589.7049036823
-832;42;non-binary;4;YouTube;Lifestlye;UK;Marketer Manager;45169.4533355201
-833;20;female;1.5;Facebook;Travel;UK;Student;56319.4087969433
-834;49;male;1;YouTube;Travel;UK;Marketer Manager;61173.4860221992
-835;20;male;3;Facebook;Sports;UK;Marketer Manager;57074.2417797467
-836;44;female;7;Facebook;Lifestlye;United States;Marketer Manager;29341.6944980904
-837;46;male;5.5;Instagram;Sports;UK;Software Engineer;40888.0746997004
-838;49;female;1.5;Instagram;Lifestlye;UK;Marketer Manager;68224.7289783515
-839;36;female;4.5;YouTube;Lifestlye;Australia;Student;48141.6747023473
-840;38;male;3.5;Instagram;Lifestlye;United States;Student;57573.3639073677
-841;22;female;4.5;Instagram;Travel;United States;Marketer Manager;36742.100986698
-842;35;female;3;YouTube;Travel;United States;Marketer Manager;52096.618601431
-843;45;female;4;Instagram;Lifestlye;United States;Marketer Manager;48325.340097461
-844;59;male;6.5;Facebook;Sports;UK;Student;37142.9464580426
-845;39;female;4.5;YouTube;Lifestlye;UK;Student;39403.9668923552
-846;38;male;2.5;YouTube;Lifestlye;Australia;Software Engineer;60280.9242772364
-847;23;female;3.5;Facebook;Sports;Australia;Software Engineer;52286.9503808117
-848;18;male;4.5;Instagram;Lifestlye;United States;Software Engineer;46569.0300680236
-849;22;female;1;YouTube;Sports;Australia;Student;67042.4239580252
-850;58;female;4;YouTube;Travel;Australia;Software Engineer;47418.207800615
-851;29;female;4.5;Facebook;Travel;United States;Marketer Manager;49877.7304924956
-852;43;male;5.5;Facebook;Sports;United States;Marketer Manager;42991.1488686575
-853;63;male;4;Instagram;Travel;Australia;Student;47248.9531291615
-854;51;female;5.5;YouTube;Travel;UK;Software Engineer;44951.8850967035
-855;31;male;2;Instagram;Sports;Australia;Marketer Manager;60462.7934247309
-856;43;male;3.5;Instagram;Travel;Australia;Student;54093.7569971973
-857;62;male;4;Facebook;Lifestlye;UK;Software Engineer;45029.1117918789
-858;44;male;1;YouTube;Lifestlye;UK;Marketer Manager;72402.1591849296
-859;26;female;6;YouTube;Sports;United States;Software Engineer;36980.0552782501
-860;43;female;5.5;YouTube;Travel;United States;Student;65053.5990025341
-861;64;female;3;Facebook;Lifestlye;Australia;Software Engineer;52999.4173705365
-862;39;female;0.5;Facebook;Lifestlye;UK;Student;65851.850465097
-863;64;non-binary;5.5;Facebook;Travel;United States;Software Engineer;43672.1912264
-864;47;female;6;Facebook;Travel;Australia;Marketer Manager;29076.9167770441
-865;60;female;5;Facebook;Lifestlye;UK;Student;44891.8307389702
-866;34;female;3;YouTube;Lifestlye;Australia;Student;64915.0166812551
-867;43;male;2.5;Instagram;Sports;United States;Student;42773.3531543774
-868;53;male;5;YouTube;Sports;United States;Software Engineer;44341.8866426663
-869;18;male;4.5;Instagram;Lifestlye;UK;Software Engineer;34407.911263265
-870;25;female;1;Facebook;Sports;Australia;Marketer Manager;67799.0218844636
-871;52;male;1.5;Instagram;Lifestlye;UK;Student;59480.431333094
-872;32;female;1.5;YouTube;Lifestlye;United States;Student;58275.3158738255
-873;64;female;1;YouTube;Sports;United States;Software Engineer;64465.7684841367
-874;39;female;5;Instagram;Sports;Australia;Software Engineer;49365.2602249199
-875;31;male;4;Facebook;Travel;Australia;Marketer Manager;44823.3846139105
-876;43;male;6;Facebook;Travel;Australia;Marketer Manager;39790.5164697439
-877;45;male;6.5;YouTube;Travel;UK;Software Engineer;35955.7893421094
-878;40;female;4;Instagram;Lifestlye;Australia;Student;42102.4068542922
-879;31;male;1;Facebook;Sports;Australia;Marketer Manager;55794.8899133302
-880;41;female;5.5;Facebook;Lifestlye;United States;Software Engineer;29787.0711438043
-881;19;female;3;YouTube;Sports;United States;Software Engineer;56256.3710573394
-882;62;male;3.5;Facebook;Lifestlye;Australia;Student;50576.2896923435
-883;43;female;0.5;Instagram;Travel;Australia;Software Engineer;76502.8585180531
-884;31;female;7;YouTube;Travel;United States;Software Engineer;34368.3755413152
-885;24;male;3.5;YouTube;Travel;Australia;Marketer Manager;54998.479455413
-886;20;female;6.5;Instagram;Lifestlye;UK;Software Engineer;40921.9179266748
-887;64;male;4;YouTube;Sports;UK;Software Engineer;45496.4045101751
-888;40;male;3;Facebook;Sports;UK;Marketer Manager;56050.4896411424
-889;63;male;5.5;Facebook;Travel;Australia;Student;44093.9663512208
-890;60;male;5;Instagram;Travel;United States;Student;49346.7584400151
-891;64;female;0.5;Facebook;Travel;Australia;Marketer Manager;71063.2557316318
-892;62;male;3.5;Instagram;Travel;Australia;Marketer Manager;52855.7358651867
-893;35;male;3.5;Instagram;Sports;United States;Student;46408.8797636439
-894;55;female;6;Facebook;Lifestlye;United States;Student;58724.5317757394
-895;52;female;6;Instagram;Lifestlye;United States;Student;55402.585254119
-896;32;female;1.5;Facebook;Lifestlye;UK;Student;64921.2512685346
-897;42;female;0.5;YouTube;Lifestlye;Australia;Student;69368.2252278613
-898;54;female;4;YouTube;Travel;United States;Marketer Manager;46990.80977645
-899;45;female;7;Instagram;Travel;Australia;Software Engineer;31115.6705078299
-900;27;female;7;Facebook;Travel;UK;Student;34936.8205664076
-901;56;female;5;Facebook;Lifestlye;UK;Student;43358.1575346227
-902;34;female;5.5;YouTube;Travel;United States;Software Engineer;35599.4571283651
-903;56;female;0.5;YouTube;Travel;United States;Software Engineer;61341.2034442347
-904;39;male;0.5;Facebook;Sports;Australia;Software Engineer;60654.3713791175
-905;43;female;1;Instagram;Sports;United States;Software Engineer;59664.8404866554
-906;61;female;1;YouTube;Travel;Australia;Software Engineer;63776.9446493224
-907;42;female;2;Instagram;Sports;United States;Software Engineer;50009.3372181254
-908;34;male;5.5;Instagram;Sports;Australia;Marketer Manager;31307.2876270421
-909;30;male;5;YouTube;Travel;Australia;Software Engineer;48012.8259971804
-910;37;male;5;Instagram;Travel;Australia;Software Engineer;39616.9053789428
-911;42;female;2.5;Instagram;Travel;Australia;Marketer Manager;77090.7214815841
-912;21;male;4.5;Facebook;Travel;UK;Software Engineer;44685.6838028551
-913;27;female;1.5;Instagram;Lifestlye;Australia;Student;68355.3463361076
-914;20;male;3.5;Facebook;Lifestlye;United States;Student;54061.2714846732
-915;58;female;3.5;YouTube;Travel;UK;Software Engineer;52956.9159917682
-916;62;male;1;YouTube;Sports;UK;Marketer Manager;94915.090091025
-917;35;male;1;Facebook;Travel;Australia;Student;60642.4927944955
-918;64;male;6;YouTube;Travel;UK;Marketer Manager;40648.4459567602
-919;53;male;6;Instagram;Sports;Australia;Student;34064.5719211057
-920;64;female;6;Instagram;Lifestlye;United States;Software Engineer;37003.8209318126
-921;39;female;2.5;Instagram;Travel;Australia;Marketer Manager;67322.3265967006
-922;51;female;6.5;YouTube;Travel;UK;Marketer Manager;39097.1719785463
-923;64;female;4;Instagram;Lifestlye;United States;Marketer Manager;51840.0385685861
-924;25;female;2;YouTube;Lifestlye;Australia;Student;53458.3604409092
-925;57;non-binary;2;Instagram;Sports;United States;Student;55068.8204000264
-926;61;female;3.5;Facebook;Lifestlye;United States;Student;62170.582401308
-927;36;female;5;YouTube;Lifestlye;United kingdom;Software Engineer;37033.4961801334
-928;59;non-binary;2.5;YouTube;Lifestlye;United States;Student;57322.3968764254
-929;58;female;1;Instagram;Sports;UK;Software Engineer;68962.8552981854
-930;54;female;1;YouTube;Lifestlye;United States;Marketer Manager;69593.7898617113
-931;23;female;6;YouTube;Lifestlye;Australia;Marketer Manager;42445.5600545962
-932;43;female;7;Facebook;Sports;United States;Software Engineer;53404.7194279129
-933;51;female;6.5;Facebook;Lifestlye;Australia;Student;30145.0665144
-934;62;female;5.5;Instagram;Lifestlye;Australia;Software Engineer;38213.7138350568
-935;23;male;1.5;Facebook;Sports;United States;Marketer Manager;57239.5099573027
-936;54;male;3;Instagram;Travel;Australia;Marketer Manager;56635.3437155749
-937;50;female;1;Instagram;Sports;United States;Software Engineer;70101.7751421305
-938;39;female;5;Instagram;Lifestlye;United States;Student;53136.0677624676
-939;38;non-binary;4.5;YouTube;Lifestlye;Australia;Student;47080.5719146586
-940;23;female;1.5;Facebook;Lifestlye;Australia;Software Engineer;57376.0931140316
-941;23;female;6.5;Instagram;Sports;UK;Software Engineer;39372.3743149661
-942;21;male;3;Facebook;Lifestlye;Sydney, Australia;Student;58023.7944684766
-943;47;male;1.5;Instagram;Lifestlye;UK;Marketer Manager;60558.7565204859
-944;28;male;4;Facebook;Sports;Australia;Software Engineer;40210.7254806384
-945;47;male;6.5;Facebook;Travel;United States;Student;59750.0448423819
-946;48;female;0.5;Instagram;Travel;Australia;Student;72895.7219782081
-947;41;female;1;YouTube;Lifestlye;United States;Marketer Manager;63024.4608464703
-948;26;non-binary;6;Facebook;Sports;United States;Marketer Manager;39681.2140917901
-949;20;female;5.5;YouTube;Lifestlye;United States;Marketer Manager;38370.5476262474
-950;48;female;6.5;YouTube;Sports;UK;Marketer Manager;37661.5762256876
-951;57;male;7;Instagram;Sports;Australia;Marketer Manager;30913.5464264258
-952;54;male;2.5;Instagram;Travel;United States;Software Engineer;54526.6206803997
-953;53;female;2.5;Instagram;Travel;United States;Student;56808.102490986
-954;41;male;2;Facebook;Sports;UK;Software Engineer;57582.9734250885
-955;48;female;5.5;Instagram;Lifestlye;Australia;Software Engineer;36794.9141777286
-956;23;female;3.5;Instagram;Travel;Australia;Software Engineer;49170.315343788
-957;19;female;1.5;Facebook;Lifestlye;UK;Software Engineer;61709.2392383723
-958;37;female;5;Facebook;Travel;UK;Software Engineer;43537.4757035924
-959;45;female;3.5;Instagram;Travel;Australia;Marketer Manager;58412.1181081292
-960;28;non-binary;5;Instagram;Lifestlye;United kingdom;Marketer Manager;35710.0108452326
-961;21;female;3.5;Instagram;Travel;Australia;Student;49751.9047472353
-962;32;male;1;Instagram;Travel;Australia;Software Engineer;67657.6156389041
-963;23;male;1;YouTube;Lifestlye;United States;Student;73310.1045172143
-964;47;female;1;YouTube;Travel;United States;Marketer Manager;99839.9246335877
-965;55;male;1.5;Instagram;Travel;Australia;Marketer Manager;61681.232917623
-966;19;female;4;YouTube;Travel;Australia;Marketer Manager;46462.2154520182
-967;32;male;7;Facebook;Lifestlye;Australia;Software Engineer;33571.5408205414
-968;28;male;4.5;YouTube;Sports;Australia;Software Engineer;50195.289600982
-969;25;male;0.5;YouTube;Lifestlye;Australia;Marketer Manager;66330.7084472697
-970;43;male;3.5;Instagram;Sports;Melbourne;Student;51568.8070342328
-971;62;female;7;YouTube;Travel;United kingdom;Student;32584.6817207219
-972;61;female;4;YouTube;Sports;Australia;Marketer Manager;51646.3881710483
-973;22;female;0.5;YouTube;Lifestlye;UK;Student;72806.9020351234
-974;23;male;4.5;YouTube;Lifestlye;UK;Marketer Manager;46645.8040846982
-975;43;female;1.5;Facebook;Travel;Australia;Student;61369.1466422641
-976;21;male;4.5;Instagram;Sports;Australia;Marketer Manager;52223.3156610429
-977;36;female;1;Instagram;Travel;UK;Student;80395.9200384291
-978;37;male;5.5;Facebook;Travel;UK;Software Engineer;47639.2598939674
-979;50;male;2;YouTube;Lifestlye;Australia;Marketer Manager;58690.3867119023
-980;37;female;4;Facebook;Sports;Australia;Marketer Manager;51069.6148209684
-981;29;male;2;YouTube;Sports;UK;Student;51269.5570287738
-982;64;male;5.5;Facebook;Sports;UK;Marketer Manager;39188.040193313
-983;18;female;6;Instagram;Sports;UK;Marketer Manager;36891.0273001956
-984;43;female;1;Instagram;Travel;United States;Marketer Manager;60708.2729129173
-985;31;male;3;Instagram;Travel;UK;Software Engineer;48320.5355778885
-986;55;male;7;YouTube;Lifestlye;United States;Software Engineer;36240.7965127591
-987;54;male;1.5;YouTube;Travel;Australia;Student;66320.7936696386
-988;28;female;6;Facebook;Travel;Australia;Software Engineer;30506.3400257677
-989;53;male;3.5;Facebook;Lifestlye;UK;Student;70432.7246865622
-990;30;female;1.5;Instagram;Lifestlye;Australia;Software Engineer;56187.2734002246
-991;60;female;7;YouTube;Lifestlye;Australia;Student;26244.6338690922
-992;20;male;6;Facebook;Travel;Australia;Software Engineer;39627.0622413318
-993;50;female;6.5;YouTube;Travel;Australia;Software Engineer;30819.8799995347
-994;23;female;3.5;YouTube;Lifestlye;United States;Student;55717.3999106111
-995;27;female;3.5;Instagram;Lifestlye;United States;Marketer Manager;50942.6179953767
-996;22;female;3.5;Instagram;Lifestlye;UK;Marketer Manager;53430.7448789286
-997;40;female;3.5;YouTube;Travel;UK;Software Engineer;48131.8665105692
-998;27;female;4;YouTube;Travel;UK;Student;42243.893325282
-999;61;female;4;YouTube;Sports;Australia;Marketer Manager;52573.7612050138
-1000;19;female;0.5;YouTube;Travel;Australia;Student;68440.3574578136
+id item price
+207 Vinyl 34.4376000761986
+952 Other 65.7040148426313
+80 Vinyl 36.6186861973256
+567 Electronic device 423.698745524511
+891 Vinyl 15.7034430094063
+326 Shoes 199.948792858049
+409 Piece of clothing 58.315252722241
+578 Piece of clothing 51.2448647385463
+248 Piece of clothing 137.498799583409
+503 Piece of clothing 83.8898234325461
+661 Vinyl 32.8386584389955
+492 Shoes 39.7243529651314
+581 Vinyl 41.825052369386
+747 Shoes 87.0545119885355
+81 Shoes 170.25695363991
+608 Piece of clothing 196.881915365811
+677 Vinyl 32.2918649110943
+987 Furniture 556.656168657355
+212 Other 96.5308981109411
+352 Vinyl 39.1654645744711
+789 Piece of clothing 116.591118993238
+462 Other 21.4982006035279
+606 Piece of clothing 131.945955499541
+29 Piece of clothing 188.223824065644
+45 Piece of clothing 136.698703225702
+340 Book 29.4070025123656
+170 Vinyl 15.0865459535271
+496 Piece of clothing 54.9920529220253
+408 Piece of clothing 115.610383902676
+351 Shoes 126.402436429635
+748 Shoes 87.3723617615178
+994 Other 38.1957129901275
+775 Shoes 124.233957529068
+880 Piece of clothing 141.959123669658
+26 Vinyl 29.7458178270608
+45 Book 15.2743058404885
+164 Book 19.2527934755199
+401 Piece of clothing 138.895083586685
+184 Piece of clothing 32.942826077342
+93 Book 37.2992878602818
+265 Vinyl 16.6476694494486
+918 Book 35.8998773046769
+17 Vinyl 10.6759284436703
+175 Book 27.5944220493548
+774 Piece of clothing 125.803690520115
+522 Vinyl 35.2275283075869
+388 Book 22.1374780414626
+210 Other 68.0140783556271
+207 Vinyl 39.5726260822266
+216 Vinyl 42.6203375961632
+705 Vinyl 34.3847529776394
+555 Vinyl 36.0089877061546
+437 Furniture 417.865907819942
+429 Piece of clothing 148.276783828624
+486 Book 17.399149174802
+434 Other 75.1291724853218
+163 Electronic device 316.273075252306
+922 Vinyl 33.6038698628545
+36 Furniture 368.623442051467
+544 Vinyl 40.5750332400203
+357 Other 99.3135386193171
+28 Vinyl 30.9224681649357
+132 Furniture 1136.45521184662
+252 Book 34.3218094515614
+121 Other 15.2592197339982
+820 Other 36.7522361886222
+909 Other 6.279307854129
+301 Book 26.3046713881195
+463 Book 17.1124540767632
+958 Vinyl 30.5179613642395
+456 Vinyl 37.469209395349
+920 Book 13.2413012660109
+764 Furniture 937.60932921432
+252 Book 35.5410658135079
+172 Other 30.3637023712508
+688 Piece of clothing 33.2806570548564
+114 Furniture 408.714352699462
+119 Electronic device 2714.104448942
+226 Piece of clothing 125.980738822836
+897 Electronic device 452.685568785295
+600 Vinyl 38.2731718104333
+298 Vinyl 16.5211743954569
+165 Electronic device 2993.66628125636
+363 Vinyl 42.2140106745064
+136 Furniture 660.526683600619
+687 Vinyl 28.6969910655171
+161 Shoes 90.1865691971034
+690 Furniture 97.1320886397734
+174 Vinyl 36.4143227878958
+936 Book 37.0090400227346
+720 Piece of clothing 59.0324361203238
+937 Piece of clothing 11.2185959331691
+388 Piece of clothing 166.202574458439
+455 Vinyl 19.7721410822123
+589 Piece of clothing 28.6881755269133
+165 Vinyl 12.56851432845
+836 Vinyl 32.2251195926219
+747 Book 17.5508556640707
+852 Piece of clothing 15.0123340729624
+45 Piece of clothing 111.713143105153
+757 Electronic device 2151.22700004466
+911 Book 20.0808917088434
+28 Shoes 94.0479340823367
+934 Piece of clothing 63.4553204989061
+969 Book 37.1376003054902
+682 Book 22.0483778868802
+760 Shoes 45.6839047698304
+921 Piece of clothing 125.158773541916
+581 Other 15.7766154385172
+25 Shoes 55.2917694905773
+435 Piece of clothing 182.544653129298
+152 Vinyl 10.7599973026663
+322 Vinyl 31.9163978938013
+954 Book 14.3178913495503
+983 Vinyl 11.577739501372
+244 Vinyl 11.1372720915824
+904 Electronic device 2283.6760755009
+96 Vinyl 39.4958497025073
+765 Furniture 345.256252482068
+577 Book 38.0780724934302
+155 Vinyl 36.2544272094965
+324 Vinyl 15.0403570197523
+623 Other 86.0223773459438
+836 Piece of clothing 45.7125729718246
+279 Vinyl 29.5643477607518
+281 Piece of clothing 46.2219289387576
+838 Book 30.7737046256661
+262 Shoes 161.257847896777
+691 Furniture 1421.85000642203
+733 Electronic device 1551.1329487348
+206 Shoes 70.5264921020716
+160 Shoes 143.760922793299
+927 Shoes 53.9252986200154
+210 Electronic device 2344.96372788539
+448 Electronic device 2200.14494457841
+738 Vinyl 33.9147524163127
+739 Vinyl 32.885500350967
+310 Electronic device 2027.40206189081
+473 Vinyl 33.4583785571158
+668 Furniture 227.629296097439
+552 Other 68.3013207733165
+81 Book 23.2609715857543
+898 Other 60.5079301272053
+572 Shoes 68.404361018911
+771 Book 30.0625588777475
+550 Book 11.8792647994123
+265 Piece of clothing 30.8871245128103
+712 Other 16.5144720335957
+256 Vinyl 36.7361200228333
+462 Vinyl 43.0310977995396
+446 Electronic device 2926.95001877006
+576 Piece of clothing 28.3742878725752
+181 Piece of clothing 104.362935367972
+309 Vinyl 23.7194304075092
+496 Book 19.1431232783943
+532 Book 34.1126767485403
+871 Piece of clothing 143.602940009441
+505 Electronic device 1897.1900551822
+853 Piece of clothing 181.156818461604
+789 Other 75.5765834904741
+957 Book 23.4902264233679
+297 Furniture 963.240483647678
+37 Vinyl 38.0971034709364
+245 Piece of clothing 93.7569406535476
+262 Book 18.7319828951731
+523 Furniture 70.1745292637497
+699 Electronic device 789.163068170659
+288 Furniture 443.407831038348
+719 Book 18.5365074486472
+342 Electronic device 278.640693876427
+766 Book 36.2569621936418
+702 Other 38.5049790306948
+78 Shoes 188.990791039541
+922 Piece of clothing 196.203294873703
+457 Furniture 236.880840873346
+299 Piece of clothing 115.444082957692
+401 Piece of clothing 119.022254834417
+80 Vinyl 19.4410157296807
+540 Shoes 140.779958567582
+363 Vinyl 42.5166322663426
+901 Other 12.431348861428
+609 Piece of clothing 140.799542362802
+379 Piece of clothing 123.860492107924
+307 Other 49.458044875646
+920 Shoes 80.6137630855665
+255 Book 21.2989938477986
+948 Shoes 26.46035999991
+451 Vinyl 27.6865497231483
+403 Electronic device 2302.0939256493
+482 Piece of clothing 99.5910295681097
+765 Shoes 73.8781737815589
+419 Book 30.9664934347384
+205 Vinyl 12.6679501775652
+223 Electronic device 1664.84527659463
+57 Piece of clothing 196.827883953229
+307 Piece of clothing 60.3891755803488
+105 Piece of clothing 159.898872748017
+317 Book 32.9389247260988
+800 Piece of clothing 177.035835986026
+519 Book 16.2738691465929
+23 Vinyl 32.3811528645456
+552 Other 90.9534875256941
+765 Shoes 21.475742473267
+17 Electronic device 514.592698736582
+935 Book 16.7948497538455
+553 Piece of clothing 156.825431773905
+544 Piece of clothing 23.5065225604922
+297 Piece of clothing 180.195794904139
+842 Piece of clothing 69.8420332442038
+377 Book 35.675425444264
+700 Furniture 932.703481370118
+89 Electronic device 1381.38337170333
+742 Vinyl 38.0629755090922
+199 Furniture 1145.6115565612
+795 Electronic device 1596.58830467705
+752 Book 9.48818778712302
+622 Piece of clothing 24.5776305231266
+10 Vinyl 36.8625603243709
+275 Piece of clothing 146.569294265937
+255 Piece of clothing 96.7326212162152
+732 Other 26.2281426042318
+822 Book 30.7706535290927
+725 Other 6.6685971734114
+716 Vinyl 31.7321282904595
+693 Shoes 34.6393162570894
+795 Book 36.0691453269683
+987 Other 79.625313016586
+324 Shoes 97.8048546705395
+607 Piece of clothing 126.669973693788
+398 Shoes 158.32032430917
+608 Electronic device 667.832669644617
+414 Furniture 713.822474109475
+600 Electronic device 29.2784138615243
+752 Shoes 153.922077948228
+391 Piece of clothing 147.932833035011
+938 Electronic device 353.061684613116
+42 Shoes 148.671697471291
+164 Vinyl 39.1172671783715
+112 Vinyl 27.07898626104
+13 Book 19.4525911970995
+596 Piece of clothing 52.809139394667
+278 Piece of clothing 134.166956685949
+631 Book 11.3159144958481
+622 Furniture 326.51543674292
+762 Book 17.478267879691
+900 Vinyl 38.2386819832027
+416 Vinyl 24.1799499094486
+998 Electronic device 2994.87783058407
+195 Shoes 51.4916017185897
+767 Other 94.1369076189585
+860 Piece of clothing 37.5572431506589
+35 Furniture 1262.99809199991
+404 Book 34.7109622168355
+526 Piece of clothing 60.9111176943406
+871 Other 33.4254888247233
+509 Vinyl 35.0942662544549
+125 Vinyl 35.3868666663766
+748 Piece of clothing 93.0480699404143
+692 Other 62.2185461537447
+98 Shoes 24.2417115112767
+105 Piece of clothing 137.242713510059
+254 Other 43.4845045208931
+682 Vinyl 22.4595582578331
+381 Vinyl 25.0318828783929
+205 Book 30.5028669987805
+842 Vinyl 28.5716199688613
+762 Shoes 120.276828771457
+76 Electronic device 912.160897553898
+968 Other 89.139765787404
+590 Shoes 153.693963657133
+390 Piece of clothing 115.80350761069
+155 Book 38.1744385077618
+9 Electronic device 742.416522038169
+112 Other 88.2284821977373
+145 Electronic device 2844.86627771612
+866 Piece of clothing 151.632174341939
+265 Furniture 618.091526429635
+431 Furniture 806.839511916041
+465 Piece of clothing 118.958655975293
+49 Piece of clothing 110.734958280809
+753 Furniture 1423.60333377728
+692 Piece of clothing 176.529403121676
+548 Vinyl 34.9246320035309
+415 Piece of clothing 181.003244605381
+157 Piece of clothing 153.390895815101
+558 Shoes 69.8497567279264
+676 Electronic device 51.9296692437492
+224 Vinyl 43.1557563599199
+131 Vinyl 14.3857444357127
+712 Vinyl 14.7353129275143
+494 Piece of clothing 39.7983084456064
+349 Piece of clothing 32.1352946688421
+73 Vinyl 34.2275134194642
+315 Piece of clothing 189.498967481777
+861 Vinyl 39.4532567355782
+135 Vinyl 30.5893314722925
+239 Vinyl 13.2553158234805
+431 Shoes 112.425417760387
+419 Book 32.7053017434664
+700 Book 34.0864707841538
+494 Book 38.9917529127561
+948 Book 21.661444216501
+289 Shoes 172.53647192847
+524 Electronic device 618.815603804309
+487 Furniture 316.786042938475
+377 Shoes 119.903778047301
+767 Shoes 40.7945010950789
+316 Vinyl 11.7503777518868
+17 Shoes 67.1643231948838
+958 Vinyl 22.7318825852126
+382 Book 37.3386901812628
+16 Furniture 684.700985439122
+469 Other 48.1198770506307
+313 Piece of clothing 24.1686521214433
+851 Shoes 87.2332960972562
+807 Piece of clothing 118.925680571701
+73 Other 86.5368261921685
+82 Vinyl 19.274424565956
+180 Vinyl 48.290687231347
+936 Vinyl 44.6950815524906
+11 Book 15.7017676262185
+890 Furniture 614.541668142192
+17 Other 63.4697397437412
+83 Piece of clothing 36.1509130033664
+705 Book 17.1419197912328
+709 Electronic device 1794.76470046304
+922 Vinyl 16.4318160619587
+317 Book 23.3633768311702
+868 Other 85.6934364896733
+496 Piece of clothing 108.055229235906
+640 Piece of clothing 80.8139928639866
+86 Piece of clothing 121.205783975311
+749 Vinyl 39.0522466506809
+452 Book 19.4034830862656
+382 Furniture 283.596374595072
+795 Other 40.3389236691874
+115 Book 27.0151508236304
+819 Piece of clothing 150.886665687431
+371 Vinyl 10.6706147734076
+871 Book 37.4431055607274
+428 Furniture 239.44550966844
+217 Vinyl 11.0828523151577
+333 Piece of clothing 170.404845790472
+42 Book 22.3811090094969
+528 Piece of clothing 57.7965094894171
+947 Other 84.4559591903817
+953 Book 23.2572800000198
+344 Electronic device 382.895986366551
+85 Furniture 225.490241835359
+922 Vinyl 45.1342852786183
+100 Furniture 124.268949055113
+504 Piece of clothing 76.9293047697283
+656 Book 21.4369053239934
+953 Shoes 156.881071235985
+533 Piece of clothing 142.106824689545
+858 Electronic device 2790.29117102362
+996 Piece of clothing 41.2176359305158
+622 Book 33.4668285478838
+578 Book 25.6244983999059
+774 Vinyl 45.5074509698898
+936 Book 37.1626891787164
+755 Book 9.40884497808293
+240 Piece of clothing 89.0035255113617
+59 Piece of clothing 29.2744869017042
+846 Vinyl 28.5898331552744
+91 Vinyl 38.7814801931381
+244 Piece of clothing 97.7839997736737
+859 Vinyl 17.2482174728066
+148 Book 26.3366298526525
+889 Electronic device 891.83599000657
+238 Book 30.9812433281913
+390 Shoes 185.03386315424
+976 Electronic device 797.910275050439
+399 Electronic device 1651.71750349086
+77 Piece of clothing 155.345334880985
+783 Furniture 801.205896271858
+946 Book 15.5606376738288
+777 Book 21.0900450646877
+309 Book 25.8012505536899
+732 Vinyl 12.2013246361166
+63 Vinyl 40.6409165542573
+638 Shoes 25.4026907635853
+350 Book 12.9344629039988
+761 Vinyl 26.5522248763591
+922 Book 27.3577898028307
+122 Shoes 134.949324373156
+71 Other 66.1550777242519
+278 Furniture 185.710991732776
+337 Shoes 95.7647628895938
+781 Shoes 26.3576660957187
+619 Furniture 508.969459403306
+76 Piece of clothing 180.797737226821
+764 Vinyl 19.5695936307311
+496 Vinyl 37.7568802982569
+805 Piece of clothing 179.570018923841
+513 Book 29.5539217265323
+289 Book 12.2730687316507
+768 Shoes 167.681712545455
+549 Piece of clothing 143.00237454474
+273 Other 72.4941714841407
+342 Shoes 101.295109032653
+57 Piece of clothing 37.6635710569099
+700 Other 15.7992306759115
+203 Furniture 1346.84889260679
+945 Vinyl 17.7807025052607
+224 Electronic device 328.190628104843
+551 Vinyl 16.9748184457421
+846 Electronic device 967.863808617461
+659 Piece of clothing 138.094215942547
+429 Vinyl 35.2263056021184
+777 Other 42.1758519276045
+916 Furniture 935.434109077323
+76 Piece of clothing 178.329476076178
+231 Vinyl 38.8872752618045
+718 Piece of clothing 103.767166521866
+271 Furniture 1223.98652737029
+107 Piece of clothing 68.1352268904448
+218 Piece of clothing 49.7222106624395
+768 Piece of clothing 66.0188481095247
+687 Shoes 37.8151176124811
+547 Piece of clothing 46.0275344992988
+819 Book 12.643716587685
+671 Piece of clothing 100.319354925305
+622 Other 73.132056860486
+316 Book 15.0126346349716
+714 Piece of clothing 71.1363477841951
+48 Other 50.468243152136
+630 Vinyl 36.4065802004188
+854 Piece of clothing 135.196987397503
+566 Piece of clothing 177.502439548261
+981 Furniture 103.040548728313
+95 Piece of clothing 57.6665415102616
+363 Electronic device 1009.16594924498
+247 Electronic device 2471.64304102166
+958 Piece of clothing 128.202083250508
+979 Book 16.7849526400678
+760 Vinyl 29.5352288521826
+843 Electronic device 2201.02412728453
+434 Piece of clothing 31.4742175256833
+69 Vinyl 30.5436466634274
+55 Vinyl 36.2631207797676
+417 Piece of clothing 47.5326765025966
+749 Book 23.6075815544464
+841 Book 33.8519153287634
+503 Vinyl 44.3692707549781
+45 Vinyl 40.6015407759696
+14 Book 28.434844062198
+18 Furniture 329.170337750111
+59 Furniture 329.865309642628
+614 Shoes 112.706709778868
+296 Book 31.6603244617581
+718 Shoes 198.950980552472
+789 Furniture 560.139513132162
+299 Vinyl 19.0426715277135
+750 Piece of clothing 145.720327103045
+96 Book 22.0139397270977
+227 Piece of clothing 185.210437660571
+204 Book 36.5902691599913
+447 Furniture 597.567559021991
+141 Piece of clothing 35.2138436515816
+691 Electronic device 2282.19999016589
+427 Furniture 1487.46241994668
+420 Piece of clothing 18.1896402337588
+123 Furniture 415.819890587591
+804 Vinyl 10.1520550530404
+398 Vinyl 22.0413147378713
+333 Shoes 26.5942813549191
+320 Piece of clothing 102.078386372887
+563 Furniture 844.304982270114
+867 Piece of clothing 173.160637037363
+281 Shoes 20.8893286436796
+892 Piece of clothing 199.884660274256
+234 Electronic device 41.627547995653
+132 Electronic device 2065.12455285387
+243 Electronic device 2959.86597311543
+996 Vinyl 39.2897901684046
+560 Piece of clothing 129.164630314335
+845 Piece of clothing 26.1108645168133
+264 Book 27.1895453925245
+645 Piece of clothing 115.670496998355
+499 Electronic device 1442.43848549295
+80 Book 9.27428448898718
+904 Shoes 182.175765600987
+287 Book 20.9429405336268
+622 Vinyl 26.2286535371095
+186 Piece of clothing 186.329612538684
+910 Book 32.2543356902897
+452 Shoes 95.8691231580451
+324 Shoes 117.4321300257
+899 Other 50.3165816306137
+199 Book 17.3883170667104
+59 Vinyl 30.6229040026665
+157 Piece of clothing 45.6721614557318
+334 Electronic device 1367.77125464147
+705 Book 10.1422603810206
+155 Book 25.1954256682657
+49 Furniture 731.864238344133
+553 Book 10.9609348475933
+291 Electronic device 197.516167092603
+957 Book 18.4591181818396
+302 Piece of clothing 70.1760914432816
+846 Other 39.801408846397
+913 Vinyl 14.7438109107316
+338 Shoes 148.805171987042
+455 Piece of clothing 112.527258340269
+958 Piece of clothing 120.607005851343
+893 Electronic device 2708.80677984189
+582 Vinyl 18.9619275089353
+407 Vinyl 43.3634862583131
+545 Electronic device 2411.12772866944
+439 Book 14.7819445012137
+210 Other 89.5510237419512
+110 Vinyl 10.6696514692158
+633 Book 12.0112501513213
+593 Book 21.5587430549785
+509 Book 26.1899288962595
+74 Vinyl 15.3687896393239
+656 Other 26.5574800525792
+183 Piece of clothing 65.3904732014053
+729 Furniture 443.739494646434
+272 Electronic device 1885.55929725617
+470 Vinyl 36.5082982927561
+377 Furniture 725.866715842858
+266 Shoes 164.011516491883
+665 Vinyl 49.5327981095761
+670 Book 28.4425662397407
+881 Vinyl 30.3643664624542
+876 Vinyl 21.8551499396563
+388 Piece of clothing 172.871449349914
+541 Shoes 176.726216352545
+352 Vinyl 16.1618015915155
+858 Piece of clothing 171.298236309085
+771 Vinyl 26.5013462118804
+55 Book 13.8371399729513
+135 Book 32.5713685420342
+657 Other 64.1777496994473
+292 Piece of clothing 152.646788747516
+15 Other 16.6938028752338
+458 Other 13.5092963010538
+975 Book 36.8632717067376
+391 Furniture 440.045551513322
+418 Piece of clothing 125.224129748531
+176 Piece of clothing 104.441085241269
+400 Furniture 1292.71472056862
+154 Electronic device 1316.54026755923
+719 Other 66.8492935085669
+948 Electronic device 899.709383732174
+431 Vinyl 28.2756242249161
+362 Book 12.4444668120705
+211 Book 32.2055920106359
+247 Furniture 1400.68892340641
+451 Shoes 44.2900282610208
+336 Piece of clothing 158.234863257967
+336 Book 11.2792291967198
+89 Book 34.9561315434985
+263 Book 16.9191010817885
+944 Electronic device 1556.58626707364
+173 Furniture 925.746115029324
+90 Piece of clothing 173.661413565278
+103 Book 19.1865383377299
+885 Vinyl 36.6169433295727
+423 Book 18.627696450334
+533 Furniture 711.936551262625
+606 Piece of clothing 166.072843549773
+386 Other 28.2872043410316
+402 Vinyl 22.3106395453215
+400 Piece of clothing 30.3564824117348
+405 Book 34.0525537203066
+588 Piece of clothing 127.664617863484
+752 Shoes 59.5604272698984
+466 Other 84.568626487162
+919 Book 20.9636642932892
+958 Piece of clothing 86.4647400262766
+774 Piece of clothing 48.8195044547319
+754 Furniture 314.471939764917
+855 Piece of clothing 73.646447872743
+835 Piece of clothing 161.843054699712
+553 Furniture 227.884998032823
+124 Vinyl 15.7091748714447
+243 Piece of clothing 137.785975732841
+526 Vinyl 26.829786952585
+956 Piece of clothing 177.477303440683
+152 Electronic device 1429.89897532947
+313 Electronic device 1845.30068081664
+39 Piece of clothing 165.36757631693
+801 Shoes 192.183742229827
+930 Electronic device 147.23925292585
+341 Furniture 123.21367355762
+119 Electronic device 2161.37663500709
+618 Shoes 60.7088425103575
+575 Vinyl 16.5810903348029
+739 Furniture 1065.12294770218
+58 Piece of clothing 79.7479968913831
+619 Electronic device 2217.16830307012
+521 Electronic device 1530.33010265883
+428 Piece of clothing 129.351315782405
+941 Piece of clothing 104.418783274014
+853 Piece of clothing 192.317757988349
+918 Furniture 694.037077843677
+528 Electronic device 2859.62114745611
+9 Piece of clothing 41.0243425262161
+337 Vinyl 12.8896270878613
+620 Other 65.7068682042882
+809 Electronic device 1033.42838138901
+625 Shoes 132.37852585502
+344 Vinyl 13.0312549136579
+228 Piece of clothing 69.3816910148598
+727 Electronic device 478.430521428585
+514 Piece of clothing 146.567954788916
+225 Vinyl 33.9212790969759
+160 Piece of clothing 187.008526460268
+751 Vinyl 35.494351061061
+280 Piece of clothing 129.83491564868
+113 Other 25.6684399256483
+317 Book 32.7577834306285
+573 Other 63.759558085585
+428 Vinyl 36.9674979057163
+787 Furniture 388.367888249923
+650 Shoes 163.211920186877
+478 Shoes 127.726340098307
+521 Shoes 142.230635210872
+999 Piece of clothing 113.558037334587
+36 Shoes 91.534738894552
+590 Electronic device 1181.95509167714
+910 Other 65.303261623485
+355 Book 14.0551302102394
+620 Piece of clothing 156.091990401037
+903 Book 18.6254805196077
+804 Piece of clothing 48.6678935633972
+438 Book 29.6501543079503
+165 Book 26.6750454073772
+146 Other 34.5059433986899
+258 Electronic device 2653.90783211775
+448 Piece of clothing 80.7556949788705
+725 Vinyl 20.3587656933814
+679 Piece of clothing 37.0490695722401
+962 Piece of clothing 103.808413778897
+4 Electronic device 1015.34454987245
+232 Furniture 698.263705743011
+843 Vinyl 29.603386009112
+544 Piece of clothing 182.241278637666
+96 Electronic device 720.913608093746
+558 Piece of clothing 48.4350554388948
+77 Book 19.528995890636
+237 Book 25.5244735311717
+2 Electronic device 431.479254645295
+782 Other 42.6956558285747
+623 Shoes 159.161788388155
+605 Vinyl 20.4978823382407
+768 Vinyl 49.4575843587518
+524 Book 38.5551845314912
+157 Piece of clothing 73.7135408562608
+154 Furniture 965.200278058182
+925 Electronic device 2047.50309335161
+792 Other 86.5110827214085
+710 Electronic device 2830.2193370075
+898 Vinyl 38.1969422847033
+522 Book 19.509738936089
+6 Vinyl 42.9167181253433
+557 Electronic device 1064.27384272777
+29 Piece of clothing 196.145925628953
+23 Electronic device 2230.58097913722
+426 Furniture 810.574050969444
+48 Vinyl 16.8184327147901
+135 Electronic device 2470.68047017651
+113 Piece of clothing 91.9416914274916
+627 Other 91.2516025826335
+731 Vinyl 21.6030075959861
+632 Electronic device 2735.30826120963
+747 Piece of clothing 41.6469469643198
+550 Book 38.9205838842317
+332 Furniture 1011.36659249896
+953 Book 27.3912432566285
+207 Piece of clothing 94.511736065615
+554 Shoes 114.288310240954
+347 Piece of clothing 197.145934696309
+619 Piece of clothing 124.181825164706
+462 Electronic device 35.6362344357185
+801 Vinyl 44.3076514359564
+627 Book 31.2188324457966
+861 Vinyl 43.5081197787076
+79 Vinyl 18.2292610313743
+187 Electronic device 1876.33747453894
+418 Piece of clothing 83.5967474617064
+231 Book 29.3972101234831
+933 Vinyl 15.5248329788446
+397 Book 34.067101274617
+928 Other 73.2577961904462
+717 Book 10.7937243450433
+847 Vinyl 46.4943101629615
+838 Piece of clothing 181.941695194691
+246 Vinyl 37.5047547463328
+357 Other 21.8150531430729
+765 Other 22.1876018308103
+442 Electronic device 1776.53294591559
+857 Furniture 1422.84266237402
+22 Electronic device 2878.00925035588
+844 Piece of clothing 92.6449012476951
+47 Vinyl 33.6849411670119
+228 Vinyl 32.8371425997466
+893 Piece of clothing 57.3907682788558
+135 Book 23.4109369441867
+890 Furniture 543.382907018531
+274 Vinyl 26.5828615427017
+677 Other 50.502160290489
+63 Electronic device 1609.84164093249
+656 Book 13.668826663401
+117 Piece of clothing 38.7613081093878
+719 Shoes 108.226357689127
+666 Other 88.1808759307023
+672 Furniture 727.749810239766
+19 Piece of clothing 150.783693264239
+742 Electronic device 1257.02620342234
+735 Furniture 820.552479359321
+706 Vinyl 36.0368085745722
+9 Piece of clothing 167.277081124485
+740 Electronic device 1430.64120645495
+211 Electronic device 358.152273640502
+428 Vinyl 22.7616847027093
+921 Vinyl 44.4427093025297
+52 Vinyl 22.6813436392695
+207 Book 26.5184164079838
+985 Electronic device 888.090254879557
+302 Other 70.7965784752741
+870 Shoes 71.907687629573
+534 Piece of clothing 71.6167244384997
+870 Vinyl 22.0853286795318
+177 Electronic device 673.552447071765
+23 Vinyl 19.8972511850297
+541 Piece of clothing 65.568005067762
+61 Piece of clothing 45.3558910638094
+670 Electronic device 2553.37510788674
+181 Piece of clothing 124.848932896275
+958 Shoes 175.21659405902
+469 Vinyl 31.0701885167509
+163 Vinyl 47.6004706136882
+568 Other 91.4560330798849
+787 Furniture 739.159673661925
+177 Furniture 283.655559353065
+533 Vinyl 18.9923071023077
+15 Book 31.5662424601614
+872 Electronic device 2789.77086800942
+530 Piece of clothing 59.3614980555139
+310 Piece of clothing 21.4641629904509
+8 Book 28.0793309756555
+861 Book 22.1063878233545
+247 Vinyl 11.2889442592859
+151 Vinyl 39.0732456091791
+825 Piece of clothing 49.3833217374049
+577 Book 12.6767971515656
+729 Vinyl 45.912123862654
+363 Book 10.7810586327687
+424 Vinyl 42.5022572744638
+870 Piece of clothing 140.652519862633
+331 Vinyl 31.1545739788562
+188 Furniture 1423.87006828794
+84 Electronic device 1407.0001721927
+157 Vinyl 19.4954372011125
+447 Electronic device 919.146803574171
+954 Book 16.3841958353296
+582 Furniture 721.15839360049
+957 Vinyl 16.9279108475894
+418 Vinyl 19.6574168466032
+623 Book 36.9357537045144
+934 Vinyl 20.9648039657623
+637 Furniture 397.264488553628
+838 Vinyl 48.4347016643733
+872 Furniture 341.698775812984
+633 Vinyl 41.7179656680673
+172 Book 15.3206946314313
+507 Furniture 1493.7428580015
+590 Vinyl 21.1319346074015
+671 Vinyl 42.7354465611279
+327 Other 31.1263369244989
+726 Book 21.7523851837032
+393 Piece of clothing 148.299322556704
+434 Book 28.2714582919143
+697 Piece of clothing 127.528362362646
+316 Electronic device 1791.82799603883
+830 Shoes 142.853021235205
+334 Other 90.308759243926
+930 Furniture 433.208571537398
+568 Piece of clothing 80.0527323153801
+876 Other 77.7343723678496
+562 Piece of clothing 195.476914476603
+1000 Furniture 51.6974251251668
+187 Piece of clothing 54.8548794863746
+876 Book 35.1083142855205
+261 Piece of clothing 93.283520617988
+718 Vinyl 33.1679855566472
+746 Piece of clothing 95.5035602510907
+181 Shoes 81.6862156521529
+618 Vinyl 26.5310435090214
+353 Piece of clothing 139.730951134115
+65 Book 37.8689568825066
+130 Book 12.3192539331503
+597 Book 16.728707799688
+281 Vinyl 20.538414157927
+490 Book 30.4900417230092
+201 Other 56.629347515991
+405 Piece of clothing 19.3703280691989
+672 Piece of clothing 21.2249079928733
+307 Piece of clothing 36.0489346482791
+106 Book 23.5184616884217
+855 Furniture 1201.99242060771
+206 Piece of clothing 102.246832542587
+498 Furniture 272.335660760291
+107 Piece of clothing 84.1286837402731
+876 Shoes 111.966622094624
+479 Furniture 192.075569252484
+927 Shoes 53.7876455998048
+902 Electronic device 2637.71312998934
+838 Vinyl 24.1891510412097
+897 Book 11.061671668198
+63 Piece of clothing 38.8558256672695
+392 Vinyl 12.7928673569113
+751 Piece of clothing 100.798623422161
+135 Piece of clothing 63.212865293026
+622 Shoes 117.224080041051
+370 Book 37.1803693156689
+420 Vinyl 24.0989291854203
+248 Piece of clothing 113.086224724539
+952 Other 7.30807391693816
+808 Vinyl 34.0960400737822
+422 Vinyl 23.3627888280898
+242 Electronic device 1260.0598979285
+904 Piece of clothing 13.6951312818564
+245 Book 27.2023742655292
+876 Book 15.5465898904949
+372 Electronic device 2216.98405725043
+753 Piece of clothing 135.2289031283
+422 Other 77.2344439674634
+805 Other 31.6370153368916
+247 Furniture 1376.40615567798
+946 Shoes 41.4213463338092
+85 Piece of clothing 51.470912003424
+586 Piece of clothing 157.449466022663
+856 Vinyl 27.487346790731
+14 Shoes 33.1334583181888
+171 Other 67.737429945264
+650 Furniture 279.988238692749
+827 Book 32.8600708753802
+849 Vinyl 35.3499908093363
+235 Furniture 585.860180004966
+88 Book 9.91978511307389
+604 Shoes 153.632682934403
+459 Furniture 1097.59674036177
+926 Other 32.7106025640387
+741 Vinyl 34.5316635817289
+83 Vinyl 24.6548983547837
+771 Other 78.2842530997004
+747 Vinyl 43.770613539964
+121 Other 85.0315439107362
+308 Shoes 25.3760290611535
+581 Vinyl 13.8638931233436
+122 Shoes 125.779993198812
+391 Book 22.2859493256547
+167 Electronic device 2472.60141165322
+671 Other 7.95660140924156
+443 Shoes 85.7235832791775
+519 Electronic device 2612.29554921249
+59 Piece of clothing 149.453753253911
+500 Furniture 1408.42629643157
+258 Other 27.794278942747
+162 Vinyl 46.4223242271692
+452 Vinyl 32.71878647618
+162 Vinyl 29.5524891093373
+143 Other 52.8706041257828
+99 Furniture 675.099157833029
+145 Book 23.6578533458523
+252 Other 42.7194280840922
+591 Shoes 38.1827646493912
+756 Piece of clothing 169.786883757915
+728 Book 22.0626420490444
+741 Vinyl 20.7251475658268
+887 Piece of clothing 49.4888465502299
+188 Electronic device 612.059199280106
+320 Book 19.7871125126258
+245 Piece of clothing 136.594389998354
+593 Piece of clothing 170.956596145406
+967 Piece of clothing 47.1719666523859
+803 Book 17.5648651770316
+83 Other 46.1366608389653
+672 Vinyl 29.477811306715
+221 Piece of clothing 153.915784964338
+344 Vinyl 31.6411154344678
+400 Electronic device 2898.13945718901
+985 Furniture 666.052497085184
+590 Vinyl 16.810385659337
+330 Vinyl 41.5961866639555
+501 Furniture 317.581435607281
+482 Vinyl 29.3228340614587
+142 Vinyl 20.8061179332435
+86 Other 58.3471761434339
+373 Piece of clothing 194.909121275414
+554 Electronic device 583.372648417484
+951 Furniture 1104.09337523161
+41 Other 38.3577869005967
+949 Piece of clothing 135.4638015409
+134 Book 16.7644360880367
+559 Piece of clothing 48.1451230519451
+30 Other 69.8231804929674
+756 Book 11.6775962859392
+505 Book 35.2572794104926
+841 Shoes 148.004166516475
+589 Piece of clothing 71.2809848482721
+631 Electronic device 2920.93122402998
+261 Furniture 69.3879993865266
+902 Furniture 446.941188233905
+14 Piece of clothing 47.7933383593336
+244 Electronic device 846.180846624542
+458 Piece of clothing 43.2653511082754
+211 Electronic device 2643.13136402844
+780 Piece of clothing 177.418484699447
+321 Furniture 1454.16346668499
+458 Shoes 120.233435658738
+194 Other 6.19546873145737
+824 Shoes 189.411996593699
+116 Book 24.0894029717892
+80 Book 28.6726394165307
+232 Electronic device 1561.14166424936
+664 Piece of clothing 21.5642489399761
+550 Shoes 151.716156792827
+268 Shoes 144.140310236253
+337 Electronic device 2136.29898386402
+922 Furniture 379.547512612771
+755 Vinyl 24.2849741037935
+46 Vinyl 30.0096279475838
+136 Shoes 191.523555079475
+468 Vinyl 28.3806364703923
+531 Piece of clothing 23.3853315422311
+63 Book 22.281818269752
+421 Electronic device 1391.27830942022
+996 Vinyl 24.8073147982359
+925 Vinyl 26.7209540028125
+735 Piece of clothing 194.802980406675
+22 Piece of clothing 13.5449972259812
+605 Vinyl 47.3783906269819
+536 Vinyl 49.9921616632491
+795 Furniture 321.041434735525
+603 Piece of clothing 175.983162189368
+524 Shoes 124.173837238923
+601 Shoes 172.852459200658
+441 Book 35.256266317796
+651 Piece of clothing 110.333488939796
+591 Shoes 175.679007438011
+247 Vinyl 38.3688483014703
+681 Furniture 318.672219326254
+462 Other 26.6710463282652
+292 Vinyl 46.8280305992812
+107 Vinyl 13.9107492379844
+999 Piece of clothing 55.7008720096201
+90 Book 36.2166297328658
+132 Vinyl 32.0155333448201
+717 Book 31.6893291226588
+851 Vinyl 32.6802255213261
+322 Piece of clothing 115.648484567646
+529 Book 9.82288538804278
+123 Book 25.3823685818352
+948 Shoes 100.455523924902
+605 Piece of clothing 83.3925945567898
+334 Book 9.535422724206
+201 Piece of clothing 158.067207264248
+427 Vinyl 10.9851902909577
+818 Book 25.6268400801346
+553 Book 27.7713356036693
+374 Piece of clothing 85.3456209320575
+293 Book 28.0061948471703
+93 Piece of clothing 146.697846280877
+646 Vinyl 43.4021923597902
+48 Other 36.2920091988053
+596 Vinyl 35.9143538028002
+18 Piece of clothing 122.4090765859
+583 Vinyl 20.009159995243
+361 Vinyl 40.1115452218801
+528 Vinyl 18.4657933376729
+405 Shoes 123.91042612493
+18 Book 32.6838481016457
+129 Furniture 135.299155698158
+760 Piece of clothing 186.056856990326
+265 Vinyl 28.8732509873807
+555 Furniture 1192.3027199693
+302 Vinyl 29.7481385059655
+266 Book 26.5759956403635
+704 Vinyl 23.2617604546249
+700 Book 23.1748777683824
+929 Vinyl 34.9990566354245
+446 Electronic device 2845.39678253327
+78 Book 31.8314855857752
+632 Piece of clothing 11.2078107963316
+328 Shoes 175.278932955116
+279 Piece of clothing 169.5283454936
+430 Piece of clothing 81.6374525870197
+784 Piece of clothing 92.3481854773127
+113 Piece of clothing 78.7033307156526
+716 Shoes 43.3729739580303
+86 Electronic device 507.431358770467
+522 Piece of clothing 161.735656813253
+22 Piece of clothing 167.658812345471
+417 Vinyl 16.5389719046652
+78 Book 27.3531487570144
+272 Vinyl 35.3831644542515
+867 Vinyl 18.026608498767
+291 Vinyl 32.943804319948
+875 Piece of clothing 161.563108779956
+760 Vinyl 32.2457551490515
+591 Piece of clothing 52.3628377635032
+265 Vinyl 11.2802366632968
+376 Book 29.7277153199539
+547 Other 58.6286818224471
+5 Piece of clothing 187.022813993972
+297 Piece of clothing 69.0791838057339
+690 Shoes 102.574763880111
+393 Vinyl 19.6313325688243
+475 Piece of clothing 164.761318771634
+940 Furniture 221.50834845379
+355 Book 18.0397303760983
+704 Shoes 42.9346146713942
+231 Furniture 1232.9847455956
+965 Piece of clothing 47.7885295753367
+753 Furniture 912.011863314547
+13 Shoes 180.883908923715
+13 Shoes 54.9555107951164
+194 Book 31.6957214903086
+947 Furniture 659.231944940984
+545 Piece of clothing 125.572729539126
+723 Book 35.1892245593481
+146 Book 37.70890106773
+703 Furniture 369.244423205964
+418 Book 37.395835950505
+795 Piece of clothing 88.2562631811015
+262 Vinyl 42.6690657716244
+898 Piece of clothing 51.9554055621848
+610 Piece of clothing 32.4802325852215
+671 Electronic device 1948.12027543876
+870 Book 36.722475444898
+816 Vinyl 37.3445667512715
+496 Piece of clothing 89.782684550155
+808 Other 54.8548523837235
+160 Book 21.1239006961696
+930 Book 19.7665878720582
+26 Vinyl 33.7552442215383
+195 Vinyl 11.1573871877044
+729 Other 54.8837354569696
+965 Piece of clothing 87.0953575265594
+954 Book 18.3208632501774
+35 Book 35.2508747563697
+553 Book 31.5986057776026
+823 Other 27.1764081949368
+606 Piece of clothing 69.828696558252
+282 Electronic device 2921.60785465129
+721 Furniture 464.854490268044
+878 Vinyl 39.4324212521315
+956 Other 42.9652722389437
+175 Shoes 93.0827283440158
+656 Electronic device 693.454574838746
+136 Book 37.1178567814641
+658 Furniture 863.551149645355
+893 Electronic device 2708.1262753983
+824 Furniture 718.830684630666
+370 Furniture 605.41320516495
+931 Electronic device 1168.4494293537
+692 Vinyl 39.2404884379357
+5 Vinyl 37.1440556272864
+858 Book 35.2017981894314
+762 Piece of clothing 16.4625219069421
+290 Piece of clothing 46.7095943936147
+875 Piece of clothing 123.933546934277
+255 Piece of clothing 128.495031727944
+855 Book 33.4881548476405
+965 Shoes 105.727667929605
+321 Book 33.3206906598061
+245 Book 14.4464818770066
+611 Electronic device 2960.93920306163
+52 Piece of clothing 195.435396085959
+968 Vinyl 20.4455996677279
+973 Book 25.2894555134699
+932 Vinyl 16.5406991913915
+513 Other 37.9826652968768
+477 Book 27.8347465870902
+928 Vinyl 40.344419637695
+207 Piece of clothing 18.7341055041179
+718 Piece of clothing 179.709442560561
+881 Furniture 1336.14011644386
+567 Other 80.4633135569748
+183 Piece of clothing 38.0294823902659
+481 Vinyl 44.8876059148461
+875 Piece of clothing 137.205953781959
+443 Vinyl 10.0606949068606
+386 Other 39.9367249791976
+859 Vinyl 31.6626998502761
+788 Piece of clothing 11.6470387554727
+28 Book 21.2510847053491
+223 Vinyl 34.0926170349121
+604 Other 26.9663504476193
+163 Piece of clothing 35.6523864110932
+276 Piece of clothing 168.066881615669
+103 Book 33.6544265910052
+639 Vinyl 23.1793975364417
+327 Piece of clothing 11.3515242189169
+608 Furniture 371.953320328612
+490 Book 22.4365841886029
+911 Book 24.7673118403181
+606 Electronic device 462.856226943899
+220 Book 25.5270375763066
+98 Book 35.1049148370512
+5 Vinyl 48.0581575259566
+892 Shoes 62.0043336646631
+227 Piece of clothing 49.8706674412824
+841 Vinyl 43.0077437870204
+941 Book 35.8670816766098
+887 Electronic device 978.769931505434
+787 Furniture 967.902522347867
+610 Piece of clothing 114.812740620691
+657 Book 15.474932518322
+530 Shoes 187.071991097182
+200 Shoes 153.915723711252
+1000 Shoes 64.5618671923876
+666 Furniture 684.535307413898
+632 Piece of clothing 193.447880311869
+310 Book 31.4856652412564
+396 Shoes 170.835012597963
+659 Book 35.7942749219947
+651 Electronic device 2703.58651803667
+382 Electronic device 2572.77382961335
+810 Other 6.17222188855521
+636 Vinyl 43.2998312823474
+789 Piece of clothing 92.2868017386645
+791 Vinyl 15.6636505108327
+387 Electronic device 240.583371069282
+196 Other 10.4121337016113
+87 Furniture 1175.42616063729
+211 Furniture 1052.59344348451
+391 Furniture 1339.47491226718
+25 Vinyl 14.0789415780455
+153 Other 30.5018783244304
+318 Book 20.7368028312922
+248 Piece of clothing 67.8368762228638
+830 Vinyl 40.9861102700233
+50 Furniture 126.047617336735
+612 Shoes 192.098393584602
+130 Vinyl 41.420392235741
+51 Other 69.7495903889649
+539 Piece of clothing 186.332135731354
+981 Other 44.6035472163931
+305 Piece of clothing 18.4686494176276
+701 Shoes 173.485239413567
+975 Vinyl 11.3981342222542
+105 Vinyl 12.6571965403855
+490 Electronic device 2623.94079351891
+235 Electronic device 894.703684105538
+838 Vinyl 46.4503166731447
+125 Shoes 52.1294613229111
+110 Vinyl 35.7955375313759
+512 Electronic device 1651.43482718011
+512 Electronic device 1798.24799692351
+586 Piece of clothing 66.4678675797768
+976 Piece of clothing 60.7708051428199
+115 Vinyl 16.1251807771623
+725 Other 65.1074001472443
+921 Electronic device 547.286875719205
+276 Vinyl 23.0233607254922
+640 Other 35.7773246092256
+238 Piece of clothing 196.102211715188
+223 Shoes 97.7412051800638
+475 Piece of clothing 72.0528672076762
+994 Book 32.7492293911055
+11 Book 9.02556947758421
+676 Book 20.4940347452648
+767 Vinyl 37.6579662878066
+901 Furniture 1184.85498588998
+987 Vinyl 14.1740472894162
+498 Piece of clothing 187.53161243163
+803 Other 80.4944255086593
+680 Furniture 693.201982218307
+91 Vinyl 12.4416273087263
+822 Furniture 1100.11241161264
+677 Piece of clothing 85.6014177342877
+832 Vinyl 31.8442612234503
+236 Vinyl 36.0752931702882
+255 Book 29.4351473227143
+843 Piece of clothing 90.1435288391076
+207 Electronic device 2498.089254383
+915 Book 9.77311166329309
+372 Furniture 1479.9474013038
+423 Book 11.3009404563345
+16 Electronic device 1000.02550791344
+526 Electronic device 615.712666626554
+162 Shoes 173.778477697633
+462 Furniture 1424.40009982092
+462 Piece of clothing 32.5262582791038
+871 Furniture 701.939423976
+165 Shoes 103.943415428512
+448 Book 35.9685565656982
+572 Piece of clothing 31.5716198761947
+6 Furniture 878.277604584582
+407 Book 36.0175539795309
+127 Shoes 75.9065046627074
+313 Other 35.8294054213911
+563 Piece of clothing 175.348293788265
+965 Vinyl 23.1469511799514
+23 Furniture 232.26679264335
+930 Piece of clothing 77.6820718334056
+163 Other 93.4164226858411
+985 Shoes 177.53213877324
+677 Piece of clothing 165.841172197834
+312 Piece of clothing 14.1366839385591
+984 Electronic device 1903.77349720662
+721 Shoes 160.564933940768
+322 Other 73.1382328143809
+734 Vinyl 17.4314332008362
+57 Other 60.1640903926454
+47 Book 21.4136591004208
+699 Vinyl 23.0969065334648
+353 Shoes 95.7488733157516
+386 Piece of clothing 79.4642697437666
+452 Vinyl 44.8282787203789
+810 Book 17.1892922194675
+938 Shoes 90.798029913567
+492 Shoes 180.607987148687
+630 Piece of clothing 166.381385859568
+630 Shoes 150.603966712952
+813 Piece of clothing 93.5678400658071
+966 Piece of clothing 96.7742988630198
+392 Other 50.6413088343106
+487 Vinyl 15.0952562689781
+163 Shoes 71.4949764637277
+220 Piece of clothing 128.837589693721
+404 Piece of clothing 140.775732283946
+364 Electronic device 495.515661922749
+77 Piece of clothing 162.016653381288
+319 Book 14.9164417348802
+235 Other 56.2335904722568
+108 Vinyl 49.1705723572522
+444 Other 44.6173146902584
+722 Book 11.4407978332601
+496 Book 14.0945321051404
+824 Book 14.6585846166126
+262 Other 7.75460585020483
+372 Vinyl 21.2274225987494
+296 Other 39.5771071617492
+328 Vinyl 21.0267690010369
+690 Vinyl 14.773723622784
+113 Vinyl 15.2073293644935
+113 Piece of clothing 175.702305943705
+271 Vinyl 27.0218370296061
+243 Other 14.5227857830469
+648 Piece of clothing 38.4287950047292
+496 Furniture 1341.65327246301
+144 Other 91.4762811071705
+99 Other 85.0212093803566
+958 Vinyl 31.9659812562168
+238 Piece of clothing 60.3261370374821
+311 Book 33.1378372488543
+6 Book 10.9928687391803
+168 Book 11.3984111147001
+315 Book 17.3490683021955
+342 Book 23.8269794904627
+702 Vinyl 44.2414465267211
+52 Book 30.2196352891624
+74 Book 21.4735020822845
+682 Vinyl 31.5631341934204
+533 Book 13.2978775198571
+48 Book 24.2105904556811
+914 Piece of clothing 31.3814634201117
+301 Book 13.5150783006102
+893 Furniture 1351.07911700616
+787 Electronic device 815.358370287344
+694 Shoes 155.068848491646
+657 Electronic device 1047.0417148117
+2 Other 65.3872009669431
+39 Electronic device 656.172317984514
+682 Vinyl 38.8846539612859
+813 Furniture 1177.38791619195
+176 Shoes 192.746274089441
+902 Piece of clothing 192.545022147242
+892 Shoes 103.894644905813
+472 Book 36.1732590417378
+387 Book 29.2282046223991
+557 Book 28.9138224986382
+112 Shoes 137.198966122232
+933 Vinyl 28.1164771597832
+838 Vinyl 30.5651778914034
+116 Other 73.1809629895724
+764 Piece of clothing 86.6372026805766
+224 Furniture 361.994703579694
+800 Shoes 94.2139329807833
+878 Other 62.42401725729
+867 Piece of clothing 98.9714183937758
+58 Piece of clothing 117.559941811487
+946 Piece of clothing 86.3907976564951
+507 Book 9.28538849903271
+759 Shoes 55.5014192871749
+690 Shoes 194.791172430851
+62 Book 30.1074193823151
+433 Piece of clothing 27.3854130669497
+638 Vinyl 37.1154798194766
+254 Vinyl 10.172851709649
+886 Furniture 425.663770444226
+849 Electronic device 1513.59421953652
+37 Piece of clothing 64.3255245592445
+805 Other 56.5630593069363
+15 Electronic device 1930.16634351434
+337 Piece of clothing 104.393202001229
+664 Other 76.3173639844172
+787 Book 25.6767912427895
+692 Shoes 176.279539787211
+862 Vinyl 14.7209234163165
+22 Vinyl 42.5966292154044
+865 Other 73.7079059903044
+336 Piece of clothing 193.85284390999
+46 Shoes 184.936247342266
+397 Vinyl 14.6176977269351
+281 Shoes 56.1459466954693
+837 Electronic device 1976.21830957802
+815 Other 63.9142304554116
+991 Electronic device 2948.77516599232
+766 Piece of clothing 84.7144305077381
+6 Other 96.9063168158755
+942 Vinyl 29.0305942390114
+195 Book 18.2935384763405
+36 Vinyl 43.4158206917346
+221 Piece of clothing 123.213418358937
+134 Furniture 933.63703325158
+486 Vinyl 35.6932257954031
+232 Vinyl 48.9324174262583
+54 Piece of clothing 107.56662200205
+235 Furniture 586.260632879566
+740 Piece of clothing 43.8950069225393
+337 Book 36.9246692592278
+526 Piece of clothing 73.8869568356313
+864 Book 18.7295650583692
+406 Other 88.4438710892573
+675 Piece of clothing 87.6211126311682
+460 Electronic device 2937.81643463392
+72 Furniture 589.094712038059
+754 Shoes 130.90051129926
+801 Vinyl 34.5315655879676
+437 Furniture 204.90827432368
+328 Vinyl 37.1833369135857
+577 Vinyl 10.0418377667665
+152 Book 25.7312445561402
+671 Vinyl 31.578013850376
+755 Shoes 150.593964168802
+408 Other 37.1051246591378
+560 Book 15.5138151752762
+482 Electronic device 637.647738569416
+463 Shoes 93.0079809203744
+742 Other 9.3113098887261
+771 Electronic device 2235.24390288722
+909 Piece of clothing 181.618396209087
+716 Vinyl 44.0153305325657
+34 Furniture 469.807563908398
+68 Furniture 967.048047552817
+864 Other 21.7764864990022
+898 Piece of clothing 154.582152685616
+849 Other 83.2752687449101
+565 Shoes 163.921330273151
+111 Vinyl 40.78528448008
+413 Book 30.8652052106336
+699 Piece of clothing 130.474832602777
+433 Shoes 94.0679299924523
+73 Book 21.4127392005175
+194 Electronic device 1320.14871434169
+591 Book 20.9816378806718
+704 Electronic device 2206.09030611441
+759 Book 28.0189183526672
+539 Book 18.7324969992042
+667 Piece of clothing 74.4089358882047
+68 Furniture 698.872926784679
+439 Vinyl 21.8091822601855
+94 Vinyl 28.5370274912566
+787 Furniture 1397.63289701659
+132 Shoes 30.1300328131765
+284 Furniture 257.482726708986
+296 Piece of clothing 129.86748278141
+695 Vinyl 16.32359335199
+996 Piece of clothing 145.97606002586
+503 Vinyl 15.9337677620351
+862 Furniture 739.675745926797
+547 Piece of clothing 63.1969437468797
+477 Furniture 1447.21822675783
+844 Piece of clothing 146.079708314501
+873 Shoes 97.4418430356309
+532 Shoes 88.6539786867797
+795 Shoes 149.354782807641
+717 Book 16.4893269245513
+403 Shoes 146.511938977055
+554 Vinyl 24.691082444042
+609 Shoes 161.062240595929
+242 Furniture 1023.6281380523
+420 Piece of clothing 135.76502461452
+796 Furniture 471.749450429343
+21 Other 45.294523818884
+702 Piece of clothing 174.662611612584
+194 Furniture 1084.43409110187
+869 Electronic device 936.221940727904
+106 Furniture 920.098161324859
+813 Electronic device 1145.02147052996
+450 Other 61.6389554552734
+38 Vinyl 35.1173283532262
+281 Furniture 1157.96144711785
+363 Other 23.9881928102113
+238 Piece of clothing 158.230359847657
+134 Other 25.5201394611504
+841 Book 23.8979973583482
+765 Piece of clothing 139.052136526443
+307 Vinyl 23.9444999303669
+614 Piece of clothing 17.5991802802309
+486 Book 36.2384845954366
+307 Electronic device 305.997949746437
+564 Vinyl 30.8455616794527
+765 Other 83.4333709394559
+398 Vinyl 24.1343955788761
+465 Piece of clothing 114.231861163862
+478 Piece of clothing 42.682568540331
+248 Furniture 435.743960237596
+779 Book 27.1924747559242
+855 Vinyl 35.2980621345341
+431 Vinyl 36.0271053947508
+124 Other 91.9008699967526
+545 Shoes 42.9588667862117
+154 Furniture 1192.27252935525
+547 Piece of clothing 26.8667177436873
+334 Electronic device 1828.49224892771
+565 Vinyl 32.9228236433119
+825 Vinyl 35.3643391560763
+501 Other 24.6100743138231
+25 Vinyl 28.9927255827934
+753 Book 36.338091598358
+264 Book 13.8923389753327
+558 Shoes 44.1386952623725
+636 Other 76.3386341929436
+832 Electronic device 209.286440707278
+980 Piece of clothing 95.3273935639299
+648 Vinyl 28.8862938713282
+900 Book 11.3983391560614
+160 Shoes 142.41971464362
+782 Vinyl 20.9609201923013
+55 Vinyl 32.4932295549661
+20 Piece of clothing 76.5240991464816
+869 Piece of clothing 95.861209994182
+901 Vinyl 40.5405804701149
+144 Furniture 988.99405648699
+305 Vinyl 44.8061110917479
+172 Book 15.6338716470636
+651 Book 13.2235411796719
+718 Vinyl 33.5913995094597
+479 Vinyl 39.0169968642294
+856 Furniture 343.231493188068
+189 Piece of clothing 123.262295490131
+935 Shoes 57.9052075883374
+134 Book 16.4394554737955
+671 Furniture 836.61433707457
+243 Vinyl 19.3358993157744
+163 Other 67.6652457856108
+344 Book 12.3320303354412
+81 Furniture 328.965957765467
+440 Book 33.3209027429111
+361 Book 10.813605891075
+735 Vinyl 37.2850890178233
+621 Piece of clothing 38.949032148812
+415 Shoes 46.935804747045
+846 Vinyl 10.909567149356
+547 Piece of clothing 78.3507580589503
+31 Piece of clothing 114.752316046506
+442 Vinyl 16.020523654297
+118 Other 73.4615978470538
+762 Other 56.5339291875716
+551 Shoes 193.559909411706
+706 Vinyl 47.8466034308076
+859 Piece of clothing 45.2385683334433
+745 Shoes 107.379836137407
+637 Piece of clothing 70.4715806315653
+696 Shoes 168.729430534877
+479 Shoes 102.223288007081
+298 Other 97.1193799481262
+106 Book 26.8169321687892
+414 Other 98.9381469879299
+581 Vinyl 18.4933678340167
+437 Other 14.0064768691082
+224 Electronic device 2475.21532475343
+528 Vinyl 21.3123075570911
+785 Furniture 560.527717717923
+744 Piece of clothing 136.306768683717
+555 Book 34.1318956771865
+424 Vinyl 37.7773083560169
+919 Book 10.5490021160804
+927 Book 23.8033464769833
+303 Book 22.066815873608
+744 Shoes 182.742131301202
+89 Furniture 971.103789540939
+460 Shoes 68.5875975945964
+110 Shoes 76.0325937159359
+469 Book 22.9247488626279
+144 Vinyl 22.6432294305414
+953 Electronic device 2213.15106776869
+974 Vinyl 20.4729336034507
+424 Book 33.3732123146765
+882 Other 56.4126182848122
+454 Other 96.4864229084924
+231 Vinyl 45.8631709311157
+739 Shoes 104.952727286145
+381 Piece of clothing 39.0409314027056
+936 Book 16.4824354355223
+967 Shoes 102.902197269723
+349 Other 60.472359622363
+157 Piece of clothing 69.7933148825541
+370 Piece of clothing 50.8753935433924
+894 Vinyl 46.8480802513659
+549 Book 34.119787263684
+348 Vinyl 48.9222213532776
+89 Vinyl 15.4507557302713
+686 Book 29.7516154856421
+893 Piece of clothing 197.501903048251
+62 Shoes 114.758270224556
+769 Vinyl 42.6483663823456
+377 Electronic device 2743.78706102585
+192 Vinyl 23.7576735392213
+448 Piece of clothing 71.2139483122155
+20 Shoes 54.8327668337151
+237 Furniture 742.148999543861
+134 Piece of clothing 165.308890067972
+159 Vinyl 44.1277391184121
+423 Piece of clothing 183.039828706533
+430 Piece of clothing 112.998100062832
+348 Piece of clothing 12.3853714601137
+400 Piece of clothing 70.2768097282387
+577 Electronic device 2914.22735951701
+270 Book 26.2014039871283
+873 Vinyl 21.883218260482
+5 Piece of clothing 72.1696620038711
+235 Shoes 44.6644539944828
+516 Shoes 194.465437172912
+794 Book 25.1761714029126
+680 Furniture 558.62663812004
+910 Vinyl 23.9159722626209
+488 Electronic device 2483.96257381514
+129 Piece of clothing 181.284536726307
+568 Book 24.0136483227834
+974 Vinyl 39.8346367198974
+99 Furniture 1367.03309288714
+963 Piece of clothing 57.0883941813372
+635 Furniture 1244.80277176481
+876 Vinyl 40.6963837891817
+454 Piece of clothing 59.0670729638077
+294 Furniture 627.249852882233
+818 Furniture 936.022968858015
+23 Vinyl 29.2758043669164
+668 Book 22.2609946606681
+560 Piece of clothing 113.877468651626
+591 Piece of clothing 141.563889915124
+374 Book 23.0603698301129
+396 Book 23.4453389989212
+524 Book 13.265645428095
+134 Shoes 142.569564003497
+86 Furniture 1436.22540913057
+762 Electronic device 1375.71178401681
+423 Piece of clothing 55.6321113486774
+954 Electronic device 2495.20941188885
+41 Vinyl 17.4659286253154
+167 Book 27.6876925639808
+387 Book 11.3706264398061
+266 Furniture 186.458932072856
+846 Electronic device 2043.73252620781
+229 Vinyl 29.6692260261625
+311 Vinyl 17.3498645797372
+65 Piece of clothing 79.9552486999892
+51 Electronic device 986.32302402379
+928 Book 35.0364714986645
+440 Book 25.6100142966025
+747 Shoes 42.4511282658204
+87 Vinyl 24.0665011014789
+127 Vinyl 10.8171070180833
+681 Other 44.0335586911533
+376 Shoes 142.398488773033
+885 Vinyl 32.1075831726193
+312 Piece of clothing 167.109853352886
+210 Piece of clothing 157.437853682786
+664 Book 29.2408005902544
+173 Piece of clothing 195.414277215023
+574 Shoes 184.148743064143
+94 Piece of clothing 41.0861636884511
+752 Furniture 1233.8666993659
+867 Electronic device 2582.21727825329
+610 Piece of clothing 43.4600002248771
+471 Piece of clothing 161.51711219456
+915 Furniture 1244.72798900679
+89 Vinyl 10.0813319999725
+96 Vinyl 21.1202224623412
+446 Book 23.2921797512099
+859 Electronic device 2599.35435092403
+844 Electronic device 2125.70049999841
+870 Vinyl 43.584649739787
+575 Piece of clothing 190.749421503861
+966 Vinyl 29.2058260366321
+521 Book 11.4185873335227
+507 Other 86.4364295604173
+633 Piece of clothing 89.4408089970239
+52 Other 42.4669651547447
+30 Shoes 23.2750295521691
+755 Furniture 1273.7900306005
+694 Book 29.6013321457431
+169 Piece of clothing 12.003204098437
+517 Book 35.6189831332304
+685 Electronic device 464.221521100029
+219 Piece of clothing 112.743906306569
+666 Book 25.7596191703342
+707 Piece of clothing 154.624973083846
+311 Other 33.9554961130489
+875 Book 14.3525000880472
+782 Electronic device 40.3325766450725
+271 Other 87.0443844888359
+612 Piece of clothing 48.3408474130556
+274 Other 50.8315317798406
+355 Furniture 1422.76110220701
+610 Electronic device 1744.2797526354
+81 Furniture 214.392156444956
+423 Piece of clothing 110.016239387915
+252 Other 58.7976069992874
+630 Book 29.3796224319376
+835 Book 18.3206664570607
+625 Book 29.5048505729064
+162 Other 53.1941285030916
+897 Furniture 1207.34893829795
+259 Book 21.8883260255679
+1000 Electronic device 2380.87823919114
+924 Electronic device 1353.45527264616
+714 Other 94.3374043342192
+194 Vinyl 28.0499316845089
+288 Piece of clothing 155.893136523664
+423 Vinyl 10.5896209739149
+875 Book 23.691690641921
+859 Shoes 110.040183891542
+726 Vinyl 11.1185600981116
+765 Book 25.5319432597607
+394 Book 25.2453018059023
+535 Vinyl 36.3981468137354
+193 Vinyl 12.5544069614261
+157 Piece of clothing 183.702715707477
+355 Vinyl 44.2512821406126
+813 Vinyl 30.5864750314504
+386 Book 13.3099591042846
+194 Electronic device 1830.94879231974
+34 Piece of clothing 68.4876324608922
+422 Book 11.3008620785549
+552 Piece of clothing 167.493338780478
+875 Piece of clothing 112.535210929345
+78 Piece of clothing 42.3481874493882
+666 Other 10.6923282158095
+51 Book 30.4709811774082
+734 Vinyl 49.086727462709
+89 Book 12.2623743382283
+756 Piece of clothing 78.5021167946979
+566 Book 11.4293284211308
+571 Electronic device 1922.79433870316
+498 Book 31.6856564660557
+514 Book 29.1154512260109
+527 Piece of clothing 142.570846045855
+479 Vinyl 13.8209067471325
+243 Piece of clothing 111.470465427265
+682 Book 29.3912231326103
+315 Vinyl 17.5674493703991
+451 Furniture 255.40410161484
+701 Vinyl 35.4084868077189
+114 Book 29.3011619928293
+93 Book 35.1258781235665
+374 Shoes 68.2440293766558
+51 Vinyl 27.5106189958751
+512 Vinyl 19.9308819696307
+797 Book 32.4665084187873
+363 Piece of clothing 135.521303720307
+205 Shoes 164.295527222566
+932 Other 66.0828027222306
+535 Electronic device 1484.47551136697
+757 Piece of clothing 86.3261335063726
+492 Shoes 125.724884197116
+840 Book 15.9229537365027
+507 Electronic device 1030.32932079956
+627 Vinyl 33.0765726789832
+970 Vinyl 20.0630994234234
+453 Furniture 746.808748273179
+633 Book 20.6499533574097
+292 Electronic device 2498.09958757227
+691 Other 6.63870645104907
+479 Book 16.909980439581
+91 Book 26.6093438034877
+439 Piece of clothing 95.6950971484184
+593 Book 35.6312548960559
+382 Piece of clothing 197.799789882265
+932 Furniture 1066.81264438666
+921 Vinyl 13.9834237378091
+382 Vinyl 47.1316200867295
+160 Book 27.7342073838226
+134 Book 23.8661435558461
+977 Electronic device 1987.22670842754
+956 Shoes 24.5334636420012
+877 Electronic device 999.463329309132
+723 Piece of clothing 67.8312017489225
+631 Book 16.1685756370425
+330 Other 32.0262590248603
+778 Book 11.175900733564
+223 Other 84.26817801781
+103 Vinyl 13.1261722929776
+740 Book 30.9880633964203
+312 Shoes 91.2587568536401
+387 Shoes 191.740202717483
+820 Piece of clothing 180.023086508736
+121 Other 41.6046463092789
+17 Other 54.5345165580511
+452 Electronic device 2390.33555462118
+765 Piece of clothing 188.393634352833
+190 Vinyl 24.6558912564069
+650 Book 17.2052529766224
+363 Electronic device 874.023737496231
+885 Electronic device 2163.15682852967
+131 Electronic device 1986.18773919623
+93 Piece of clothing 114.405030827038
+488 Furniture 342.373978265096
+477 Vinyl 35.6626741494983
+244 Book 34.7341760932468
+79 Vinyl 33.2548315450549
+440 Electronic device 1926.43712295778
+539 Piece of clothing 158.510684221983
+576 Shoes 99.7676643822342
+766 Book 23.9074644176289
+252 Piece of clothing 54.1755363694392
+68 Furniture 1258.7246856303
+30 Piece of clothing 39.7245367895812
+211 Furniture 1047.59779184824
+906 Piece of clothing 11.2495847931132
+888 Furniture 769.483062135987
+17 Furniture 1091.4857064723
+894 Vinyl 28.2036239933223
+270 Shoes 85.7004131842405
+426 Piece of clothing 29.1632435540669
+596 Other 30.7764367631171
+273 Book 16.7489484543912
+795 Vinyl 43.6078511923552
+590 Shoes 91.3082176679745
+323 Book 38.7127564321272
+209 Vinyl 43.0107697937638
+731 Shoes 107.846204643138
+526 Electronic device 2362.29458571505
+969 Piece of clothing 119.583597099409
+996 Book 15.3012642902322
+45 Furniture 1218.27011356363
+452 Book 18.5076671009883
+352 Shoes 190.474293520674
+738 Piece of clothing 192.175555464346
+709 Book 26.7959205955267
+507 Book 11.3669663770124
+714 Book 23.1871429444291
+210 Book 26.1350810467266
+866 Vinyl 31.5413023065776
+435 Furniture 933.574560901616
+468 Book 26.1437792340294
+183 Electronic device 943.576289290562
+531 Piece of clothing 131.372735600453
+104 Vinyl 13.3982160873711
+239 Piece of clothing 55.4263671208173
+448 Other 37.9620237299241
+567 Book 20.9730108277872
+171 Book 38.8923472221941
+771 Electronic device 155.300493839663
+502 Electronic device 1384.20258977776
+171 Vinyl 26.6312183812261
+969 Piece of clothing 88.2269299216568
+709 Piece of clothing 67.9418713762425
+834 Vinyl 32.8470080252737
+422 Furniture 1198.89905921882
+71 Shoes 41.8230023561046
+923 Piece of clothing 101.181201797444
+377 Vinyl 40.9493123088032
+624 Furniture 298.66421277402
+189 Piece of clothing 155.169795618858
+940 Book 17.9153539063409
+177 Piece of clothing 79.1344607644714
+734 Vinyl 24.6753300633281
+447 Other 54.7474058577791
+318 Other 18.2053540763445
+906 Vinyl 22.2706359997392
+537 Vinyl 43.5668164398521
+797 Vinyl 40.1947543025017
+835 Piece of clothing 122.840732003096
+740 Piece of clothing 19.2302363971248
+180 Piece of clothing 137.75055999402
+994 Other 44.1456290648784
+661 Book 10.7334806243889
+171 Electronic device 2207.48392301472
+926 Shoes 39.7917497111484
+595 Electronic device 2863.06507089036
+232 Piece of clothing 65.6356835830957
+116 Other 22.2716324368957
+192 Electronic device 2688.6928192745
+483 Book 12.9495210070163
+768 Book 19.6516035273671
+386 Other 48.4068442648277
+702 Shoes 177.32329766266
+83 Furniture 741.745398845524
+522 Furniture 1052.22642391454
+160 Vinyl 41.031486382708
+304 Vinyl 27.1604047808796
+9 Vinyl 28.178602848202
+935 Book 16.2228720341809
+784 Book 17.489331251476
+56 Piece of clothing 183.410292598419
+589 Piece of clothing 194.41722212825
+732 Vinyl 39.0234887599945
+277 Piece of clothing 80.4938021604903
+692 Piece of clothing 103.161564846523
+1000 Book 33.324240940623
+999 Piece of clothing 116.222788381856
+945 Book 32.1506304885261
+379 Vinyl 20.7000679615885
+589 Piece of clothing 72.7117289206944
+8 Book 38.0682433638722
+154 Book 37.5536201368086
+490 Vinyl 38.8600225187838
+459 Vinyl 14.9552702903748
+988 Book 33.5314357476309
+597 Other 21.5479879942723
+280 Vinyl 16.3848732411861
+636 Vinyl 45.1367764174938
+887 Shoes 30.8321115840226
+639 Piece of clothing 21.3393635815009
+414 Book 38.2627493524924
+984 Furniture 1120.17815696308
+286 Piece of clothing 110.342791976873
+930 Book 26.3478631814942
+501 Other 32.7755919285119
+19 Other 78.1680675025564
+73 Electronic device 1430.46292004269
+734 Other 79.3590569996741
+105 Piece of clothing 69.9092174461111
+245 Other 29.0206633869093
+679 Vinyl 43.9173510111868
+706 Vinyl 19.8741704598069
+78 Furniture 1153.25289699249
+727 Book 32.7678654841147
+417 Piece of clothing 197.887398642488
+948 Shoes 166.309921513312
+804 Furniture 179.033194947988
+104 Furniture 242.429532797541
+107 Electronic device 1120.75177687081
+618 Electronic device 352.714476176538
+962 Vinyl 37.5708445068449
+371 Electronic device 448.552679627668
+856 Piece of clothing 190.80415138742
+142 Vinyl 29.7641688864678
+470 Book 13.6308442717418
+193 Book 23.7479626117274
+872 Book 24.2434104471467
+973 Furniture 1485.54800429847
+595 Vinyl 23.8707797788084
+583 Electronic device 2121.56103253458
+423 Vinyl 12.3118358664215
+857 Book 22.2004194776528
+78 Book 13.2424934869632
+240 Vinyl 21.9508169032633
+163 Other 16.4135317853652
+343 Electronic device 909.02706453437
+315 Book 10.090545093175
+450 Electronic device 823.983681768645
+326 Vinyl 33.7189758010209
+819 Piece of clothing 36.0195919219404
+955 Book 25.9402542966418
+143 Book 26.0810287096538
+564 Piece of clothing 155.794410931412
+447 Vinyl 10.0285347178578
+845 Vinyl 45.8211660385132
+51 Other 16.5056733740494
+19 Furniture 87.674092000816
+6 Electronic device 2521.70541375503
+774 Book 19.1523196790367
+809 Piece of clothing 116.267167101614
+979 Vinyl 15.3457946330309
+745 Vinyl 38.417059360072
+638 Vinyl 32.4843283835799
+732 Shoes 69.9858227605
+677 Other 84.5456442527939
+818 Piece of clothing 184.926511177327
+654 Book 28.4098365493119
+564 Book 20.4919169456698
+228 Book 23.0168897202238
+328 Furniture 1096.20006508194
+183 Electronic device 1095.99132760055
+816 Electronic device 1530.2004008377
+753 Piece of clothing 108.553145257756
+590 Piece of clothing 139.972218112089
+988 Furniture 1214.73882115679
+278 Furniture 527.691227837931
+172 Piece of clothing 165.45385396108
+5 Piece of clothing 179.717814303003
+564 Electronic device 1968.99613497406
+916 Shoes 74.4242452597246
+433 Piece of clothing 174.916984664742
+877 Piece of clothing 199.597460899968
+632 Book 24.6049111532047
+956 Other 46.3971750298515
+621 Electronic device 2788.16361624142
+187 Piece of clothing 114.5349791646
+915 Electronic device 498.904295222368
+107 Vinyl 20.7032648008317
+881 Shoes 129.4041529065
+222 Furniture 1163.93280358752
+845 Piece of clothing 16.6211232589558
+601 Other 59.616103968583
+864 Shoes 142.415037918836
+317 Piece of clothing 150.104827650357
+551 Book 9.26327743660659
+341 Book 31.863898104988
+686 Electronic device 1180.67086081346
+765 Electronic device 685.310532875359
+961 Piece of clothing 110.955593623221
+760 Vinyl 41.8224019091576
+783 Other 70.8618969249073
+696 Vinyl 14.6818131860346
+293 Piece of clothing 62.4261684832163
+141 Electronic device 1695.00369459949
+768 Piece of clothing 64.4539312971756
+536 Book 33.5783807197586
+869 Electronic device 1571.12896171724
+363 Book 10.6725764865987
+668 Vinyl 21.3524804357439
+832 Vinyl 23.1784745212644
+575 Book 29.4932928644121
+843 Book 19.3046542592347
+729 Piece of clothing 144.281427124515
+15 Other 6.86099936254323
+590 Book 12.3019317314029
+54 Other 44.8750696575735
+297 Other 40.4603582608979
+292 Shoes 185.66723793745
+260 Shoes 180.655929162167
+207 Vinyl 13.186211315915
+916 Book 18.1340294061229
+55 Vinyl 15.4314216971397
+136 Piece of clothing 60.5133245163597
+30 Vinyl 23.8852744549513
+219 Piece of clothing 168.384629595093
+780 Vinyl 29.0516661200672
+15 Piece of clothing 30.2540903445333
+523 Shoes 117.520849788561
+340 Book 19.291877402924
+887 Other 59.6204133739229
+322 Book 16.666727649048
+34 Vinyl 25.6171393301338
+645 Shoes 31.9138020137325
+280 Shoes 198.351691826247
+755 Other 42.7768607437611
+676 Book 18.8162545636296
+194 Other 60.3195716952905
+836 Piece of clothing 27.2671655891463
+812 Vinyl 20.0336178950965
+537 Book 10.7645123787224
+531 Shoes 102.846849886701
+210 Other 44.989662427688
+526 Shoes 140.770356468856
+347 Other 32.9972207639366
+74 Book 26.5076244561933
+273 Book 34.5912532727234
+464 Vinyl 21.611542981118
+237 Other 45.4467509873211
+199 Vinyl 18.1990176439285
+941 Vinyl 31.2625617347658
+225 Book 28.5327325933613
+167 Piece of clothing 20.045052934438
+168 Other 83.511203804519
+925 Other 43.4929710649885
+731 Piece of clothing 91.4898273325525
+524 Furniture 619.639007584192
+319 Other 19.0851562842727
+489 Vinyl 13.2121192850173
+272 Vinyl 10.384411001578
+112 Shoes 52.5141185102984
+562 Vinyl 15.5762897804379
+844 Vinyl 17.6511736214161
+82 Book 16.3707056720741
+456 Other 80.6139400682878
+671 Furniture 1335.66976831062
+18 Book 30.3476095162332
+280 Shoes 122.876103045419
+454 Furniture 1146.62358087953
+63 Piece of clothing 128.564450868871
+362 Electronic device 2761.73096471559
+265 Piece of clothing 108.605911601335
+934 Book 20.2186708976515
+967 Furniture 367.958635452669
+196 Furniture 1328.32972160541
+792 Piece of clothing 141.672406310681
+902 Vinyl 25.8088710997254
+901 Vinyl 17.9568800423294
+930 Piece of clothing 176.477277872618
+439 Vinyl 39.9812531471252
+260 Vinyl 14.2037792876363
+893 Vinyl 16.9728616811335
+695 Furniture 445.638815325219
+778 Book 32.4688962972723
+687 Other 82.8513683506753
+834 Electronic device 2823.96928434353
+228 Furniture 1429.36525463592
+237 Book 12.3163046906702
+357 Piece of clothing 102.053859464359
+479 Vinyl 15.6853261496872
+863 Vinyl 24.8084869794548
+217 Book 33.7177983191796
+430 Piece of clothing 149.529244389851
+455 Furniture 1447.99892789451
+55 Piece of clothing 95.8774676150642
+5 Shoes 73.6499218596146
+501 Piece of clothing 106.032783763949
+888 Shoes 50.2560605341569
+710 Vinyl 33.9824787341058
+124 Other 70.3378549742047
+512 Furniture 1299.95019902708
+464 Vinyl 46.4041817374527
+647 Book 13.299298916012
+116 Piece of clothing 63.9980034274049
+287 Book 18.8854281404056
+222 Vinyl 31.967008812353
+258 Shoes 150.653609666042
+598 Book 19.2366828010418
+347 Shoes 22.8847059048712
+119 Piece of clothing 159.143618899398
+393 Other 90.7295483036432
+942 Vinyl 31.0789197217673
+416 Furniture 424.53292455757
+704 Electronic device 2413.64728632942
+374 Piece of clothing 38.1501827668399
+607 Electronic device 1525.11376446439
+278 Furniture 871.48547063116
+925 Electronic device 1786.19928040402
+226 Book 38.6175341494381
+502 Furniture 1232.76395297144
+56 Book 16.5210634642281
+666 Vinyl 19.43199374713
+909 Book 11.0252189668827
+698 Furniture 1128.58957344433
+963 Piece of clothing 94.9363429378718
+98 Furniture 114.889043022413
+908 Furniture 1324.61749212816
+633 Other 71.2131846940611
+952 Other 42.1305324463174
+965 Other 80.489504316356
+671 Electronic device 2184.20659862086
+392 Piece of clothing 105.32716745045
+333 Shoes 177.731109103188
+165 Book 30.4555008290336
+711 Piece of clothing 18.2230759318918
+266 Other 73.554040385643
+472 Vinyl 39.0308615472168
+317 Other 13.2242273318116
+267 Shoes 74.4595142127946
+745 Book 25.7395457974635
+991 Piece of clothing 100.485620258842
+764 Furniture 1139.93182651466
+292 Vinyl 49.5046503189951
+541 Vinyl 40.2990600001067
+351 Vinyl 33.9833265542984
+348 Vinyl 25.4568305239081
+790 Book 32.7376102432609
+692 Vinyl 22.0028121210635
+373 Book 13.8351215827279
+454 Electronic device 774.180530811194
+857 Electronic device 2008.40645555966
+395 Piece of clothing 26.6147228726186
+814 Piece of clothing 95.6574380211532
+532 Piece of clothing 89.9978519650176
+508 Vinyl 26.3318577967584
+598 Shoes 146.710772640072
+100 Book 30.3467978895642
+382 Book 38.6753861219622
+608 Piece of clothing 22.5880074361339
+940 Book 15.6730852774344
+913 Vinyl 46.7126266472042
+722 Book 11.4449593084864
+319 Piece of clothing 197.867077069823
+118 Shoes 197.677918197587
+830 Piece of clothing 72.6114403177053
+82 Furniture 1317.1254954068
+218 Furniture 1062.17465898953
+602 Piece of clothing 100.194972900208
+894 Piece of clothing 196.201031710953
+801 Furniture 1156.43931938102
+26 Piece of clothing 45.8857605513185
+523 Furniture 1140.70050488226
+513 Electronic device 1569.81754978746
+415 Piece of clothing 119.335753726773
+217 Other 99.0042158437427
+545 Other 89.0880716801621
+949 Piece of clothing 43.708891812712
+605 Piece of clothing 99.6921367920004
+82 Vinyl 43.2132877688855
+119 Piece of clothing 137.721960949712
+898 Other 69.7968500305433
+256 Piece of clothing 182.811845196411
+836 Book 19.747622824274
+576 Book 10.9892688724212
+69 Piece of clothing 131.841169723775
+820 Vinyl 11.8383009452373
+379 Other 40.1378497167025
+71 Book 36.1576922759414
+926 Vinyl 41.0595060884953
+253 Vinyl 43.553544934839
+396 Vinyl 22.2070621233433
+333 Shoes 131.681830193847
+712 Shoes 27.1002671355382
+243 Book 21.16285855975
+532 Piece of clothing 160.470051690936
+372 Piece of clothing 154.731956108008
+779 Piece of clothing 175.537800656166
+609 Piece of clothing 19.237345282454
+56 Piece of clothing 113.437048306223
+581 Book 19.1025045127608
+332 Piece of clothing 48.6143835377879
+164 Vinyl 17.3077278956771
+929 Shoes 76.6448174789548
+752 Vinyl 49.4752392265946
+89 Electronic device 307.848629270215
+862 Other 17.7197384694591
+434 Vinyl 13.3065426442772
+774 Electronic device 652.698043616023
+911 Electronic device 2616.65845088987
+931 Book 13.2435857397504
+825 Book 9.5931115639396
+469 Furniture 105.277687206399
+759 Vinyl 38.4725817386061
+745 Book 24.9303945838474
+230 Book 19.5127307446674
+412 Furniture 1220.56563566439
+358 Shoes 36.6458434611559
+504 Vinyl 27.6683683600277
+817 Shoes 93.4529459429905
+857 Furniture 1477.43275940884
+565 Book 21.7507893252186
+402 Book 10.1138614173979
+658 Piece of clothing 178.221565871499
+158 Electronic device 1718.4947285438
+340 Book 38.7532890038565
+31 Piece of clothing 93.0534836323932
+878 Shoes 193.85145300068
+223 Book 37.0848515219986
+586 Book 37.4439162164927
+540 Shoes 119.413453852758
+795 Other 94.9593532562722
+821 Electronic device 492.236635250505
+667 Piece of clothing 166.462507143151
+661 Electronic device 1859.9459978668
+499 Book 18.7418576432392
+373 Electronic device 1364.69698042935
+769 Piece of clothing 117.911659129895
+606 Book 26.8235470550135
+548 Vinyl 12.51738906838
+750 Other 12.6745917438529
+854 Vinyl 18.7333532702178
+748 Electronic device 2209.01586344559
+783 Book 14.739663883578
+394 Shoes 192.916350658052
+151 Vinyl 15.5127539113164
+502 Vinyl 25.819599237293
+74 Piece of clothing 185.013092115987
+107 Furniture 1304.58005558467
+174 Book 29.7443804154173
+775 Other 92.3110236646608
+350 Shoes 128.774968781509
+719 Vinyl 43.1961238570511
+239 Electronic device 1500.57984390156
+164 Furniture 397.687662544195
+98 Furniture 1264.9804795743
+801 Vinyl 10.2652047388256
+180 Vinyl 42.4729592632502
+222 Other 83.8847835210618
+500 Vinyl 17.3107714485377
+496 Shoes 87.8087004646659
+337 Vinyl 10.9017776977271
+20 Shoes 104.700565021485
+181 Furniture 222.990455210675
+50 Piece of clothing 94.4325341726653
+59 Piece of clothing 68.9656545128673
+768 Book 24.4018412693404
+529 Book 23.9611879326403
+398 Other 15.2057502744719
+788 Book 37.0089835915715
+707 Electronic device 1600.82620816398
+607 Furniture 1118.95532703493
+447 Piece of clothing 80.5788741912693
+629 Book 31.6040494604968
+807 Piece of clothing 141.555013419129
+90 Shoes 162.410120824352
+568 Piece of clothing 15.0788904074579
+555 Piece of clothing 95.1418106351048
+94 Piece of clothing 29.5665322639979
+481 Furniture 255.019424657803
+274 Vinyl 30.37134825252
+780 Other 22.5478826847393
+965 Other 47.1960638498422
+813 Book 11.6206191745587
+541 Furniture 649.069400259759
+566 Other 14.3154905107804
+236 Shoes 184.907878832892
+568 Furniture 143.680405872874
+384 Furniture 615.427452709991
+865 Vinyl 42.1951319556683
+810 Vinyl 25.3623168636113
+67 Piece of clothing 31.3286407175474
+292 Book 13.7948946501128
+709 Shoes 151.770811118186
+767 Electronic device 851.279085793998
+912 Furniture 1486.21941882884
+58 Book 35.0973861976527
+266 Book 21.6453482033685
+239 Piece of clothing 193.482995941304
+302 Electronic device 1297.20104032988
+560 Electronic device 2840.71031296952
+900 Book 32.9757507434115
+530 Piece of clothing 56.939014911186
+558 Book 23.8263758188114
+407 Electronic device 2592.97383024916
+837 Other 26.135915304767
+740 Book 11.7135727414861
+519 Book 11.3361319955438
+976 Piece of clothing 47.9560446273535
+272 Piece of clothing 112.062698123045
+917 Other 64.2225788487121
+900 Book 19.0390455080196
+313 Shoes 195.291816885583
+483 Book 28.5781991165131
+321 Piece of clothing 110.111529293936
+609 Vinyl 34.441341906786
+943 Other 85.9263900085352
+306 Furniture 1359.14875693852
+232 Shoes 104.831138728186
+14 Shoes 150.647563464008
+461 Piece of clothing 105.514799475204
+52 Vinyl 44.884310439229
+423 Book 28.8500435426831
+766 Piece of clothing 110.276982863434
+646 Other 95.0106880639214
+187 Piece of clothing 160.618069586344
+382 Furniture 364.146376145072
+890 Piece of clothing 86.4431387418881
+297 Piece of clothing 86.3525851583108
+969 Vinyl 27.5579206086695
+887 Book 27.7256940733641
+71 Shoes 115.357828764245
+576 Piece of clothing 110.503535899334
+36 Book 13.0032818703912
+521 Vinyl 14.3763795867562
+220 Shoes 40.5179974902421
+927 Shoes 101.255659186281
+304 Vinyl 25.4262083955109
+357 Vinyl 40.1467791385949
+688 Vinyl 13.2204224728048
+719 Electronic device 1301.91486729402
+861 Furniture 830.264810298104
+724 Book 25.0595193319023
+313 Vinyl 41.506264321506
+667 Vinyl 13.6756506562233
+138 Book 14.6630341080017
+500 Electronic device 994.530376220122
+777 Book 24.6219388358295
+654 Book 15.382982369978
+914 Furniture 139.407794899307
+271 Book 27.5371391871013
+577 Book 33.7522148746066
+981 Other 37.3849331983365
+630 Vinyl 24.4192234706134
+648 Piece of clothing 66.589835989289
+294 Piece of clothing 188.040601136163
+619 Book 33.32436715113
+932 Book 24.500240852125
+938 Other 52.2031842742581
+106 Piece of clothing 194.023989648558
+232 Piece of clothing 195.502032579388
+633 Furniture 965.159846551251
+38 Book 9.71597296278924
+340 Book 21.7435761247762
+975 Piece of clothing 173.092392587569
+322 Book 34.3273952635936
+48 Book 26.531408413779
+13 Electronic device 2113.72160425037
+691 Book 12.2941816002131
+301 Vinyl 21.5707810409367
+572 Piece of clothing 119.694466062356
+337 Book 31.7621511393227
+521 Shoes 125.551830418408
+974 Book 31.0781533420086
+267 Piece of clothing 88.8881074404344
+911 Vinyl 35.8158055413514
+183 Piece of clothing 107.490065176971
+207 Piece of clothing 78.5418739449233
+401 Vinyl 45.7335199415684
+769 Vinyl 29.1988362744451
+427 Electronic device 1962.33081022138
+493 Piece of clothing 163.949812904466
+832 Piece of clothing 36.8933283281513
+577 Furniture 1310.9769239556
+812 Book 15.1897885682993
+17 Shoes 131.079244990833
+830 Shoes 22.4839190021157
+630 Furniture 354.310471180361
+222 Vinyl 39.0939948614687
+358 Vinyl 40.9807684551924
+16 Shoes 86.9014726439491
+690 Piece of clothing 116.319367776159
+724 Piece of clothing 130.461897905916
+86 Furniture 1314.84735520789
+54 Book 26.7126615308225
+613 Piece of clothing 20.3818465350196
+197 Book 16.7158506237902
+924 Piece of clothing 53.394061436411
+49 Vinyl 28.4247416257858
+956 Piece of clothing 143.54421461001
+98 Other 83.8487511291169
+635 Piece of clothing 26.7272588936612
+322 Shoes 78.9815136324614
+861 Piece of clothing 199.43157950649
+276 Electronic device 1872.26384200016
+698 Book 14.914901162032
+261 Piece of clothing 108.767177618574
+838 Piece of clothing 137.801321744919
+298 Shoes 22.7843527309597
+804 Vinyl 11.6798570565879
+371 Other 13.2228959503118
+703 Electronic device 2958.23603645992
+65 Other 19.63031429681
+953 Vinyl 40.6409613136202
+125 Piece of clothing 173.871209491044
+262 Piece of clothing 67.6951102819294
+623 Other 24.8440421617124
+609 Book 27.0901359580457
+15 Piece of clothing 69.3266062112525
+238 Vinyl 19.5481657702476
+522 Shoes 162.650671177544
+936 Vinyl 11.7106547020376
+195 Book 29.296273464337
+819 Other 18.1077015167102
+559 Piece of clothing 55.7059687818401
+920 Piece of clothing 44.39707753947
+139 Piece of clothing 11.2686999561265
+928 Piece of clothing 175.895989260171
+203 Shoes 163.146609487012
+809 Shoes 142.304054857232
+752 Book 9.09973303182051
+349 Vinyl 24.2218634672463
+959 Furniture 1193.10946256155
+343 Shoes 91.7976564401761
+332 Shoes 116.962421541102
+768 Electronic device 2577.85277919471
+992 Shoes 123.137150756083
+34 Furniture 278.578473476227
+271 Book 24.4657650366426
+169 Furniture 1102.0446122624
+151 Furniture 1188.09331462253
+217 Vinyl 17.0023085456342
+862 Piece of clothing 198.211561592761
+212 Piece of clothing 155.009164900985
+466 Piece of clothing 132.439725198783
+673 Shoes 181.210225550458
+90 Vinyl 48.4633322246373
+560 Vinyl 23.2367708627135
+276 Furniture 1271.86576736858
+569 Piece of clothing 138.459620177746
+194 Book 21.8446901519783
+42 Electronic device 69.7113481545821
+334 Piece of clothing 51.1620584805496
+412 Book 27.8091730023734
+999 Vinyl 32.1805316582322
+478 Furniture 953.917221562006
+846 Book 36.1855405624956
+326 Book 28.9443747801706
+640 Piece of clothing 79.1908271820284
+800 Shoes 179.852809943259
+330 Book 23.5933044562116
+344 Book 14.1045778230764
+977 Vinyl 21.4006411936134
+85 Furniture 1382.76722616283
+532 Piece of clothing 73.6562166456133
+652 Book 14.0507196667604
+270 Vinyl 18.7446994520724
+656 Piece of clothing 19.6953649818897
+114 Piece of clothing 58.3047380112112
+240 Electronic device 2958.32563433191
+245 Book 27.8621061248705
+483 Piece of clothing 160.646296103951
+547 Piece of clothing 14.6732483780943
+996 Piece of clothing 157.707878695801
+396 Book 38.4241963536479
+598 Electronic device 2215.07047548285
+239 Furniture 815.832986799069
+2 Electronic device 1268.48990431847
+278 Other 73.8755117740948
+676 Electronic device 2534.00316338614
+508 Vinyl 36.6199991945177
+68 Vinyl 46.9797694217414
+216 Furniture 1039.10695493687
+932 Book 10.7754187644459
+242 Piece of clothing 131.662037819624
+934 Furniture 233.445043256506
+727 Vinyl 46.2665979471058
+225 Shoes 62.293499475345
+322 Piece of clothing 59.4275980768725
+275 Electronic device 2109.47727320576
+797 Vinyl 48.9938439335674
+93 Piece of clothing 11.8117281608284
+415 Book 26.7008688915521
+395 Piece of clothing 93.1161066051573
+20 Piece of clothing 73.9837315841578
+153 Electronic device 247.029785447288
+651 Shoes 184.420104371384
+738 Piece of clothing 79.3452746910043
+161 Book 26.3380672791973
+611 Furniture 128.340933530126
+324 Vinyl 15.5836720112711
+898 Shoes 178.236281964928
+451 Book 9.16462325351313
+254 Piece of clothing 84.3395057180896
+862 Book 23.3968295236118
+541 Vinyl 26.9124644156545
+112 Book 34.0892273057252
+744 Vinyl 47.286516148597
+943 Piece of clothing 34.043796826154
+838 Book 14.807105996646
+913 Piece of clothing 10.9228803799488
+120 Other 10.7935385138262
+469 Vinyl 43.5783605091274
+15 Book 17.0351414834149
+139 Vinyl 22.8823200426996
+620 Vinyl 20.278711495921
+330 Piece of clothing 20.5711714969948
+245 Vinyl 35.4785783961415
+310 Shoes 109.134527510032
+943 Other 40.7279835490044
+31 Piece of clothing 59.6099321357906
+595 Piece of clothing 25.0278302142397
+904 Vinyl 21.3550056517124
+232 Other 45.5663831089623
+78 Book 10.4661734551191
+415 Vinyl 38.9837968721986
+210 Shoes 183.691833033226
+137 Electronic device 295.016947021708
+350 Vinyl 23.0943042226136
+91 Shoes 171.484505655244
+523 Book 29.6986926239915
+692 Furniture 1152.55308216438
+735 Electronic device 2756.24435515469
+336 Other 93.6592277686577
+2 Book 12.0511861271225
+807 Book 20.1452750698663
+617 Piece of clothing 86.6610372671857
+176 Piece of clothing 136.104807630181
+479 Other 85.1728050981183
+779 Piece of clothing 46.3430217490532
+547 Shoes 27.9861536668614
+680 Vinyl 25.9496858157218
+753 Vinyl 45.1970447879285
+822 Piece of clothing 37.7344418619759
+438 Electronic device 2149.04795565037
+996 Vinyl 44.3567974120378
+16 Vinyl 15.0572052877396
+443 Piece of clothing 24.0167137375101
+5 Book 9.24490158772096
+344 Book 30.918585577514
+200 Furniture 142.809198051691
+957 Shoes 64.4779041595757
+172 Furniture 773.12860089587
+857 Vinyl 15.8933167066425
+464 Other 50.5820565845352
+561 Other 93.1581935111899
+64 Book 9.27391020208597
+6 Book 25.2776682176627
+640 Vinyl 48.2405506074429
+709 Piece of clothing 129.804498474114
+142 Electronic device 1691.07269022241
+347 Piece of clothing 119.651172806043
+936 Piece of clothing 25.5771073652431
+22 Other 75.5836778436787
+741 Other 17.4515867512673
+999 Book 36.8964826860465
+301 Piece of clothing 161.233545718715
+2 Vinyl 30.9891637228429
+93 Vinyl 22.8596441913396
+69 Furniture 1338.96325046662
+200 Book 36.6719077443704
+943 Furniture 63.7067376286723
+630 Book 13.7659724601544
+829 Shoes 152.424295386299
+930 Book 29.2929802285507
+294 Shoes 139.483457561582
+749 Book 34.820787192788
+251 Book 26.1531626489013
+398 Furniture 352.268248959444
+714 Other 57.3040693730582
+252 Furniture 973.057055356912
+682 Piece of clothing 71.4860527240671
+473 Piece of clothing 54.8617938579991
+174 Book 16.9985180008225
+313 Vinyl 47.3071466293186
+45 Piece of clothing 174.042860248592
+95 Shoes 145.929048019461
+760 Other 45.4666632052977
+146 Book 28.1892154421657
+353 Furniture 1327.87645794451
+873 Piece of clothing 131.941664873157
+700 Vinyl 23.9760304056108
+290 Piece of clothing 36.7133234348148
+553 Other 19.7644428652711
+818 Electronic device 1959.95297208289
+95 Vinyl 47.0396078377962
+13 Other 96.4440251805354
+789 Shoes 102.938880668953
+284 Vinyl 25.3256593365222
+691 Other 89.3838719045743
+670 Furniture 1324.58094509784
+143 Shoes 39.6153010940179
+145 Vinyl 18.5690050851554
+676 Vinyl 35.591907100752
+19 Vinyl 11.0434295702726
+117 Furniture 595.36689161323
+493 Furniture 370.02424657112
+16 Electronic device 2923.71784930443
+671 Book 9.86577701848
+940 Book 36.1353228692897
+387 Shoes 64.3739758105949
+9 Piece of clothing 145.347909359261
+53 Vinyl 18.7933759205043
+350 Other 34.0803298505489
+376 Vinyl 25.0646364782006
+18 Book 34.119584701024
+297 Book 12.0145174101926
+384 Book 31.9427866986953
+378 Piece of clothing 188.850545010064
+125 Vinyl 12.9593612719327
+532 Book 20.5428670425899
+10 Other 88.8448739866726
+56 Electronic device 818.393931862433
+394 Book 33.1283757286146
+725 Shoes 107.266769418493
+738 Piece of clothing 90.86528633954
+872 Book 36.9327741265297
+296 Other 99.0130113402847
+982 Shoes 146.916179643013
+31 Piece of clothing 167.636648267508
+942 Piece of clothing 140.080020332243
+758 Furniture 490.293255075812
+962 Other 11.4504902146291
+738 Electronic device 2476.60560513241
+944 Other 58.5714291885961
+924 Other 67.5897686288226
+306 Book 11.5659598829225
+49 Furniture 674.313723482192
+582 Shoes 185.868202322163
+378 Shoes 20.0995137263089
+873 Book 34.8158986084163
+33 Book 18.9905610457063
+243 Piece of clothing 137.368816253729
+18 Furniture 789.049383171368
+519 Other 73.1265382585116
+477 Furniture 1159.65800426202
+647 Other 22.585621594917
+127 Shoes 134.807205810212
+935 Book 15.9054997013882
+229 Piece of clothing 122.040963580366
+180 Vinyl 47.70821839571
+872 Book 37.0466071539558
+539 Book 12.1053339270875
+903 Piece of clothing 100.992753584869
+294 Furniture 914.774441230111
+790 Other 18.8279150286689
+809 Furniture 485.24984929245
+201 Vinyl 22.2918710950762
+904 Furniture 755.381582549307
+293 Book 21.807037406601
+47 Shoes 162.648814334534
+662 Electronic device 868.773926904891
+672 Shoes 139.430938023143
+104 Vinyl 11.244701789692
+677 Vinyl 49.0184228122234
+348 Other 73.8019705528859
+554 Vinyl 42.3574622347951
+883 Furniture 1189.24052487127
+296 Vinyl 29.344882061705
+625 Electronic device 714.527838880662
+119 Electronic device 50.5238403296098
+373 Piece of clothing 137.045936111826
+466 Shoes 104.332996439189
+812 Vinyl 25.0450298655778
+404 Vinyl 40.6184730678797
+424 Electronic device 1169.03217890859
+492 Shoes 88.6410586116835
+985 Electronic device 2188.53940937063
+486 Vinyl 46.7852700129151
+526 Shoes 139.172319723293
+582 Electronic device 1857.83059562882
+709 Piece of clothing 63.1488992157392
+696 Other 48.9507027249783
+210 Furniture 386.569193273317
+420 Book 13.636344644241
+289 Vinyl 38.2617140375078
+29 Vinyl 11.1264173313975
+382 Shoes 48.598470534198
+746 Book 11.8686109255068
+502 Book 16.2188087319955
+505 Piece of clothing 178.609015273396
+794 Vinyl 46.6673891991377
+982 Piece of clothing 165.724062605295
+250 Furniture 867.33495160006
+994 Furniture 1131.28567299573
+620 Vinyl 23.1439049914479
+438 Book 16.3472629277967
+629 Other 16.3448959414382
+817 Book 28.4630692200735
+351 Shoes 157.413568221964
+769 Vinyl 23.1781404092908
+719 Electronic device 889.882707438432
+264 Book 36.4447700707242
+489 Electronic device 1628.61165209068
+100 Other 86.9101446622517
+152 Vinyl 45.3200491331518
+758 Vinyl 26.7102534137666
+809 Shoes 94.3623595545068
+977 Book 11.8204696811736
+660 Electronic device 2549.83080391167
+540 Vinyl 49.9591742735356
+271 Piece of clothing 33.9168037078343
+470 Furniture 966.618477983866
+963 Vinyl 11.5583224967122
+619 Other 71.0682761867065
+159 Book 27.8478175853379
+853 Electronic device 1104.30116113601
+110 Electronic device 2651.66189825023
+698 Shoes 153.946040719748
+114 Electronic device 917.989534089342
+726 Shoes 144.901946871541
+571 Book 20.9792939722538
+824 Furniture 1131.62646576529
+303 Piece of clothing 166.333057763986
+83 Electronic device 1728.12200325867
+106 Book 18.7408364480361
+227 Book 13.3859949940816
+885 Piece of clothing 34.9488415336236
+268 Shoes 23.6174624832347
+607 Vinyl 18.1787498109043
+148 Vinyl 37.8374824859202
+959 Piece of clothing 91.9523611478508
+654 Other 17.4110216414556
+482 Electronic device 209.317353836726
+51 Electronic device 2597.45227929065
+357 Book 32.7201419309713
+225 Book 14.9651044243947
+706 Shoes 149.062538868748
+390 Book 10.7685124883428
+78 Electronic device 2405.8389627221
+62 Vinyl 29.6157876029611
+509 Vinyl 47.5556819885969
+294 Piece of clothing 147.222681283019
+10 Vinyl 43.5317133460194
+31 Vinyl 41.8949820194393
+21 Piece of clothing 185.976351231802
+695 Vinyl 36.3362020067871
+857 Electronic device 1107.33047356224
+206 Vinyl 32.3788288515061
+398 Vinyl 45.0828352477401
+69 Electronic device 1324.30615476426
+105 Book 11.6546951313503
+203 Book 19.5591728095897
+786 Piece of clothing 148.742599780671
+91 Piece of clothing 192.352764350362
+668 Book 37.5400566179305
+513 Piece of clothing 90.3126143338159
+598 Book 38.4053123169579
+608 Other 36.6074646858033
+624 Other 63.3734625158831
+917 Vinyl 32.8458996489644
+145 Shoes 159.989366545342
+863 Book 13.9225766351447
+911 Book 13.2113641393371
+342 Other 27.5351365003735
+709 Furniture 140.689307905268
+655 Electronic device 2187.95188081078
+719 Book 23.8523051664233
+476 Book 12.0451287073083
+679 Vinyl 34.6080405917019
+771 Vinyl 15.4589799977839
+481 Shoes 100.516480854712
+784 Piece of clothing 158.729007607326
+589 Book 15.3349123089574
+250 Piece of clothing 179.862764570862
+451 Other 15.5272442905698
+334 Vinyl 12.732345610857
+593 Other 83.5374623141252
+892 Book 31.3734485520981
+738 Vinyl 43.7114951014519
+578 Other 73.6820013611577
+424 Other 46.4941094326787
+663 Vinyl 29.5454918034375
+255 Piece of clothing 191.189270473551
+590 Piece of clothing 86.7365854256786
+673 Furniture 783.863497851416
+272 Vinyl 24.2431829310954
+114 Furniture 1261.82999754092
+457 Other 96.9784918625373
+422 Book 16.529452086892
+700 Vinyl 43.176422631368
+975 Book 30.8299489980564
+461 Piece of clothing 158.675418263301
+661 Electronic device 2242.90344530344
+685 Other 51.4015639014542
+144 Piece of clothing 126.654146860819
+603 Vinyl 40.8714208193123
+904 Shoes 175.22351319436
+190 Book 32.0705127725378
+383 Book 22.4081322094426
+216 Piece of clothing 147.425548061728
+111 Other 7.13027523015626
+242 Book 14.8500971691683
+575 Electronic device 1122.42999523738
+742 Electronic device 913.010012152139
+18 Electronic device 2334.17758353846
+108 Furniture 98.0047275661491
+391 Book 9.91374028706923
+185 Piece of clothing 27.94046289986
+915 Book 10.2948652845807
+46 Piece of clothing 199.282253189012
+629 Piece of clothing 106.727646039799
+104 Furniture 896.126576431561
+312 Furniture 844.605118012987
+328 Electronic device 1145.76237396197
+229 Vinyl 45.5435042921454
+408 Piece of clothing 128.248655546922
+438 Book 23.264839917887
+58 Furniture 123.149421694688
+629 Piece of clothing 141.909780183341
+386 Piece of clothing 43.4868627577089
+237 Book 27.2304687146097
+460 Electronic device 2956.97695432324
+9 Electronic device 2320.98646147735
+666 Electronic device 1683.140634574
+894 Book 33.6061989921145
+504 Book 25.6983974212781
+919 Shoes 36.4071085024625
+710 Book 35.5063161333092
+758 Book 16.4144071969204
+361 Book 10.4268601569347
+463 Vinyl 42.8346422407776
+112 Shoes 165.86707522627
+635 Electronic device 73.899674737826
+173 Vinyl 35.499017983675
+9 Other 5.4846538323909
+825 Other 13.5000384529121
+191 Book 25.6252245451324
+647 Book 13.8989417008124
+218 Book 24.4013046110049
+334 Piece of clothing 29.1559824021533
+69 Piece of clothing 79.1859078034759
+706 Shoes 74.2090376745909
+797 Book 33.0558056440204
+777 Book 31.5340008200146
+745 Shoes 179.015778591856
+357 Book 25.4854003535584
+959 Book 34.1932883751579
+225 Shoes 26.5561951184645
+925 Book 21.8972391248681
+399 Book 37.2511426275596
+250 Vinyl 29.567331476137
+897 Book 19.4012008546852
+740 Book 27.594089273829
+330 Vinyl 21.7043429985642
+960 Other 6.59057959332131
+555 Furniture 560.526821378153
+913 Vinyl 16.3058285973966
+575 Book 37.1108407233842
+444 Piece of clothing 159.574598893523
+107 Book 25.083600379061
+814 Electronic device 1803.8487009923
+540 Book 10.496320667211
+336 Electronic device 315.138678053394
+535 Vinyl 32.8497190121561
+157 Piece of clothing 181.246470876504
+448 Book 38.9084049090743
+227 Shoes 143.813976384699
+953 Electronic device 2700.0031695012
+111 Electronic device 841.204241463915
+415 Piece of clothing 72.0749930199236
+181 Piece of clothing 105.855907502118
+929 Electronic device 766.504966177512
+59 Book 24.799265045207
+749 Vinyl 35.0282701384276
+372 Other 41.3756396225654
+154 Furniture 744.948261894751
+317 Book 21.8239331720397
+357 Piece of clothing 92.3832995584235
+119 Piece of clothing 93.8008091342635
+231 Vinyl 10.9585879556835
+119 Vinyl 39.816122893244
+891 Electronic device 2356.47664402705
+538 Vinyl 43.6504446342587
+174 Electronic device 1673.35041107237
+431 Book 30.2868996360339
+573 Vinyl 39.2862910125405
+852 Vinyl 48.383381087333
+952 Book 21.1612398675643
+949 Other 74.5903892978095
+137 Piece of clothing 131.311207292601
+334 Vinyl 35.0603960361332
+573 Electronic device 1923.64290286181
+148 Vinyl 41.9868256431073
+782 Other 46.7380912415683
+415 Vinyl 27.840986084193
+400 Book 24.7984796678647
+656 Book 32.0402734014206
+196 Book 35.1301398114301
+309 Piece of clothing 195.730258247349
+957 Piece of clothing 72.0892500295304
+151 Furniture 655.490829353221
+188 Other 97.2746514971368
+617 Electronic device 2552.13696942292
+595 Piece of clothing 171.116205588914
+664 Book 24.2972274483182
+296 Vinyl 23.9620917942375
+767 Shoes 60.9072021348402
+439 Electronic device 2861.52722913865
+413 Piece of clothing 175.59217331931
+553 Electronic device 2646.14619560633
+243 Shoes 141.849509570748
+618 Piece of clothing 192.816656930372
+343 Book 20.2708125589415
+46 Piece of clothing 66.483975853771
+905 Piece of clothing 192.57686249679
+426 Shoes 148.601096072234
+783 Book 9.95055992715061
+808 Vinyl 28.8443967700005
+296 Furniture 738.664221938234
+617 Book 17.9703513449058
+472 Book 21.5234558014199
+660 Book 33.9609920103103
+301 Piece of clothing 95.1110827340744
+558 Vinyl 18.2865644805133
+370 Book 25.4472733950242
+875 Furniture 1086.28012834815
+524 Shoes 194.362376979552
+747 Electronic device 378.105783144478
+420 Other 6.8021731893532
+435 Piece of clothing 74.7623101784848
+81 Furniture 1282.75932051474
+692 Furniture 1378.69650264038
+916 Other 26.234920657007
+62 Furniture 93.7156769447029
+593 Book 33.808428841643
+487 Shoes 90.8627224480733
+18 Piece of clothing 72.1850922447629
+173 Piece of clothing 31.3843808160163
+205 Piece of clothing 163.059427195694
+829 Piece of clothing 79.6561357262544
+496 Furniture 647.670119011309
+114 Shoes 58.0006525712088
+482 Piece of clothing 61.4484458998777
+313 Piece of clothing 148.055391577072
+957 Piece of clothing 30.8393392153084
+586 Book 24.8461411250755
+205 Electronic device 501.929798136465
+922 Vinyl 16.0320928320289
+106 Other 39.0428256592713
+168 Other 82.7013938385062
+284 Book 23.5172201888636
+577 Vinyl 23.5443839430809
+724 Vinyl 37.8595973271877
+173 Piece of clothing 35.921156485565
+690 Book 23.0882999869063
+270 Electronic device 1690.27833606442
+447 Electronic device 2675.57909206115
+611 Furniture 202.16488246806
+267 Vinyl 14.3004942405969
+775 Vinyl 25.8293346688151
+558 Other 72.4984530417714
+899 Electronic device 1278.5487368037
+566 Piece of clothing 165.864860534202
+480 Piece of clothing 24.2975435731933
+245 Piece of clothing 142.062757359818
+469 Shoes 136.131512732245
+657 Shoes 100.759543851018
+837 Furniture 793.216593365651
+116 Piece of clothing 68.2634113775566
+177 Piece of clothing 107.067473027855
+681 Furniture 165.024581900798
+905 Piece of clothing 184.698519217782
+835 Furniture 138.936497084796
+441 Shoes 173.438365003094
+160 Book 31.7281591063365
+650 Vinyl 11.7188398074359
+991 Vinyl 25.0077862106264
+624 Vinyl 11.2956873979419
+22 Vinyl 12.5990222766995
+849 Other 8.94138410571031
+771 Vinyl 37.8742412570864
+219 Furniture 702.742137259338
+377 Other 79.5865214010701
+265 Piece of clothing 115.259790003765
+756 Electronic device 75.7417837237008
+421 Other 22.5339549814817
+235 Book 38.0095475083217
+603 Book 12.7732692877762
+195 Furniture 1342.82095268136
+789 Book 22.6779634701088
+266 Book 12.0813022563234
+165 Piece of clothing 110.96173210768
+230 Vinyl 18.4253869578242
+718 Piece of clothing 10.8106599072926
+648 Shoes 124.853950436227
+921 Other 83.8100364874117
+426 Piece of clothing 132.022710333113
+706 Vinyl 48.6470131855458
+885 Vinyl 14.6767377760261
+259 Book 28.0767404157668
+431 Book 16.8608471690677
+702 Piece of clothing 10.7246140693314
+593 Vinyl 49.9591167364269
+224 Book 21.7976750372909
+463 Piece of clothing 166.892276259605
+176 Other 30.6581298517995
+574 Furniture 1380.83496001782
+480 Book 13.4847809127532
+853 Book 15.4129550848156
+230 Book 36.2180414339527
+272 Furniture 599.812325672247
+930 Piece of clothing 22.2104565124027
+517 Book 11.6486164773814
+536 Vinyl 20.960278948769
+958 Vinyl 35.659494381398
+301 Electronic device 2217.7982521276
+141 Shoes 106.393159315921
+960 Book 9.77882047975436
+452 Vinyl 49.5842474140227
+313 Piece of clothing 87.4257764127105
+420 Vinyl 25.0072209257632
+984 Shoes 92.5816171849146
+530 Piece of clothing 105.811366296839
+961 Furniture 306.077755626757
+155 Piece of clothing 42.9279172979295
+225 Vinyl 25.7505003735423
+762 Other 61.1532601318322
+712 Electronic device 2235.10146350693
+439 Piece of clothing 51.1471197218634
+298 Book 20.91272926284
+332 Book 13.4859137549065
+57 Other 46.834198795259
+804 Vinyl 28.3402959536761
+393 Shoes 125.458273920231
+276 Vinyl 17.3273061960936
+941 Book 34.6534682842903
+714 Book 14.8262758562341
+47 Piece of clothing 116.400957892183
+637 Shoes 145.080493353307
+38 Electronic device 344.599318461027
+664 Electronic device 2588.83286705567
+9 Vinyl 49.3202050961554
+727 Furniture 1220.97928313306
+67 Vinyl 35.6453808769584
+868 Piece of clothing 104.607873554341
+764 Other 79.7815575986169
+10 Shoes 116.528565264307
+59 Vinyl 32.9364987369627
+503 Electronic device 695.35366884293
+159 Piece of clothing 141.806957549416
+40 Vinyl 34.6423683967441
+797 Other 24.3861222406849
+842 Furniture 1269.49508810649
+750 Piece of clothing 31.1676662717946
+624 Furniture 290.050863602664
+845 Vinyl 45.6488963589072
+26 Piece of clothing 169.820838321466
+928 Electronic device 937.377726238687
+372 Piece of clothing 59.0093694138341
+416 Vinyl 31.0601285472512
+927 Furniture 1016.39000973664
+652 Furniture 1257.95411262661
+760 Piece of clothing 25.6752389762551
+634 Furniture 346.539681055583
+748 Vinyl 32.7178215328604
+835 Vinyl 39.3646712228656
+138 Vinyl 46.2008272670209
+186 Electronic device 893.047306987923
+346 Shoes 104.386878330261
+596 Vinyl 21.3380515109748
+566 Piece of clothing 20.7801614981145
+164 Book 16.9156512441114
+154 Vinyl 47.9437394812703
+847 Piece of clothing 180.915790677536
+813 Piece of clothing 49.0565862250514
+211 Shoes 183.079386102036
+210 Vinyl 16.5367543604225
+40 Other 92.0603256474715
+957 Vinyl 20.7644330058247
+656 Furniture 1094.6464472916
+574 Electronic device 503.400839619339
+531 Vinyl 10.5531573854387
+575 Book 26.3453313088976
+6 Electronic device 2164.81378098112
+139 Shoes 133.489413764328
+906 Electronic device 2920.35400030762
+240 Book 19.7703211857006
+889 Vinyl 32.7465738262981
+171 Piece of clothing 160.96526832087
+105 Book 9.83261407446116
+157 Shoes 140.982827194966
+433 Vinyl 45.1759266946465
+602 Book 12.0127112707123
+918 Furniture 1019.83758637216
+315 Furniture 1130.61309744371
+855 Vinyl 21.4225912559777
+124 Piece of clothing 28.4247901686467
+176 Furniture 183.399971225299
+415 Vinyl 28.6646375339478
+57 Book 20.5653309132904
+564 Piece of clothing 84.5264079957269
+891 Book 29.7551033771597
+838 Piece of clothing 50.315121258609
+274 Furniture 166.238699946553
+800 Vinyl 44.7983658593148
+521 Piece of clothing 87.9689615732059
+846 Book 24.3087854222395
+45 Vinyl 39.0280890837312
+985 Piece of clothing 142.614047818352
+789 Piece of clothing 44.9736100109294
+570 Book 23.4592747092247
+511 Vinyl 41.0979217663407
+847 Piece of clothing 45.7704780250788
+69 Book 27.0031415331177
+179 Book 30.583362556994
+662 Book 28.6989771164954
+327 Book 15.3830425380729
+65 Furniture 859.523817745503
+767 Shoes 164.398269280791
+391 Furniture 110.578698338941
+691 Other 99.256815755507
+462 Electronic device 2836.02899582451
+404 Piece of clothing 130.510317175649
+69 Book 23.3285351525992
+144 Book 31.5024568336084
+706 Vinyl 49.2510470282286
+853 Vinyl 36.7608718760312
+768 Piece of clothing 73.7298865988851
+305 Other 89.9797466339078
+499 Furniture 668.910653179046
+644 Shoes 39.0438515599817
+225 Book 35.4133119815961
+307 Furniture 295.612478349358
+68 Piece of clothing 189.890868712682
+405 Other 55.2989771380089
+558 Vinyl 19.9414836894721
+621 Shoes 105.713034803048
+840 Piece of clothing 77.9574795276858
+686 Other 16.8648667517118
+504 Book 19.2019839570858
+55 Book 10.1919787363149
+830 Book 32.5288508562371
+174 Shoes 77.3470214754343
+321 Vinyl 38.5238122195005
+409 Vinyl 48.001327207312
+99 Shoes 74.3379575479776
+764 Piece of clothing 197.641922170296
+893 Other 19.8813078890089
+409 Electronic device 2399.65087738447
+911 Book 25.7794322711416
+291 Shoes 29.4645795226097
+63 Book 23.2549722315744
+321 Vinyl 40.930266790092
+243 Piece of clothing 166.92266848404
+769 Vinyl 21.7814083769917
+923 Vinyl 13.1842422671616
+227 Book 25.5277951117605
+288 Piece of clothing 143.407965169754
+197 Piece of clothing 152.682160292752
+350 Vinyl 43.5161302052438
+20 Vinyl 48.0614404100925
+513 Vinyl 36.8333703093231
+872 Furniture 852.503627270926
+446 Vinyl 16.5719864610583
+99 Vinyl 19.6358653530478
+211 Piece of clothing 29.0433584805578
+288 Furniture 1177.87828696892
+229 Piece of clothing 171.325972229242
+34 Furniture 1201.04569945252
+240 Furniture 1470.59007087955
+461 Vinyl 42.6784341596067
+502 Piece of clothing 31.7799049033783
+590 Electronic device 2623.72520860145
+745 Shoes 137.702798717655
+677 Piece of clothing 126.586856709328
+657 Book 13.518608499784
+746 Vinyl 16.9109194353223
+4 Piece of clothing 46.3199710124172
+668 Piece of clothing 115.068026697263
+925 Piece of clothing 158.428658805788
+119 Book 10.1706925719045
+569 Book 13.5364846196026
+513 Furniture 1318.88586215209
+909 Vinyl 15.8216465823352
+103 Book 29.8036457933486
+199 Vinyl 43.5704724024981
+321 Electronic device 2282.8657032745
+377 Piece of clothing 70.00603541499
+483 Book 25.9196417508647
+893 Book 21.0686221914366
+694 Book 9.25188457220793
+31 Electronic device 1496.43464799365
+552 Vinyl 20.841388432309
+853 Shoes 67.1698340866715
+274 Vinyl 43.0999134015292
+887 Furniture 1110.72778275702
+207 Electronic device 1193.71447889693
+56 Shoes 106.673682588153
+284 Piece of clothing 161.755619484466
+77 Piece of clothing 103.086580676027
+384 Shoes 51.359391277656
+334 Book 32.8332329015248
+532 Furniture 922.672591952141
+959 Piece of clothing 116.353116899263
+46 Piece of clothing 65.4489879845642
+301 Piece of clothing 137.362361424603
+914 Other 29.5213030872401
+796 Book 11.3763987910934
+337 Shoes 96.731635495089
+704 Furniture 734.294561506249
+991 Furniture 1437.36796381418
+791 Book 20.217045772355
+80 Book 26.0509742503054
+248 Vinyl 36.6397983767092
+758 Book 26.6404113904573
+921 Book 25.7570088501088
+503 Book 37.3286936720833
+135 Vinyl 31.420939322561
+914 Piece of clothing 83.4901282493956
+942 Other 48.3837387396488
+336 Electronic device 2101.09479616722
+536 Piece of clothing 17.860664119944
+830 Book 16.0443609100766
+604 Vinyl 41.1607866548002
+183 Shoes 164.338402794674
+999 Electronic device 1142.29794457881
+200 Shoes 36.0187652474269
+882 Electronic device 1183.16566459695
+306 Piece of clothing 100.770635390654
+886 Vinyl 17.9072484653443
+834 Vinyl 44.8112190701067
+401 Vinyl 34.5411157608032
+298 Vinyl 46.3849357422441
+632 Shoes 184.649373898283
+664 Vinyl 28.6218357924372
+526 Shoes 99.9356039846316
+916 Piece of clothing 11.6017130366527
+662 Other 65.8734130545054
+23 Electronic device 2850.62104401505
+880 Book 11.2607675241306
+537 Vinyl 20.6717147864401
+509 Piece of clothing 43.6155661987141
+913 Piece of clothing 155.098433773965
+81 Shoes 73.3167262049392
+931 Piece of clothing 18.5275983950123
+252 Vinyl 42.9341363254935
+17 Furniture 525.227366038598
+489 Book 25.6095539275557
+502 Piece of clothing 190.226637190208
+373 Book 23.6778620663099
+137 Furniture 969.556320877746
+935 Piece of clothing 71.2160456716083
+563 Book 28.0322778769769
+186 Piece of clothing 22.5134267145768
+107 Furniture 1232.33439049218
+604 Vinyl 36.418278971687
+625 Piece of clothing 26.3719933480024
+722 Piece of clothing 170.420196491759
+315 Book 24.3802502760664
+502 Book 20.7276490665972
+61 Book 29.4768550931476
+570 Furniture 495.547061343677
+42 Vinyl 44.8543674685061
+210 Piece of clothing 55.3186832368374
+11 Furniture 353.257211181335
+455 Vinyl 17.3481533769518
+494 Shoes 126.668115602806
+550 Vinyl 40.3361478447914
+588 Vinyl 39.8950246162713
+782 Furniture 1484.40860452829
+859 Piece of clothing 199.980751459952
+243 Vinyl 11.8763373792171
+800 Piece of clothing 189.3728620396
+390 Electronic device 2605.6538733081
+103 Vinyl 10.3551976941526
+89 Other 48.0924727150705
+724 Piece of clothing 106.305757050868
+413 Vinyl 25.0008523184806
+722 Piece of clothing 119.396177814342
+837 Book 25.5161697682925
+110 Vinyl 41.7347088083625
+815 Furniture 711.683705460746
+490 Piece of clothing 56.0189019609243
+755 Piece of clothing 101.20605703909
+306 Shoes 171.287226080894
+887 Furniture 1488.51160742342
+718 Furniture 404.140296077821
+855 Book 27.6911616520956
+297 Furniture 715.245210763533
+758 Piece of clothing 171.190744019113
+493 Shoes 150.866057970561
+811 Piece of clothing 46.3478736649267
+723 Shoes 68.8841885980219
+742 Other 21.3815995468758
+37 Piece of clothing 111.425057027955
+539 Piece of clothing 73.4328725771047
+328 Shoes 189.688891172409
+801 Vinyl 48.5487154964358
+827 Book 18.643437503837
+928 Vinyl 37.037165844813
+937 Furniture 228.820546506904
+197 Piece of clothing 144.870927559678
+740 Vinyl 40.614825123921
+471 Vinyl 23.2625486329198
+739 Electronic device 671.593546700664
+127 Piece of clothing 95.3454383485951
+172 Vinyl 25.7678282447159
+670 Book 26.2446640022099
+299 Book 29.8260882273316
+979 Vinyl 12.4159426800907
+487 Electronic device 2041.82668309519
+234 Other 82.7466758945957
+775 Vinyl 45.2356160245836
+54 Piece of clothing 26.5180918085389
+488 Furniture 410.242911463138
+745 Other 84.4985698570963
+725 Piece of clothing 81.252002203837
+475 Piece of clothing 119.083596901037
+924 Other 29.249972992111
+237 Other 6.69452741625719
+835 Book 22.0623119417578
+33 Shoes 183.171717333607
+898 Book 38.3000598647632
+889 Vinyl 28.1571666710079
+284 Other 50.1875975891016
+444 Other 76.9296895875596
+925 Book 23.6672054193914
+422 Other 82.3166357551236
+532 Book 29.8652568957768
+965 Book 37.0775024020113
+885 Furniture 212.181096558925
+614 Piece of clothing 157.365236943588
+690 Piece of clothing 167.672864268534
+377 Electronic device 1676.16451821849
+291 Electronic device 1444.88611535961
+81 Piece of clothing 33.1085824104957
+722 Shoes 63.2759356824681
+778 Furniture 1224.50258072931
+573 Vinyl 35.8366126380861
+460 Electronic device 1772.14823064953
+854 Vinyl 27.0933345053345
+717 Piece of clothing 173.532088007778
+650 Electronic device 1335.04382308666
+675 Book 20.2692934437655
+963 Book 22.6281674285419
+954 Piece of clothing 93.7289203284308
+632 Furniture 1411.68501444627
+469 Furniture 542.415055201855
+865 Furniture 470.735723234247
+762 Book 19.8575414540246
+481 Vinyl 43.2009559776634
+787 Vinyl 15.6489522941411
+52 Electronic device 1707.94034553785
+564 Vinyl 26.4982262160629
+911 Vinyl 25.6244630832225
+358 Book 18.1430263174698
+533 Piece of clothing 59.3338189367205
+137 Furniture 1415.9472741303
+662 Shoes 84.218594878912
+305 Book 12.1724686198868
+698 Electronic device 1191.18273688341
+779 Book 22.234844841063
+741 Furniture 1300.3063939861
+51 Vinyl 30.0315791368484
+549 Electronic device 674.356040454935
+361 Vinyl 25.2265148889273
+176 Vinyl 47.9936807416379
+81 Shoes 54.5920215593651
+529 Book 21.9658896569163
+797 Book 25.2946616462432
+207 Other 29.3837703519966
+216 Book 22.9022056362592
+107 Book 16.1850215946324
+714 Vinyl 32.0238675735891
+44 Book 26.2380905365571
+945 Piece of clothing 165.959772914648
+759 Furniture 1441.66794302873
+24 Other 88.2868568354752
+940 Piece of clothing 88.1426618690602
+56 Vinyl 39.4850787892938
+280 Other 48.8779581827112
+875 Shoes 145.577762834728
+797 Electronic device 1755.28939274
+574 Other 48.4807044186164
+59 Other 54.9016633210704
+875 Book 16.9594068881124
+415 Shoes 61.2461609346792
+508 Piece of clothing 129.099657118786
+205 Furniture 1265.8177098725
+144 Furniture 325.004677497782
+415 Piece of clothing 30.7575821899809
+265 Piece of clothing 83.2623393414542
+644 Electronic device 514.663967523724
+613 Furniture 1317.31358428951
+933 Piece of clothing 74.3934868462384
+853 Piece of clothing 101.566078327596
+660 Furniture 615.988581662532
+562 Other 32.2949073789641
+440 Book 34.6224384508096
+284 Piece of clothing 61.9570490717888
+948 Piece of clothing 60.6583486171439
+364 Vinyl 38.71322453022
+277 Book 21.8785849758424
+519 Piece of clothing 171.814768358599
+488 Piece of clothing 80.2618127386086
+178 Vinyl 37.3494060989469
+212 Book 37.3689050772227
+959 Electronic device 2529.16183359316
+364 Piece of clothing 185.998191356193
+803 Other 75.0011166196782
+575 Piece of clothing 37.5379611225799
+706 Shoes 101.575074153952
+501 Other 68.532978920266
+429 Vinyl 28.5670235659927
+470 Vinyl 13.8912375550717
+503 Vinyl 22.9899775329977
+749 Vinyl 18.1412571575493
+235 Book 37.0476804357022
+448 Book 17.4124285541475
+562 Vinyl 15.4709861800075
+866 Furniture 337.699514033739
+29 Piece of clothing 145.733361600433
+663 Other 61.0887108673342
+829 Shoes 135.750330556184
+962 Piece of clothing 81.6432622075081
+353 Electronic device 1104.32494966872
+40 Electronic device 1871.21561971353
+241 Furniture 1148.67857535137
+640 Vinyl 45.6233428698033
+47 Vinyl 26.0876828618348
+623 Book 35.3766388292424
+521 Other 74.4536144006997
+866 Piece of clothing 13.6415234021842
+161 Book 25.5419619739987
+462 Furniture 629.403690504842
+702 Book 23.8887276789173
+649 Book 29.4931214964017
+505 Book 28.1174919437617
+504 Book 35.3387185754254
+613 Piece of clothing 163.170989365317
+761 Piece of clothing 63.9911742135882
+247 Book 25.0730526060797
+381 Shoes 119.154336578213
+139 Electronic device 630.287212083116
+665 Book 37.4599930560216
+347 Furniture 269.155907072127
+756 Book 26.3659868678078
+480 Other 24.687003599247
+476 Shoes 194.539826018736
+442 Piece of clothing 153.545509791002
+117 Other 6.26539185177535
+417 Other 67.0820807816926
+162 Vinyl 49.1607218142599
+866 Shoes 49.1296733124182
+85 Other 5.83360650809482
+685 Other 36.2736727541778
+396 Vinyl 44.856409560889
+578 Vinyl 28.4438691101968
+240 Piece of clothing 172.670327310916
+532 Vinyl 46.079812431708
+636 Electronic device 1074.46113577904
+956 Shoes 194.53107568901
+789 Piece of clothing 80.3611828316934
+759 Book 37.1711693108082
+769 Piece of clothing 131.392991435714
+613 Electronic device 1961.03632707475
+1000 Book 26.0235336106271
+650 Piece of clothing 184.937357318122
+955 Piece of clothing 122.962545757182
+863 Furniture 377.944853389636
+383 Vinyl 46.2231199070811
+226 Shoes 190.507502495311
+72 Book 26.7201719325967
+758 Electronic device 1349.87442252552
+393 Book 9.58490268420428
+500 Vinyl 16.5075630601496
+612 Piece of clothing 135.665109953843
+709 Piece of clothing 12.6735354401171
+237 Piece of clothing 80.9554300736636
+98 Piece of clothing 157.170114438049
+818 Other 81.0343520226888
+442 Piece of clothing 29.442198369652
+443 Piece of clothing 46.2526977597736
+968 Piece of clothing 63.3614626154304
+958 Piece of clothing 86.2039098446257
+855 Vinyl 31.801016908139
+125 Other 10.8936595660634
+838 Other 76.0089765070006
+998 Electronic device 233.829963536467
+418 Piece of clothing 156.24686294701
+963 Piece of clothing 17.6978945918381
+415 Piece of clothing 75.3426126856357
+111 Other 53.4184308070689
+438 Piece of clothing 92.9899455560371
+958 Shoes 20.5502432351932
+174 Book 17.0932310060598
+549 Piece of clothing 180.082569525111
+228 Shoes 130.790361063555
+115 Book 16.7293656673282
+696 Vinyl 31.9637456163764
+561 Book 24.1755651086569
+155 Piece of clothing 158.088359932881
+453 Vinyl 45.3824502974749
+390 Piece of clothing 48.206700021401
+749 Book 27.551288174931
+89 Shoes 31.986176352948
+307 Book 28.9012169684283
+423 Shoes 192.356411153451
+698 Vinyl 20.4875755496323
+372 Shoes 33.8840955076739
+733 Other 14.2898686940316
+549 Furniture 733.442991459742
+629 Book 31.1827454748563
+62 Vinyl 12.7148863207549
+245 Piece of clothing 89.7173981950618
+486 Vinyl 33.7387291807681
+333 Piece of clothing 104.997082781047
+544 Shoes 86.2233339715749
+37 Furniture 346.961288223974
+882 Book 12.1326362164691
+361 Piece of clothing 64.8839703085832
+343 Other 14.9143919034395
+303 Piece of clothing 12.0841771410778
+947 Piece of clothing 59.9326597899199
+952 Vinyl 11.9691839627922
+732 Piece of clothing 119.959466587752
+372 Other 10.5159103905316
+652 Book 20.9370931363665
+39 Other 45.7033691531979
+226 Other 21.6249282064382
+958 Piece of clothing 37.193085802719
+651 Shoes 100.906730741262
+861 Electronic device 1963.64438656811
+696 Shoes 50.3144944272935
+694 Piece of clothing 107.670120589901
+456 Vinyl 19.3211029097438
+113 Electronic device 946.973141842522
+871 Vinyl 12.3103784769773
+703 Piece of clothing 20.2978886780329
+53 Vinyl 22.6246232166886
+987 Book 16.533953867387
+888 Electronic device 437.522655970883
+843 Book 33.4199404050596
+164 Piece of clothing 144.987173939589
+962 Book 29.4974257363938
+526 Electronic device 2951.72822732339
+244 Electronic device 1150.38477125205
+464 Piece of clothing 164.998532414902
+326 Electronic device 65.8418415705673
+639 Furniture 532.871249644086
+175 Shoes 76.4142364356667
+610 Vinyl 41.016603782773
+526 Shoes 20.3107176534832
+15 Other 78.4395968227182
+679 Vinyl 48.4782163612545
+499 Vinyl 43.5906126815826
+825 Vinyl 30.5378706939518
+984 Shoes 188.416066193022
+276 Vinyl 45.8542982023209
+396 Book 18.9846556107514
+824 Book 21.9284429177642
+917 Furniture 1105.86281070719
+416 Vinyl 49.2412868048996
+322 Shoes 117.075001355261
+284 Vinyl 17.3768693581223
+394 Book 11.3450492089614
+614 Furniture 1208.52379497373
+574 Vinyl 26.3235736638308
+706 Furniture 768.669605941977
+648 Book 25.1169609753415
+803 Electronic device 2305.28764386754
+698 Other 23.9397619059309
+210 Book 11.7764167380519
+953 Furniture 1241.54048223281
+472 Shoes 197.73106243927
+396 Vinyl 43.6057127453387
+175 Vinyl 34.7536097001284
+336 Piece of clothing 189.215838606469
+241 Vinyl 22.3878292832524
+371 Furniture 1474.31160270935
+752 Book 12.5330017679371
+188 Book 21.2125934972428
+450 Piece of clothing 22.0815207785927
+210 Piece of clothing 104.57094930578
+555 Vinyl 11.3863733783364
